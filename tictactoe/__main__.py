@@ -81,7 +81,7 @@ def main():
             game.is_music_paused = is_music_paused
             screen_start_game = screen.StartGame(game)
             if Game.stats_gen['current_tournament'] >= Game.stats_gen['tournaments_to_play'] \
-                    and Game.current_game >= games_to_play:
+                    and Game.current_game >= Game.stats_gen['games_to_play']:
                 game.set_is_exit_game(True)
                 break
             while not auto and game.is_start_screen:
