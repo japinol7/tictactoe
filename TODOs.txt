@@ -1,0 +1,4 @@
+## TODOs & Wishlist ##
+
+1. Scores.
+   > Scores will be available in the near future.
