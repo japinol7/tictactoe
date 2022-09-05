@@ -39,6 +39,14 @@
 	    > You must have more tournament victories than the other player.
 
 
+## Computer Controlled Players. Additional info
+
+Computer Controlled Players use a simple version of the Minimax decision rule algorithm.
+
+* You can find good info about Minimax here:
+  [Wikipedia Minimax search](https://en.wikipedia.org/wiki/Minimax)
+
+
 ## Keyboard keys
        F1:    Show a help screen while playing the game
        1-9:   set a token to the board at the corresponding position:
