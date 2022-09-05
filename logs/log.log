@@ -1,23 +1,23 @@
-2022-09-05 20:26:46.239 | INFO | Start app tictactoe version: 0.0.1
-2022-09-05 20:26:46.457 | INFO | Create Player: 1 with Token: X. Class: ComputerPlayer
-2022-09-05 20:26:46.457 | INFO | Create Player: 2 with Token: O. Class: ComputerPlayer
-2022-09-05 20:26:46.460 | INFO | Create board for game: 1 of tournament: 1
+2022-09-05 20:38:11.192 | INFO | Start app tictactoe version: 0.0.1
+2022-09-05 20:38:11.400 | INFO | Create Player: 1 with Token: X. Class: ComputerPlayer
+2022-09-05 20:38:11.400 | INFO | Create Player: 2 with Token: O. Class: ComputerPlayer
+2022-09-05 20:38:11.403 | INFO | Create board for game: 1 of tournament: 1
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:46.461 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.462 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.462 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.462 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.462 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.462 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.462 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.462 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.462 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.462 | INFO | Waiting input from player: X
-2022-09-05 20:26:46.462 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:46.468 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:46.468155
+2022-09-05 20:38:11.403 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.403 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.403 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.403 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.404 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.404 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.404 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.404 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.404 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.404 | INFO | Waiting input from player: X
+2022-09-05 20:38:11.404 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:11.408 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:11.408295
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -53,62 +53,62 @@ Tournament Winner     -->
 -----------           -->	    ------
 Tournaments Winners   -->	          
 --------------------------------------------------------------
-2022-09-05 20:26:46.469 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:46.470 | INFO | Board:
+2022-09-05 20:38:11.409 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:11.410 | INFO | Board:
 · | · | ·
+· | · | X
 · | · | ·
-X | · | ·
-2022-09-05 20:26:46.470 | INFO | Waiting input from player: O
-2022-09-05 20:26:46.817 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:46.818 | INFO | Board:
+2022-09-05 20:38:11.410 | INFO | Waiting input from player: O
+2022-09-05 20:38:11.772 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:11.773 | INFO | Board:
+· | · | O
+· | · | X
 · | · | ·
-· | O | ·
-X | · | ·
-2022-09-05 20:26:46.818 | INFO | Waiting input from player: X
-2022-09-05 20:26:46.861 | INFO | Player X sets token in pos: x: 0, y: 0
-2022-09-05 20:26:46.862 | INFO | Board:
-X | · | ·
-· | O | ·
-X | · | ·
-2022-09-05 20:26:46.862 | INFO | Waiting input from player: O
-2022-09-05 20:26:46.869 | INFO | Player O sets token in pos: x: 1, y: 0
-2022-09-05 20:26:46.869 | INFO | Board:
-X | · | ·
-O | O | ·
-X | · | ·
-2022-09-05 20:26:46.870 | INFO | Waiting input from player: X
-2022-09-05 20:26:46.881 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:46.882 | INFO | Board:
-X | · | ·
-O | O | X
-X | · | ·
-2022-09-05 20:26:46.882 | INFO | Waiting input from player: O
-2022-09-05 20:26:46.897 | INFO | Player O sets token in pos: x: 0, y: 1
-2022-09-05 20:26:46.897 | INFO | Board:
-X | O | ·
-O | O | X
-X | · | ·
-2022-09-05 20:26:46.897 | INFO | Waiting input from player: X
-2022-09-05 20:26:46.913 | INFO | Player X sets token in pos: x: 2, y: 1
-2022-09-05 20:26:46.913 | INFO | Board:
-X | O | ·
-O | O | X
-X | X | ·
-2022-09-05 20:26:46.914 | INFO | Waiting input from player: O
-2022-09-05 20:26:46.929 | INFO | Player O sets token in pos: x: 2, y: 2
-2022-09-05 20:26:46.930 | INFO | Board:
-X | O | ·
-O | O | X
+2022-09-05 20:38:11.773 | INFO | Waiting input from player: X
+2022-09-05 20:38:11.821 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:11.821 | INFO | Board:
+X | · | O
+· | · | X
+· | · | ·
+2022-09-05 20:38:11.821 | INFO | Waiting input from player: O
+2022-09-05 20:38:11.830 | INFO | Player O sets token in pos: x: 1, y: 0
+2022-09-05 20:38:11.830 | INFO | Board:
+X | · | O
+O | · | X
+· | · | ·
+2022-09-05 20:38:11.830 | INFO | Waiting input from player: X
+2022-09-05 20:38:11.841 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:11.841 | INFO | Board:
 X | X | O
-2022-09-05 20:26:46.930 | INFO | Waiting input from player: X
-2022-09-05 20:26:46.945 | INFO | Player X sets token in pos: x: 0, y: 2
-2022-09-05 20:26:46.946 | INFO | It's a draw
-2022-09-05 20:26:46.947 | INFO | Board:
+O | · | X
+· | · | ·
+2022-09-05 20:38:11.841 | INFO | Waiting input from player: O
+2022-09-05 20:38:11.855 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:11.856 | INFO | Board:
+X | X | O
+O | O | X
+· | · | ·
+2022-09-05 20:38:11.856 | INFO | Waiting input from player: X
+2022-09-05 20:38:11.871 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:11.872 | INFO | Board:
+X | X | O
+O | O | X
+X | · | ·
+2022-09-05 20:38:11.872 | INFO | Waiting input from player: O
+2022-09-05 20:38:11.887 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:11.888 | INFO | Board:
+X | X | O
+O | O | X
+X | O | ·
+2022-09-05 20:38:11.889 | INFO | Waiting input from player: X
+2022-09-05 20:38:11.903 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:11.905 | INFO | It's a draw
+2022-09-05 20:38:11.905 | INFO | Board:
+X | X | O
+O | O | X
 X | O | X
-O | O | X
-X | X | O
-2022-09-05 20:26:46.947 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:46.947997
+2022-09-05 20:38:11.905 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:11.905728
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -144,77 +144,77 @@ Tournament Winner     -->
 -----------           -->	    ------
 Tournaments Winners   -->	          
 --------------------------------------------------------------
-2022-09-05 20:26:46.966 | INFO | Create board for game: 2 of tournament: 1
+2022-09-05 20:38:11.928 | INFO | Create board for game: 2 of tournament: 1
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:46.967 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.967 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.967 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.967 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.967 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.968 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.968 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.968 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.968 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:46.968 | INFO | Waiting input from player: X
-2022-09-05 20:26:46.968 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:46.968 | INFO | Player X sets token in pos: x: 2, y: 1
-2022-09-05 20:26:46.969 | INFO | Board:
+2022-09-05 20:38:11.929 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.929 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.929 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.929 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.929 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.929 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.929 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.929 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.929 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:11.929 | INFO | Waiting input from player: X
+2022-09-05 20:38:11.929 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:11.929 | INFO | Player X sets token in pos: x: 2, y: 1
+2022-09-05 20:38:11.930 | INFO | Board:
 · | · | ·
 · | · | ·
 · | X | ·
-2022-09-05 20:26:46.969 | INFO | Waiting input from player: O
-2022-09-05 20:26:47.350 | INFO | Player O sets token in pos: x: 0, y: 1
-2022-09-05 20:26:47.351 | INFO | Board:
+2022-09-05 20:38:11.930 | INFO | Waiting input from player: O
+2022-09-05 20:38:12.296 | INFO | Player O sets token in pos: x: 0, y: 1
+2022-09-05 20:38:12.296 | INFO | Board:
 · | O | ·
 · | · | ·
 · | X | ·
-2022-09-05 20:26:47.351 | INFO | Waiting input from player: X
-2022-09-05 20:26:47.407 | INFO | Player X sets token in pos: x: 0, y: 0
-2022-09-05 20:26:47.408 | INFO | Board:
+2022-09-05 20:38:12.296 | INFO | Waiting input from player: X
+2022-09-05 20:38:12.349 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:12.350 | INFO | Board:
 X | O | ·
 · | · | ·
 · | X | ·
-2022-09-05 20:26:47.409 | INFO | Waiting input from player: O
-2022-09-05 20:26:47.418 | INFO | Player O sets token in pos: x: 2, y: 0
-2022-09-05 20:26:47.419 | INFO | Board:
+2022-09-05 20:38:12.350 | INFO | Waiting input from player: O
+2022-09-05 20:38:12.359 | INFO | Player O sets token in pos: x: 2, y: 0
+2022-09-05 20:38:12.360 | INFO | Board:
 X | O | ·
 · | · | ·
 O | X | ·
-2022-09-05 20:26:47.419 | INFO | Waiting input from player: X
-2022-09-05 20:26:47.428 | INFO | Player X sets token in pos: x: 0, y: 2
-2022-09-05 20:26:47.429 | INFO | Board:
+2022-09-05 20:38:12.360 | INFO | Waiting input from player: X
+2022-09-05 20:38:12.370 | INFO | Player X sets token in pos: x: 0, y: 2
+2022-09-05 20:38:12.371 | INFO | Board:
 X | O | X
 · | · | ·
 O | X | ·
-2022-09-05 20:26:47.429 | INFO | Waiting input from player: O
-2022-09-05 20:26:47.443 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:47.443 | INFO | Board:
+2022-09-05 20:38:12.371 | INFO | Waiting input from player: O
+2022-09-05 20:38:12.385 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:12.386 | INFO | Board:
 X | O | X
 · | O | ·
 O | X | ·
-2022-09-05 20:26:47.444 | INFO | Waiting input from player: X
-2022-09-05 20:26:47.458 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:47.459 | INFO | Board:
+2022-09-05 20:38:12.386 | INFO | Waiting input from player: X
+2022-09-05 20:38:12.400 | INFO | Player X sets token in pos: x: 1, y: 0
+2022-09-05 20:38:12.401 | INFO | Board:
 X | O | X
 X | O | ·
 O | X | ·
-2022-09-05 20:26:47.460 | INFO | Waiting input from player: O
-2022-09-05 20:26:47.475 | INFO | Player O sets token in pos: x: 1, y: 2
-2022-09-05 20:26:47.476 | INFO | Board:
+2022-09-05 20:38:12.401 | INFO | Waiting input from player: O
+2022-09-05 20:38:12.417 | INFO | Player O sets token in pos: x: 1, y: 2
+2022-09-05 20:38:12.419 | INFO | Board:
 X | O | X
 X | O | O
 O | X | ·
-2022-09-05 20:26:47.476 | INFO | Waiting input from player: X
-2022-09-05 20:26:47.491 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:47.492 | INFO | It's a draw
-2022-09-05 20:26:47.492 | INFO | Board:
+2022-09-05 20:38:12.419 | INFO | Waiting input from player: X
+2022-09-05 20:38:12.434 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:12.436 | INFO | It's a draw
+2022-09-05 20:38:12.436 | INFO | Board:
 X | O | X
 X | O | O
 O | X | X
-2022-09-05 20:26:47.492 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:47.492887
+2022-09-05 20:38:12.436 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:12.436033
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -250,77 +250,77 @@ Tournament Winner     -->	         -
 -----------           -->	    ------
 Tournaments Winners   -->	         -
 --------------------------------------------------------------
-2022-09-05 20:26:47.512 | INFO | Create board for game: 1 of tournament: 2
+2022-09-05 20:38:12.456 | INFO | Create board for game: 1 of tournament: 2
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:47.513 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:47.513 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:47.514 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:47.514 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:47.514 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:47.514 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:47.514 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:47.514 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:47.514 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:47.515 | INFO | Waiting input from player: X
-2022-09-05 20:26:47.515 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:47.515 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:47.515 | INFO | Board:
+2022-09-05 20:38:12.456 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.456 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.456 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.456 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.456 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.456 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.457 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.457 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.457 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.457 | INFO | Waiting input from player: X
+2022-09-05 20:38:12.457 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:12.457 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:12.457 | INFO | Board:
+· | · | ·
 · | · | ·
 X | · | ·
+2022-09-05 20:38:12.457 | INFO | Waiting input from player: O
+2022-09-05 20:38:12.793 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:12.794 | INFO | Board:
 · | · | ·
-2022-09-05 20:26:47.516 | INFO | Waiting input from player: O
-2022-09-05 20:26:47.887 | INFO | Player O sets token in pos: x: 0, y: 0
-2022-09-05 20:26:47.888 | INFO | Board:
-O | · | ·
+· | O | ·
 X | · | ·
-· | · | ·
-2022-09-05 20:26:47.888 | INFO | Waiting input from player: X
-2022-09-05 20:26:47.939 | INFO | Player X sets token in pos: x: 0, y: 1
-2022-09-05 20:26:47.940 | INFO | Board:
-O | X | ·
+2022-09-05 20:38:12.794 | INFO | Waiting input from player: X
+2022-09-05 20:38:12.835 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:12.835 | INFO | Board:
 X | · | ·
-· | · | ·
-2022-09-05 20:26:47.940 | INFO | Waiting input from player: O
-2022-09-05 20:26:47.949 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:47.951 | INFO | Board:
-O | X | ·
+· | O | ·
+X | · | ·
+2022-09-05 20:38:12.835 | INFO | Waiting input from player: O
+2022-09-05 20:38:12.841 | INFO | Player O sets token in pos: x: 1, y: 0
+2022-09-05 20:38:12.842 | INFO | Board:
+X | · | ·
+O | O | ·
+X | · | ·
+2022-09-05 20:38:12.842 | INFO | Waiting input from player: X
+2022-09-05 20:38:12.854 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:12.855 | INFO | Board:
+X | · | ·
+O | O | X
+X | · | ·
+2022-09-05 20:38:12.855 | INFO | Waiting input from player: O
+2022-09-05 20:38:12.870 | INFO | Player O sets token in pos: x: 0, y: 1
+2022-09-05 20:38:12.871 | INFO | Board:
 X | O | ·
-· | · | ·
-2022-09-05 20:26:47.951 | INFO | Waiting input from player: X
-2022-09-05 20:26:47.959 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:47.960 | INFO | Board:
-O | X | ·
+O | O | X
+X | · | ·
+2022-09-05 20:38:12.871 | INFO | Waiting input from player: X
+2022-09-05 20:38:12.887 | INFO | Player X sets token in pos: x: 2, y: 1
+2022-09-05 20:38:12.888 | INFO | Board:
 X | O | ·
-· | · | X
-2022-09-05 20:26:47.960 | INFO | Waiting input from player: O
-2022-09-05 20:26:47.975 | INFO | Player O sets token in pos: x: 0, y: 2
-2022-09-05 20:26:47.976 | INFO | Board:
-O | X | O
+O | O | X
+X | X | ·
+2022-09-05 20:38:12.888 | INFO | Waiting input from player: O
+2022-09-05 20:38:12.906 | INFO | Player O sets token in pos: x: 2, y: 2
+2022-09-05 20:38:12.907 | INFO | Board:
 X | O | ·
-· | · | X
-2022-09-05 20:26:47.976 | INFO | Waiting input from player: X
-2022-09-05 20:26:47.991 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:47.992 | INFO | Board:
-O | X | O
-X | O | ·
-X | · | X
-2022-09-05 20:26:47.993 | INFO | Waiting input from player: O
-2022-09-05 20:26:48.007 | INFO | Player O sets token in pos: x: 2, y: 1
-2022-09-05 20:26:48.008 | INFO | Board:
-O | X | O
-X | O | ·
+O | O | X
+X | X | O
+2022-09-05 20:38:12.907 | INFO | Waiting input from player: X
+2022-09-05 20:38:12.922 | INFO | Player X sets token in pos: x: 0, y: 2
+2022-09-05 20:38:12.923 | INFO | It's a draw
+2022-09-05 20:38:12.924 | INFO | Board:
 X | O | X
-2022-09-05 20:26:48.008 | INFO | Waiting input from player: X
-2022-09-05 20:26:48.023 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:48.023 | INFO | It's a draw
-2022-09-05 20:26:48.024 | INFO | Board:
-O | X | O
-X | O | X
-X | O | X
-2022-09-05 20:26:48.024 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:48.024447
+O | O | X
+X | X | O
+2022-09-05 20:38:12.924 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:12.924291
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -356,77 +356,77 @@ Tournament Winner     -->
 -----------           -->	    ------
 Tournaments Winners   -->	         -
 --------------------------------------------------------------
-2022-09-05 20:26:48.044 | INFO | Create board for game: 2 of tournament: 2
+2022-09-05 20:38:12.946 | INFO | Create board for game: 2 of tournament: 2
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:48.044 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.044 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.044 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.044 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.044 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.044 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.045 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.045 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.045 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.045 | INFO | Waiting input from player: X
-2022-09-05 20:26:48.045 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:48.045 | INFO | Player X sets token in pos: x: 1, y: 1
-2022-09-05 20:26:48.046 | INFO | Board:
+2022-09-05 20:38:12.946 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.946 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.946 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.946 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.946 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.946 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.946 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.946 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.946 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:12.946 | INFO | Waiting input from player: X
+2022-09-05 20:38:12.946 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:12.946 | INFO | Player X sets token in pos: x: 2, y: 1
+2022-09-05 20:38:12.947 | INFO | Board:
+· | · | ·
 · | · | ·
 · | X | ·
-· | · | ·
-2022-09-05 20:26:48.046 | INFO | Waiting input from player: O
-2022-09-05 20:26:48.377 | INFO | Player O sets token in pos: x: 0, y: 0
-2022-09-05 20:26:48.378 | INFO | Board:
-O | · | ·
-· | X | ·
-· | · | ·
-2022-09-05 20:26:48.379 | INFO | Waiting input from player: X
-2022-09-05 20:26:48.419 | INFO | Player X sets token in pos: x: 0, y: 1
-2022-09-05 20:26:48.420 | INFO | Board:
-O | X | ·
-· | X | ·
-· | · | ·
-2022-09-05 20:26:48.420 | INFO | Waiting input from player: O
-2022-09-05 20:26:48.427 | INFO | Player O sets token in pos: x: 2, y: 1
-2022-09-05 20:26:48.429 | INFO | Board:
-O | X | ·
-· | X | ·
+2022-09-05 20:38:12.947 | INFO | Waiting input from player: O
+2022-09-05 20:38:13.311 | INFO | Player O sets token in pos: x: 0, y: 1
+2022-09-05 20:38:13.312 | INFO | Board:
 · | O | ·
-2022-09-05 20:26:48.429 | INFO | Waiting input from player: X
-2022-09-05 20:26:48.440 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:48.441 | INFO | Board:
+· | · | ·
+· | X | ·
+2022-09-05 20:38:13.312 | INFO | Waiting input from player: X
+2022-09-05 20:38:13.364 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:13.365 | INFO | Board:
+X | O | ·
+· | · | ·
+· | X | ·
+2022-09-05 20:38:13.365 | INFO | Waiting input from player: O
+2022-09-05 20:38:13.374 | INFO | Player O sets token in pos: x: 2, y: 0
+2022-09-05 20:38:13.375 | INFO | Board:
+X | O | ·
+· | · | ·
 O | X | ·
-X | X | ·
-· | O | ·
-2022-09-05 20:26:48.442 | INFO | Waiting input from player: O
-2022-09-05 20:26:48.455 | INFO | Player O sets token in pos: x: 1, y: 2
-2022-09-05 20:26:48.457 | INFO | Board:
+2022-09-05 20:38:13.375 | INFO | Waiting input from player: X
+2022-09-05 20:38:13.384 | INFO | Player X sets token in pos: x: 0, y: 2
+2022-09-05 20:38:13.384 | INFO | Board:
+X | O | X
+· | · | ·
 O | X | ·
-X | X | O
+2022-09-05 20:38:13.384 | INFO | Waiting input from player: O
+2022-09-05 20:38:13.399 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:13.400 | INFO | Board:
+X | O | X
 · | O | ·
-2022-09-05 20:26:48.457 | INFO | Waiting input from player: X
-2022-09-05 20:26:48.472 | INFO | Player X sets token in pos: x: 0, y: 2
-2022-09-05 20:26:48.473 | INFO | Board:
+O | X | ·
+2022-09-05 20:38:13.400 | INFO | Waiting input from player: X
+2022-09-05 20:38:13.415 | INFO | Player X sets token in pos: x: 1, y: 0
+2022-09-05 20:38:13.416 | INFO | Board:
+X | O | X
+X | O | ·
+O | X | ·
+2022-09-05 20:38:13.416 | INFO | Waiting input from player: O
+2022-09-05 20:38:13.432 | INFO | Player O sets token in pos: x: 1, y: 2
+2022-09-05 20:38:13.434 | INFO | Board:
+X | O | X
+X | O | O
+O | X | ·
+2022-09-05 20:38:13.434 | INFO | Waiting input from player: X
+2022-09-05 20:38:13.451 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:13.452 | INFO | It's a draw
+2022-09-05 20:38:13.452 | INFO | Board:
+X | O | X
+X | O | O
 O | X | X
-X | X | O
-· | O | ·
-2022-09-05 20:26:48.473 | INFO | Waiting input from player: O
-2022-09-05 20:26:48.488 | INFO | Player O sets token in pos: x: 2, y: 0
-2022-09-05 20:26:48.489 | INFO | Board:
-O | X | X
-X | X | O
-O | O | ·
-2022-09-05 20:26:48.489 | INFO | Waiting input from player: X
-2022-09-05 20:26:48.505 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:48.506 | INFO | It's a draw
-2022-09-05 20:26:48.506 | INFO | Board:
-O | X | X
-X | X | O
-O | O | X
-2022-09-05 20:26:48.506 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:48.506051
+2022-09-05 20:38:13.452 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:13.452810
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -462,77 +462,77 @@ Tournament Winner     -->	         -
 -----------           -->	    ------
 Tournaments Winners   -->	        --
 --------------------------------------------------------------
-2022-09-05 20:26:48.526 | INFO | Create board for game: 1 of tournament: 3
+2022-09-05 20:38:13.470 | INFO | Create board for game: 1 of tournament: 3
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:48.527 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.527 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.527 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.527 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.527 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.527 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.527 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.527 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.527 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:48.527 | INFO | Waiting input from player: X
-2022-09-05 20:26:48.527 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:48.527 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:48.529 | INFO | Board:
+2022-09-05 20:38:13.470 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.470 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.470 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.470 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.470 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.470 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.470 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.470 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.470 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.470 | INFO | Waiting input from player: X
+2022-09-05 20:38:13.470 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:13.470 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:13.472 | INFO | Board:
+X | · | ·
 · | · | ·
-· | · | X
 · | · | ·
-2022-09-05 20:26:48.529 | INFO | Waiting input from player: O
-2022-09-05 20:26:48.908 | INFO | Player O sets token in pos: x: 0, y: 2
-2022-09-05 20:26:48.910 | INFO | Board:
-· | · | O
-· | · | X
+2022-09-05 20:38:13.472 | INFO | Waiting input from player: O
+2022-09-05 20:38:13.807 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:13.808 | INFO | Board:
+X | · | ·
+· | O | ·
 · | · | ·
-2022-09-05 20:26:48.910 | INFO | Waiting input from player: X
-2022-09-05 20:26:48.962 | INFO | Player X sets token in pos: x: 0, y: 0
-2022-09-05 20:26:48.963 | INFO | Board:
-X | · | O
-· | · | X
+2022-09-05 20:38:13.808 | INFO | Waiting input from player: X
+2022-09-05 20:38:13.848 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:13.849 | INFO | Board:
+X | X | ·
+· | O | ·
 · | · | ·
-2022-09-05 20:26:48.963 | INFO | Waiting input from player: O
-2022-09-05 20:26:48.972 | INFO | Player O sets token in pos: x: 1, y: 0
-2022-09-05 20:26:48.973 | INFO | Board:
-X | · | O
-O | · | X
-· | · | ·
-2022-09-05 20:26:48.974 | INFO | Waiting input from player: X
-2022-09-05 20:26:48.983 | INFO | Player X sets token in pos: x: 0, y: 1
-2022-09-05 20:26:48.983 | INFO | Board:
+2022-09-05 20:38:13.849 | INFO | Waiting input from player: O
+2022-09-05 20:38:13.855 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:13.855 | INFO | Board:
 X | X | O
-O | · | X
+· | O | ·
 · | · | ·
-2022-09-05 20:26:48.983 | INFO | Waiting input from player: O
-2022-09-05 20:26:48.999 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:49.000 | INFO | Board:
+2022-09-05 20:38:13.855 | INFO | Waiting input from player: X
+2022-09-05 20:38:13.867 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:13.868 | INFO | Board:
 X | X | O
-O | O | X
-· | · | ·
-2022-09-05 20:26:49.000 | INFO | Waiting input from player: X
-2022-09-05 20:26:49.015 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:49.016 | INFO | Board:
+· | O | ·
+X | · | ·
+2022-09-05 20:38:13.868 | INFO | Waiting input from player: O
+2022-09-05 20:38:13.883 | INFO | Player O sets token in pos: x: 1, y: 0
+2022-09-05 20:38:13.884 | INFO | Board:
+X | X | O
+O | O | ·
+X | · | ·
+2022-09-05 20:38:13.884 | INFO | Waiting input from player: X
+2022-09-05 20:38:13.899 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:13.900 | INFO | Board:
 X | X | O
 O | O | X
 X | · | ·
-2022-09-05 20:26:49.016 | INFO | Waiting input from player: O
-2022-09-05 20:26:49.031 | INFO | Player O sets token in pos: x: 2, y: 1
-2022-09-05 20:26:49.032 | INFO | Board:
+2022-09-05 20:38:13.900 | INFO | Waiting input from player: O
+2022-09-05 20:38:13.916 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:13.917 | INFO | Board:
 X | X | O
 O | O | X
 X | O | ·
-2022-09-05 20:26:49.032 | INFO | Waiting input from player: X
-2022-09-05 20:26:49.046 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:49.047 | INFO | It's a draw
-2022-09-05 20:26:49.047 | INFO | Board:
+2022-09-05 20:38:13.917 | INFO | Waiting input from player: X
+2022-09-05 20:38:13.932 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:13.933 | INFO | It's a draw
+2022-09-05 20:38:13.933 | INFO | Board:
 X | X | O
 O | O | X
 X | O | X
-2022-09-05 20:26:49.048 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:49.047807
+2022-09-05 20:38:13.934 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:13.933822
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -568,77 +568,77 @@ Tournament Winner     -->
 -----------           -->	    ------
 Tournaments Winners   -->	        --
 --------------------------------------------------------------
-2022-09-05 20:26:49.067 | INFO | Create board for game: 2 of tournament: 3
+2022-09-05 20:38:13.957 | INFO | Create board for game: 2 of tournament: 3
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:49.067 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.068 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.068 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.068 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.068 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.068 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.068 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.068 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.068 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.068 | INFO | Waiting input from player: X
-2022-09-05 20:26:49.068 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:49.068 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:49.069 | INFO | Board:
-· | · | ·
+2022-09-05 20:38:13.957 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.957 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.957 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.958 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.958 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.958 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.958 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.958 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.958 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:13.958 | INFO | Waiting input from player: X
+2022-09-05 20:38:13.958 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:13.958 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:13.958 | INFO | Board:
 X | · | ·
 · | · | ·
-2022-09-05 20:26:49.069 | INFO | Waiting input from player: O
-2022-09-05 20:26:49.439 | INFO | Player O sets token in pos: x: 0, y: 0
-2022-09-05 20:26:49.440 | INFO | Board:
-O | · | ·
+· | · | ·
+2022-09-05 20:38:13.959 | INFO | Waiting input from player: O
+2022-09-05 20:38:14.306 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:14.307 | INFO | Board:
 X | · | ·
+· | O | ·
 · | · | ·
-2022-09-05 20:26:49.440 | INFO | Waiting input from player: X
-2022-09-05 20:26:49.492 | INFO | Player X sets token in pos: x: 0, y: 1
-2022-09-05 20:26:49.493 | INFO | Board:
-O | X | ·
+2022-09-05 20:38:14.307 | INFO | Waiting input from player: X
+2022-09-05 20:38:14.347 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:14.348 | INFO | Board:
+X | X | ·
+· | O | ·
+· | · | ·
+2022-09-05 20:38:14.348 | INFO | Waiting input from player: O
+2022-09-05 20:38:14.355 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:14.355 | INFO | Board:
+X | X | O
+· | O | ·
+· | · | ·
+2022-09-05 20:38:14.355 | INFO | Waiting input from player: X
+2022-09-05 20:38:14.369 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:14.369 | INFO | Board:
+X | X | O
+· | O | ·
 X | · | ·
-· | · | ·
-2022-09-05 20:26:49.494 | INFO | Waiting input from player: O
-2022-09-05 20:26:49.503 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:49.504 | INFO | Board:
-O | X | ·
+2022-09-05 20:38:14.369 | INFO | Waiting input from player: O
+2022-09-05 20:38:14.384 | INFO | Player O sets token in pos: x: 1, y: 0
+2022-09-05 20:38:14.385 | INFO | Board:
+X | X | O
+O | O | ·
+X | · | ·
+2022-09-05 20:38:14.385 | INFO | Waiting input from player: X
+2022-09-05 20:38:14.400 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:14.401 | INFO | Board:
+X | X | O
+O | O | X
+X | · | ·
+2022-09-05 20:38:14.401 | INFO | Waiting input from player: O
+2022-09-05 20:38:14.416 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:14.417 | INFO | Board:
+X | X | O
+O | O | X
 X | O | ·
-· | · | ·
-2022-09-05 20:26:49.505 | INFO | Waiting input from player: X
-2022-09-05 20:26:49.513 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:49.514 | INFO | Board:
-O | X | ·
-X | O | ·
-· | · | X
-2022-09-05 20:26:49.515 | INFO | Waiting input from player: O
-2022-09-05 20:26:49.530 | INFO | Player O sets token in pos: x: 0, y: 2
-2022-09-05 20:26:49.531 | INFO | Board:
-O | X | O
-X | O | ·
-· | · | X
-2022-09-05 20:26:49.531 | INFO | Waiting input from player: X
-2022-09-05 20:26:49.544 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:49.545 | INFO | Board:
-O | X | O
-X | O | ·
-X | · | X
-2022-09-05 20:26:49.545 | INFO | Waiting input from player: O
-2022-09-05 20:26:49.563 | INFO | Player O sets token in pos: x: 2, y: 1
-2022-09-05 20:26:49.563 | INFO | Board:
-O | X | O
-X | O | ·
+2022-09-05 20:38:14.418 | INFO | Waiting input from player: X
+2022-09-05 20:38:14.432 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:14.434 | INFO | It's a draw
+2022-09-05 20:38:14.434 | INFO | Board:
+X | X | O
+O | O | X
 X | O | X
-2022-09-05 20:26:49.564 | INFO | Waiting input from player: X
-2022-09-05 20:26:49.577 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:49.578 | INFO | It's a draw
-2022-09-05 20:26:49.578 | INFO | Board:
-O | X | O
-X | O | X
-X | O | X
-2022-09-05 20:26:49.578 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:49.578166
+2022-09-05 20:38:14.434 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:14.434604
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -674,77 +674,77 @@ Tournament Winner     -->	         -
 -----------           -->	    ------
 Tournaments Winners   -->	       ---
 --------------------------------------------------------------
-2022-09-05 20:26:49.598 | INFO | Create board for game: 1 of tournament: 4
+2022-09-05 20:38:14.455 | INFO | Create board for game: 1 of tournament: 4
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:49.598 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.598 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.598 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.598 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.598 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.598 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.599 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.599 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.599 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:49.599 | INFO | Waiting input from player: X
-2022-09-05 20:26:49.599 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:49.599 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:49.600 | INFO | Board:
-· | · | ·
-· | · | ·
+2022-09-05 20:38:14.455 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.455 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.455 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.455 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.455 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.455 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.455 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.455 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.455 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.455 | INFO | Waiting input from player: X
+2022-09-05 20:38:14.456 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:14.456 | INFO | Player X sets token in pos: x: 0, y: 2
+2022-09-05 20:38:14.457 | INFO | Board:
 · | · | X
-2022-09-05 20:26:49.600 | INFO | Waiting input from player: O
-2022-09-05 20:26:49.952 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:49.953 | INFO | Board:
 · | · | ·
-· | O | ·
+· | · | ·
+2022-09-05 20:38:14.457 | INFO | Waiting input from player: O
+2022-09-05 20:38:14.794 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:14.795 | INFO | Board:
 · | · | X
-2022-09-05 20:26:49.953 | INFO | Waiting input from player: X
-2022-09-05 20:26:49.996 | INFO | Player X sets token in pos: x: 0, y: 0
-2022-09-05 20:26:49.997 | INFO | Board:
-X | · | ·
 · | O | ·
-· | · | X
-2022-09-05 20:26:49.998 | INFO | Waiting input from player: O
-2022-09-05 20:26:50.004 | INFO | Player O sets token in pos: x: 0, y: 1
-2022-09-05 20:26:50.005 | INFO | Board:
-X | O | ·
+· | · | ·
+2022-09-05 20:38:14.795 | INFO | Waiting input from player: X
+2022-09-05 20:38:14.835 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:14.835 | INFO | Board:
+X | · | X
 · | O | ·
-· | · | X
-2022-09-05 20:26:50.005 | INFO | Waiting input from player: X
-2022-09-05 20:26:50.016 | INFO | Player X sets token in pos: x: 2, y: 1
-2022-09-05 20:26:50.017 | INFO | Board:
-X | O | ·
-· | O | ·
-· | X | X
-2022-09-05 20:26:50.017 | INFO | Waiting input from player: O
-2022-09-05 20:26:50.031 | INFO | Player O sets token in pos: x: 2, y: 0
-2022-09-05 20:26:50.032 | INFO | Board:
-X | O | ·
-· | O | ·
-O | X | X
-2022-09-05 20:26:50.032 | INFO | Waiting input from player: X
-2022-09-05 20:26:50.047 | INFO | Player X sets token in pos: x: 0, y: 2
-2022-09-05 20:26:50.049 | INFO | Board:
+· | · | ·
+2022-09-05 20:38:14.835 | INFO | Waiting input from player: O
+2022-09-05 20:38:14.841 | INFO | Player O sets token in pos: x: 0, y: 1
+2022-09-05 20:38:14.842 | INFO | Board:
 X | O | X
 · | O | ·
-O | X | X
-2022-09-05 20:26:50.049 | INFO | Waiting input from player: O
-2022-09-05 20:26:50.063 | INFO | Player O sets token in pos: x: 1, y: 2
-2022-09-05 20:26:50.065 | INFO | Board:
+· | · | ·
+2022-09-05 20:38:14.842 | INFO | Waiting input from player: X
+2022-09-05 20:38:14.853 | INFO | Player X sets token in pos: x: 2, y: 1
+2022-09-05 20:38:14.854 | INFO | Board:
 X | O | X
-· | O | O
-O | X | X
-2022-09-05 20:26:50.065 | INFO | Waiting input from player: X
-2022-09-05 20:26:50.080 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:50.081 | INFO | It's a draw
-2022-09-05 20:26:50.081 | INFO | Board:
+· | O | ·
+· | X | ·
+2022-09-05 20:38:14.854 | INFO | Waiting input from player: O
+2022-09-05 20:38:14.869 | INFO | Player O sets token in pos: x: 1, y: 0
+2022-09-05 20:38:14.869 | INFO | Board:
 X | O | X
-X | O | O
-O | X | X
-2022-09-05 20:26:50.081 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:50.081743
+O | O | ·
+· | X | ·
+2022-09-05 20:38:14.870 | INFO | Waiting input from player: X
+2022-09-05 20:38:14.884 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:14.885 | INFO | Board:
+X | O | X
+O | O | X
+· | X | ·
+2022-09-05 20:38:14.885 | INFO | Waiting input from player: O
+2022-09-05 20:38:14.900 | INFO | Player O sets token in pos: x: 2, y: 2
+2022-09-05 20:38:14.902 | INFO | Board:
+X | O | X
+O | O | X
+· | X | O
+2022-09-05 20:38:14.902 | INFO | Waiting input from player: X
+2022-09-05 20:38:14.917 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:14.918 | INFO | It's a draw
+2022-09-05 20:38:14.918 | INFO | Board:
+X | O | X
+O | O | X
+X | X | O
+2022-09-05 20:38:14.919 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:14.919869
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -780,77 +780,77 @@ Tournament Winner     -->
 -----------           -->	    ------
 Tournaments Winners   -->	       ---
 --------------------------------------------------------------
-2022-09-05 20:26:50.101 | INFO | Create board for game: 2 of tournament: 4
+2022-09-05 20:38:14.941 | INFO | Create board for game: 2 of tournament: 4
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:50.102 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.102 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.103 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.103 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.103 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.103 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.103 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.103 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.103 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.103 | INFO | Waiting input from player: X
-2022-09-05 20:26:50.103 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:50.103 | INFO | Player X sets token in pos: x: 2, y: 1
-2022-09-05 20:26:50.103 | INFO | Board:
+2022-09-05 20:38:14.941 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.941 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.941 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.941 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.941 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.941 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.941 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.941 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.941 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:14.941 | INFO | Waiting input from player: X
+2022-09-05 20:38:14.941 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:14.942 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:14.942 | INFO | Board:
+X | · | ·
 · | · | ·
 · | · | ·
-· | X | ·
-2022-09-05 20:26:50.104 | INFO | Waiting input from player: O
-2022-09-05 20:26:50.472 | INFO | Player O sets token in pos: x: 0, y: 1
-2022-09-05 20:26:50.473 | INFO | Board:
+2022-09-05 20:38:14.942 | INFO | Waiting input from player: O
+2022-09-05 20:38:15.282 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:15.283 | INFO | Board:
+X | · | ·
 · | O | ·
 · | · | ·
-· | X | ·
-2022-09-05 20:26:50.473 | INFO | Waiting input from player: X
-2022-09-05 20:26:50.529 | INFO | Player X sets token in pos: x: 0, y: 0
-2022-09-05 20:26:50.530 | INFO | Board:
-X | O | ·
-· | · | ·
-· | X | ·
-2022-09-05 20:26:50.530 | INFO | Waiting input from player: O
-2022-09-05 20:26:50.541 | INFO | Player O sets token in pos: x: 2, y: 0
-2022-09-05 20:26:50.542 | INFO | Board:
-X | O | ·
-· | · | ·
-O | X | ·
-2022-09-05 20:26:50.542 | INFO | Waiting input from player: X
-2022-09-05 20:26:50.549 | INFO | Player X sets token in pos: x: 0, y: 2
-2022-09-05 20:26:50.549 | INFO | Board:
-X | O | X
-· | · | ·
-O | X | ·
-2022-09-05 20:26:50.549 | INFO | Waiting input from player: O
-2022-09-05 20:26:50.563 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:50.564 | INFO | Board:
-X | O | X
+2022-09-05 20:38:15.283 | INFO | Waiting input from player: X
+2022-09-05 20:38:15.323 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:15.324 | INFO | Board:
+X | X | ·
 · | O | ·
-O | X | ·
-2022-09-05 20:26:50.565 | INFO | Waiting input from player: X
-2022-09-05 20:26:50.579 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:50.580 | INFO | Board:
-X | O | X
+· | · | ·
+2022-09-05 20:38:15.324 | INFO | Waiting input from player: O
+2022-09-05 20:38:15.330 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:15.330 | INFO | Board:
+X | X | O
+· | O | ·
+· | · | ·
+2022-09-05 20:38:15.330 | INFO | Waiting input from player: X
+2022-09-05 20:38:15.343 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:15.344 | INFO | Board:
+X | X | O
+· | O | ·
+X | · | ·
+2022-09-05 20:38:15.344 | INFO | Waiting input from player: O
+2022-09-05 20:38:15.361 | INFO | Player O sets token in pos: x: 1, y: 0
+2022-09-05 20:38:15.362 | INFO | Board:
+X | X | O
+O | O | ·
+X | · | ·
+2022-09-05 20:38:15.362 | INFO | Waiting input from player: X
+2022-09-05 20:38:15.376 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:15.377 | INFO | Board:
+X | X | O
+O | O | X
+X | · | ·
+2022-09-05 20:38:15.377 | INFO | Waiting input from player: O
+2022-09-05 20:38:15.393 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:15.394 | INFO | Board:
+X | X | O
+O | O | X
 X | O | ·
-O | X | ·
-2022-09-05 20:26:50.580 | INFO | Waiting input from player: O
-2022-09-05 20:26:50.596 | INFO | Player O sets token in pos: x: 1, y: 2
-2022-09-05 20:26:50.597 | INFO | Board:
+2022-09-05 20:38:15.394 | INFO | Waiting input from player: X
+2022-09-05 20:38:15.410 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:15.411 | INFO | It's a draw
+2022-09-05 20:38:15.411 | INFO | Board:
+X | X | O
+O | O | X
 X | O | X
-X | O | O
-O | X | ·
-2022-09-05 20:26:50.597 | INFO | Waiting input from player: X
-2022-09-05 20:26:50.612 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:50.613 | INFO | It's a draw
-2022-09-05 20:26:50.613 | INFO | Board:
-X | O | X
-X | O | O
-O | X | X
-2022-09-05 20:26:50.613 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:50.613916
+2022-09-05 20:38:15.412 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:15.411428
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -886,77 +886,77 @@ Tournament Winner     -->	         -
 -----------           -->	    ------
 Tournaments Winners   -->	      ----
 --------------------------------------------------------------
-2022-09-05 20:26:50.633 | INFO | Create board for game: 1 of tournament: 5
+2022-09-05 20:38:15.433 | INFO | Create board for game: 1 of tournament: 5
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:50.633 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.634 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.634 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.634 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.634 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.634 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.634 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.634 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.634 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:50.634 | INFO | Waiting input from player: X
-2022-09-05 20:26:50.634 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:50.634 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:50.635 | INFO | Board:
+2022-09-05 20:38:15.433 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.433 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.433 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.433 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.433 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.433 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.433 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.433 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.433 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.433 | INFO | Waiting input from player: X
+2022-09-05 20:38:15.433 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:15.434 | INFO | Player X sets token in pos: x: 1, y: 0
+2022-09-05 20:38:15.434 | INFO | Board:
 · | · | ·
-· | · | ·
-· | · | X
-2022-09-05 20:26:50.635 | INFO | Waiting input from player: O
-2022-09-05 20:26:50.980 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:50.981 | INFO | Board:
-· | · | ·
-· | O | ·
-· | · | X
-2022-09-05 20:26:50.981 | INFO | Waiting input from player: X
-2022-09-05 20:26:51.029 | INFO | Player X sets token in pos: x: 0, y: 0
-2022-09-05 20:26:51.030 | INFO | Board:
 X | · | ·
-· | O | ·
+· | · | ·
+2022-09-05 20:38:15.434 | INFO | Waiting input from player: O
+2022-09-05 20:38:15.790 | INFO | Player O sets token in pos: x: 0, y: 0
+2022-09-05 20:38:15.791 | INFO | Board:
+O | · | ·
+X | · | ·
+· | · | ·
+2022-09-05 20:38:15.791 | INFO | Waiting input from player: X
+2022-09-05 20:38:15.839 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:15.840 | INFO | Board:
+O | X | ·
+X | · | ·
+· | · | ·
+2022-09-05 20:38:15.840 | INFO | Waiting input from player: O
+2022-09-05 20:38:15.849 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:15.850 | INFO | Board:
+O | X | ·
+X | O | ·
+· | · | ·
+2022-09-05 20:38:15.850 | INFO | Waiting input from player: X
+2022-09-05 20:38:15.858 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:15.859 | INFO | Board:
+O | X | ·
+X | O | ·
 · | · | X
-2022-09-05 20:26:51.030 | INFO | Waiting input from player: O
-2022-09-05 20:26:51.037 | INFO | Player O sets token in pos: x: 0, y: 1
-2022-09-05 20:26:51.038 | INFO | Board:
+2022-09-05 20:38:15.859 | INFO | Waiting input from player: O
+2022-09-05 20:38:15.873 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:15.874 | INFO | Board:
+O | X | O
 X | O | ·
-· | O | ·
 · | · | X
-2022-09-05 20:26:51.039 | INFO | Waiting input from player: X
-2022-09-05 20:26:51.049 | INFO | Player X sets token in pos: x: 2, y: 1
-2022-09-05 20:26:51.049 | INFO | Board:
+2022-09-05 20:38:15.874 | INFO | Waiting input from player: X
+2022-09-05 20:38:15.889 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:15.890 | INFO | Board:
+O | X | O
 X | O | ·
-· | O | ·
-· | X | X
-2022-09-05 20:26:51.049 | INFO | Waiting input from player: O
-2022-09-05 20:26:51.065 | INFO | Player O sets token in pos: x: 2, y: 0
-2022-09-05 20:26:51.066 | INFO | Board:
+X | · | X
+2022-09-05 20:38:15.890 | INFO | Waiting input from player: O
+2022-09-05 20:38:15.905 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:15.906 | INFO | Board:
+O | X | O
 X | O | ·
-· | O | ·
-O | X | X
-2022-09-05 20:26:51.066 | INFO | Waiting input from player: X
-2022-09-05 20:26:51.080 | INFO | Player X sets token in pos: x: 0, y: 2
-2022-09-05 20:26:51.081 | INFO | Board:
 X | O | X
-· | O | ·
-O | X | X
-2022-09-05 20:26:51.081 | INFO | Waiting input from player: O
-2022-09-05 20:26:51.097 | INFO | Player O sets token in pos: x: 1, y: 2
-2022-09-05 20:26:51.098 | INFO | Board:
+2022-09-05 20:38:15.906 | INFO | Waiting input from player: X
+2022-09-05 20:38:15.921 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:15.922 | INFO | It's a draw
+2022-09-05 20:38:15.922 | INFO | Board:
+O | X | O
 X | O | X
-· | O | O
-O | X | X
-2022-09-05 20:26:51.099 | INFO | Waiting input from player: X
-2022-09-05 20:26:51.114 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:51.115 | INFO | It's a draw
-2022-09-05 20:26:51.115 | INFO | Board:
 X | O | X
-X | O | O
-O | X | X
-2022-09-05 20:26:51.115 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:51.115069
+2022-09-05 20:38:15.922 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:15.922670
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -992,77 +992,77 @@ Tournament Winner     -->
 -----------           -->	    ------
 Tournaments Winners   -->	      ----
 --------------------------------------------------------------
-2022-09-05 20:26:51.134 | INFO | Create board for game: 2 of tournament: 5
+2022-09-05 20:38:15.944 | INFO | Create board for game: 2 of tournament: 5
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:51.135 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.135 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.135 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.135 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.135 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.135 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.135 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.136 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.136 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.136 | INFO | Waiting input from player: X
-2022-09-05 20:26:51.136 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:51.136 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:51.137 | INFO | Board:
+2022-09-05 20:38:15.944 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.944 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.944 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.944 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.944 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.945 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.945 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.945 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.945 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:15.945 | INFO | Waiting input from player: X
+2022-09-05 20:38:15.945 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:15.945 | INFO | Player X sets token in pos: x: 2, y: 1
+2022-09-05 20:38:15.945 | INFO | Board:
 · | · | ·
-X | · | ·
 · | · | ·
-2022-09-05 20:26:51.137 | INFO | Waiting input from player: O
-2022-09-05 20:26:51.494 | INFO | Player O sets token in pos: x: 0, y: 0
-2022-09-05 20:26:51.495 | INFO | Board:
-O | · | ·
-X | · | ·
+· | X | ·
+2022-09-05 20:38:15.945 | INFO | Waiting input from player: O
+2022-09-05 20:38:16.301 | INFO | Player O sets token in pos: x: 0, y: 1
+2022-09-05 20:38:16.302 | INFO | Board:
+· | O | ·
 · | · | ·
-2022-09-05 20:26:51.495 | INFO | Waiting input from player: X
-2022-09-05 20:26:51.543 | INFO | Player X sets token in pos: x: 0, y: 1
-2022-09-05 20:26:51.544 | INFO | Board:
+· | X | ·
+2022-09-05 20:38:16.302 | INFO | Waiting input from player: X
+2022-09-05 20:38:16.354 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:16.355 | INFO | Board:
+X | O | ·
+· | · | ·
+· | X | ·
+2022-09-05 20:38:16.355 | INFO | Waiting input from player: O
+2022-09-05 20:38:16.364 | INFO | Player O sets token in pos: x: 2, y: 0
+2022-09-05 20:38:16.365 | INFO | Board:
+X | O | ·
+· | · | ·
 O | X | ·
-X | · | ·
+2022-09-05 20:38:16.365 | INFO | Waiting input from player: X
+2022-09-05 20:38:16.374 | INFO | Player X sets token in pos: x: 0, y: 2
+2022-09-05 20:38:16.375 | INFO | Board:
+X | O | X
 · | · | ·
-2022-09-05 20:26:51.545 | INFO | Waiting input from player: O
-2022-09-05 20:26:51.554 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:51.554 | INFO | Board:
 O | X | ·
-X | O | ·
-· | · | ·
-2022-09-05 20:26:51.554 | INFO | Waiting input from player: X
-2022-09-05 20:26:51.563 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:51.565 | INFO | Board:
+2022-09-05 20:38:16.375 | INFO | Waiting input from player: O
+2022-09-05 20:38:16.389 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:16.389 | INFO | Board:
+X | O | X
+· | O | ·
 O | X | ·
-X | O | ·
-· | · | X
-2022-09-05 20:26:51.565 | INFO | Waiting input from player: O
-2022-09-05 20:26:51.578 | INFO | Player O sets token in pos: x: 0, y: 2
-2022-09-05 20:26:51.579 | INFO | Board:
-O | X | O
-X | O | ·
-· | · | X
-2022-09-05 20:26:51.579 | INFO | Waiting input from player: X
-2022-09-05 20:26:51.594 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:51.595 | INFO | Board:
-O | X | O
-X | O | ·
-X | · | X
-2022-09-05 20:26:51.596 | INFO | Waiting input from player: O
-2022-09-05 20:26:51.610 | INFO | Player O sets token in pos: x: 2, y: 1
-2022-09-05 20:26:51.611 | INFO | Board:
-O | X | O
-X | O | ·
+2022-09-05 20:38:16.389 | INFO | Waiting input from player: X
+2022-09-05 20:38:16.404 | INFO | Player X sets token in pos: x: 1, y: 0
+2022-09-05 20:38:16.405 | INFO | Board:
 X | O | X
-2022-09-05 20:26:51.612 | INFO | Waiting input from player: X
-2022-09-05 20:26:51.627 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:51.628 | INFO | It's a draw
-2022-09-05 20:26:51.629 | INFO | Board:
-O | X | O
+X | O | ·
+O | X | ·
+2022-09-05 20:38:16.405 | INFO | Waiting input from player: O
+2022-09-05 20:38:16.421 | INFO | Player O sets token in pos: x: 1, y: 2
+2022-09-05 20:38:16.424 | INFO | Board:
 X | O | X
+X | O | O
+O | X | ·
+2022-09-05 20:38:16.424 | INFO | Waiting input from player: X
+2022-09-05 20:38:16.440 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:16.442 | INFO | It's a draw
+2022-09-05 20:38:16.442 | INFO | Board:
 X | O | X
-2022-09-05 20:26:51.629 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:51.629436
+X | O | O
+O | X | X
+2022-09-05 20:38:16.443 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:16.442796
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -1098,77 +1098,77 @@ Tournament Winner     -->	         -
 -----------           -->	    ------
 Tournaments Winners   -->	     -----
 --------------------------------------------------------------
-2022-09-05 20:26:51.649 | INFO | Create board for game: 1 of tournament: 6
+2022-09-05 20:38:16.463 | INFO | Create board for game: 1 of tournament: 6
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:51.650 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.650 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.650 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.650 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.650 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.650 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.650 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.650 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.650 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:51.651 | INFO | Waiting input from player: X
-2022-09-05 20:26:51.651 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:51.651 | INFO | Player X sets token in pos: x: 0, y: 1
-2022-09-05 20:26:51.651 | INFO | Board:
+2022-09-05 20:38:16.463 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.463 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.463 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.463 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.463 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.463 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.463 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.464 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.464 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.464 | INFO | Waiting input from player: X
+2022-09-05 20:38:16.464 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:16.464 | INFO | Player X sets token in pos: x: 1, y: 1
+2022-09-05 20:38:16.464 | INFO | Board:
+· | · | ·
 · | X | ·
 · | · | ·
+2022-09-05 20:38:16.464 | INFO | Waiting input from player: O
+2022-09-05 20:38:16.779 | INFO | Player O sets token in pos: x: 0, y: 0
+2022-09-05 20:38:16.780 | INFO | Board:
+O | · | ·
+· | X | ·
 · | · | ·
-2022-09-05 20:26:51.652 | INFO | Waiting input from player: O
-2022-09-05 20:26:52.018 | INFO | Player O sets token in pos: x: 0, y: 0
-2022-09-05 20:26:52.019 | INFO | Board:
+2022-09-05 20:38:16.780 | INFO | Waiting input from player: X
+2022-09-05 20:38:16.818 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:16.818 | INFO | Board:
 O | X | ·
+· | X | ·
 · | · | ·
-· | · | ·
-2022-09-05 20:26:52.019 | INFO | Waiting input from player: X
-2022-09-05 20:26:52.070 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:52.071 | INFO | Board:
+2022-09-05 20:38:16.819 | INFO | Waiting input from player: O
+2022-09-05 20:38:16.825 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:16.826 | INFO | Board:
 O | X | ·
-X | · | ·
-· | · | ·
-2022-09-05 20:26:52.071 | INFO | Waiting input from player: O
-2022-09-05 20:26:52.080 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:52.081 | INFO | Board:
+· | X | ·
+· | O | ·
+2022-09-05 20:38:16.826 | INFO | Waiting input from player: X
+2022-09-05 20:38:16.836 | INFO | Player X sets token in pos: x: 1, y: 0
+2022-09-05 20:38:16.837 | INFO | Board:
 O | X | ·
-X | O | ·
-· | · | ·
-2022-09-05 20:26:52.081 | INFO | Waiting input from player: X
-2022-09-05 20:26:52.090 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:52.091 | INFO | Board:
+X | X | ·
+· | O | ·
+2022-09-05 20:38:16.837 | INFO | Waiting input from player: O
+2022-09-05 20:38:16.853 | INFO | Player O sets token in pos: x: 1, y: 2
+2022-09-05 20:38:16.853 | INFO | Board:
 O | X | ·
-X | O | ·
-· | · | X
-2022-09-05 20:26:52.091 | INFO | Waiting input from player: O
-2022-09-05 20:26:52.107 | INFO | Player O sets token in pos: x: 0, y: 2
-2022-09-05 20:26:52.108 | INFO | Board:
-O | X | O
-X | O | ·
-· | · | X
-2022-09-05 20:26:52.108 | INFO | Waiting input from player: X
-2022-09-05 20:26:52.121 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:52.122 | INFO | Board:
-O | X | O
-X | O | ·
-X | · | X
-2022-09-05 20:26:52.123 | INFO | Waiting input from player: O
-2022-09-05 20:26:52.137 | INFO | Player O sets token in pos: x: 2, y: 1
-2022-09-05 20:26:52.138 | INFO | Board:
-O | X | O
-X | O | ·
-X | O | X
-2022-09-05 20:26:52.139 | INFO | Waiting input from player: X
-2022-09-05 20:26:52.154 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:52.155 | INFO | It's a draw
-2022-09-05 20:26:52.156 | INFO | Board:
-O | X | O
-X | O | X
-X | O | X
-2022-09-05 20:26:52.156 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:52.156740
+X | X | O
+· | O | ·
+2022-09-05 20:38:16.853 | INFO | Waiting input from player: X
+2022-09-05 20:38:16.871 | INFO | Player X sets token in pos: x: 0, y: 2
+2022-09-05 20:38:16.873 | INFO | Board:
+O | X | X
+X | X | O
+· | O | ·
+2022-09-05 20:38:16.873 | INFO | Waiting input from player: O
+2022-09-05 20:38:16.886 | INFO | Player O sets token in pos: x: 2, y: 0
+2022-09-05 20:38:16.888 | INFO | Board:
+O | X | X
+X | X | O
+O | O | ·
+2022-09-05 20:38:16.888 | INFO | Waiting input from player: X
+2022-09-05 20:38:16.900 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:16.902 | INFO | It's a draw
+2022-09-05 20:38:16.902 | INFO | Board:
+O | X | X
+X | X | O
+O | O | X
+2022-09-05 20:38:16.902 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:16.902806
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -1204,77 +1204,77 @@ Tournament Winner     -->
 -----------           -->	    ------
 Tournaments Winners   -->	     -----
 --------------------------------------------------------------
-2022-09-05 20:26:52.176 | INFO | Create board for game: 2 of tournament: 6
+2022-09-05 20:38:16.922 | INFO | Create board for game: 2 of tournament: 6
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:52.176 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.176 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.177 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.177 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.177 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.177 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.177 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.177 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.178 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.178 | INFO | Waiting input from player: X
-2022-09-05 20:26:52.178 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:52.178 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:52.179 | INFO | Board:
+2022-09-05 20:38:16.922 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.922 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.922 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.922 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.922 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.922 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.922 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.922 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.922 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:16.922 | INFO | Waiting input from player: X
+2022-09-05 20:38:16.922 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:16.922 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:16.923 | INFO | Board:
+· | X | ·
 · | · | ·
-· | · | X
 · | · | ·
-2022-09-05 20:26:52.179 | INFO | Waiting input from player: O
-2022-09-05 20:26:52.533 | INFO | Player O sets token in pos: x: 0, y: 2
-2022-09-05 20:26:52.534 | INFO | Board:
-· | · | O
-· | · | X
+2022-09-05 20:38:16.923 | INFO | Waiting input from player: O
+2022-09-05 20:38:17.278 | INFO | Player O sets token in pos: x: 0, y: 0
+2022-09-05 20:38:17.279 | INFO | Board:
+O | X | ·
 · | · | ·
-2022-09-05 20:26:52.534 | INFO | Waiting input from player: X
-2022-09-05 20:26:52.583 | INFO | Player X sets token in pos: x: 0, y: 0
-2022-09-05 20:26:52.584 | INFO | Board:
-X | · | O
-· | · | X
 · | · | ·
-2022-09-05 20:26:52.584 | INFO | Waiting input from player: O
-2022-09-05 20:26:52.593 | INFO | Player O sets token in pos: x: 1, y: 0
-2022-09-05 20:26:52.593 | INFO | Board:
-X | · | O
-O | · | X
-· | · | ·
-2022-09-05 20:26:52.594 | INFO | Waiting input from player: X
-2022-09-05 20:26:52.603 | INFO | Player X sets token in pos: x: 0, y: 1
-2022-09-05 20:26:52.603 | INFO | Board:
-X | X | O
-O | · | X
-· | · | ·
-2022-09-05 20:26:52.603 | INFO | Waiting input from player: O
-2022-09-05 20:26:52.617 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:52.618 | INFO | Board:
-X | X | O
-O | O | X
-· | · | ·
-2022-09-05 20:26:52.619 | INFO | Waiting input from player: X
-2022-09-05 20:26:52.633 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:52.635 | INFO | Board:
-X | X | O
-O | O | X
+2022-09-05 20:38:17.279 | INFO | Waiting input from player: X
+2022-09-05 20:38:17.328 | INFO | Player X sets token in pos: x: 1, y: 0
+2022-09-05 20:38:17.328 | INFO | Board:
+O | X | ·
 X | · | ·
-2022-09-05 20:26:52.635 | INFO | Waiting input from player: O
-2022-09-05 20:26:52.649 | INFO | Player O sets token in pos: x: 2, y: 1
-2022-09-05 20:26:52.650 | INFO | Board:
-X | X | O
-O | O | X
+· | · | ·
+2022-09-05 20:38:17.328 | INFO | Waiting input from player: O
+2022-09-05 20:38:17.337 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:17.338 | INFO | Board:
+O | X | ·
 X | O | ·
-2022-09-05 20:26:52.650 | INFO | Waiting input from player: X
-2022-09-05 20:26:52.665 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:52.667 | INFO | It's a draw
-2022-09-05 20:26:52.667 | INFO | Board:
-X | X | O
-O | O | X
+· | · | ·
+2022-09-05 20:38:17.338 | INFO | Waiting input from player: X
+2022-09-05 20:38:17.347 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:17.348 | INFO | Board:
+O | X | ·
+X | O | ·
+· | · | X
+2022-09-05 20:38:17.348 | INFO | Waiting input from player: O
+2022-09-05 20:38:17.363 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:17.364 | INFO | Board:
+O | X | O
+X | O | ·
+· | · | X
+2022-09-05 20:38:17.364 | INFO | Waiting input from player: X
+2022-09-05 20:38:17.380 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:17.381 | INFO | Board:
+O | X | O
+X | O | ·
+X | · | X
+2022-09-05 20:38:17.381 | INFO | Waiting input from player: O
+2022-09-05 20:38:17.396 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:17.397 | INFO | Board:
+O | X | O
+X | O | ·
 X | O | X
-2022-09-05 20:26:52.668 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:52.667002
+2022-09-05 20:38:17.397 | INFO | Waiting input from player: X
+2022-09-05 20:38:17.412 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:17.414 | INFO | It's a draw
+2022-09-05 20:38:17.414 | INFO | Board:
+O | X | O
+X | O | X
+X | O | X
+2022-09-05 20:38:17.414 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:17.414777
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -1310,77 +1310,77 @@ Tournament Winner     -->	         -
 -----------           -->	    ------
 Tournaments Winners   -->	    ------
 --------------------------------------------------------------
-2022-09-05 20:26:52.686 | INFO | Create board for game: 1 of tournament: 7
+2022-09-05 20:38:17.436 | INFO | Create board for game: 1 of tournament: 7
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:52.687 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.687 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.687 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.687 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.687 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.687 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.688 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.688 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.688 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:52.688 | INFO | Waiting input from player: X
-2022-09-05 20:26:52.688 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:52.688 | INFO | Player X sets token in pos: x: 1, y: 1
-2022-09-05 20:26:52.689 | INFO | Board:
+2022-09-05 20:38:17.436 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.436 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.436 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.436 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.436 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.436 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.436 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.436 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.436 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.436 | INFO | Waiting input from player: X
+2022-09-05 20:38:17.436 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:17.436 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:17.437 | INFO | Board:
 · | · | ·
-· | X | ·
+· | · | X
 · | · | ·
-2022-09-05 20:26:52.689 | INFO | Waiting input from player: O
-2022-09-05 20:26:53.002 | INFO | Player O sets token in pos: x: 0, y: 0
-2022-09-05 20:26:53.003 | INFO | Board:
-O | · | ·
-· | X | ·
+2022-09-05 20:38:17.437 | INFO | Waiting input from player: O
+2022-09-05 20:38:17.795 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:17.796 | INFO | Board:
+· | · | O
+· | · | X
 · | · | ·
-2022-09-05 20:26:53.003 | INFO | Waiting input from player: X
-2022-09-05 20:26:53.041 | INFO | Player X sets token in pos: x: 0, y: 1
-2022-09-05 20:26:53.042 | INFO | Board:
-O | X | ·
-· | X | ·
+2022-09-05 20:38:17.796 | INFO | Waiting input from player: X
+2022-09-05 20:38:17.844 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:17.845 | INFO | Board:
+X | · | O
+· | · | X
 · | · | ·
-2022-09-05 20:26:53.042 | INFO | Waiting input from player: O
-2022-09-05 20:26:53.049 | INFO | Player O sets token in pos: x: 2, y: 1
-2022-09-05 20:26:53.050 | INFO | Board:
-O | X | ·
-· | X | ·
-· | O | ·
-2022-09-05 20:26:53.050 | INFO | Waiting input from player: X
-2022-09-05 20:26:53.061 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:53.063 | INFO | Board:
-O | X | ·
-X | X | ·
-· | O | ·
-2022-09-05 20:26:53.063 | INFO | Waiting input from player: O
-2022-09-05 20:26:53.077 | INFO | Player O sets token in pos: x: 1, y: 2
-2022-09-05 20:26:53.077 | INFO | Board:
-O | X | ·
+2022-09-05 20:38:17.845 | INFO | Waiting input from player: O
+2022-09-05 20:38:17.853 | INFO | Player O sets token in pos: x: 1, y: 0
+2022-09-05 20:38:17.854 | INFO | Board:
+X | · | O
+O | · | X
+· | · | ·
+2022-09-05 20:38:17.854 | INFO | Waiting input from player: X
+2022-09-05 20:38:17.864 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:17.864 | INFO | Board:
 X | X | O
-· | O | ·
-2022-09-05 20:26:53.078 | INFO | Waiting input from player: X
-2022-09-05 20:26:53.093 | INFO | Player X sets token in pos: x: 0, y: 2
-2022-09-05 20:26:53.094 | INFO | Board:
-O | X | X
-X | X | O
-· | O | ·
-2022-09-05 20:26:53.094 | INFO | Waiting input from player: O
-2022-09-05 20:26:53.110 | INFO | Player O sets token in pos: x: 2, y: 0
-2022-09-05 20:26:53.111 | INFO | Board:
-O | X | X
-X | X | O
-O | O | ·
-2022-09-05 20:26:53.112 | INFO | Waiting input from player: X
-2022-09-05 20:26:53.126 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:53.128 | INFO | It's a draw
-2022-09-05 20:26:53.128 | INFO | Board:
-O | X | X
+O | · | X
+· | · | ·
+2022-09-05 20:38:17.864 | INFO | Waiting input from player: O
+2022-09-05 20:38:17.879 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:17.880 | INFO | Board:
 X | X | O
 O | O | X
-2022-09-05 20:26:53.128 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:53.128335
+· | · | ·
+2022-09-05 20:38:17.880 | INFO | Waiting input from player: X
+2022-09-05 20:38:17.896 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:17.897 | INFO | Board:
+X | X | O
+O | O | X
+X | · | ·
+2022-09-05 20:38:17.897 | INFO | Waiting input from player: O
+2022-09-05 20:38:17.913 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:17.915 | INFO | Board:
+X | X | O
+O | O | X
+X | O | ·
+2022-09-05 20:38:17.915 | INFO | Waiting input from player: X
+2022-09-05 20:38:17.929 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:17.931 | INFO | It's a draw
+2022-09-05 20:38:17.931 | INFO | Board:
+X | X | O
+O | O | X
+X | O | X
+2022-09-05 20:38:17.931 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:17.931891
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -1416,77 +1416,77 @@ Tournament Winner     -->
 -----------           -->	    ------
 Tournaments Winners   -->	    ------
 --------------------------------------------------------------
-2022-09-05 20:26:53.148 | INFO | Create board for game: 2 of tournament: 7
+2022-09-05 20:38:17.954 | INFO | Create board for game: 2 of tournament: 7
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:53.148 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.148 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.149 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.149 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.149 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.149 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.149 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.149 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.149 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.149 | INFO | Waiting input from player: X
-2022-09-05 20:26:53.150 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:53.150 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:53.150 | INFO | Board:
-· | · | ·
+2022-09-05 20:38:17.954 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.954 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.954 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.954 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.954 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.954 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.954 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.954 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.954 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:17.954 | INFO | Waiting input from player: X
+2022-09-05 20:38:17.954 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:17.954 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:17.955 | INFO | Board:
 X | · | ·
 · | · | ·
-2022-09-05 20:26:53.151 | INFO | Waiting input from player: O
-2022-09-05 20:26:53.509 | INFO | Player O sets token in pos: x: 0, y: 0
-2022-09-05 20:26:53.510 | INFO | Board:
-O | · | ·
+· | · | ·
+2022-09-05 20:38:17.955 | INFO | Waiting input from player: O
+2022-09-05 20:38:18.290 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:18.291 | INFO | Board:
 X | · | ·
+· | O | ·
 · | · | ·
-2022-09-05 20:26:53.510 | INFO | Waiting input from player: X
-2022-09-05 20:26:53.560 | INFO | Player X sets token in pos: x: 0, y: 1
-2022-09-05 20:26:53.561 | INFO | Board:
-O | X | ·
+2022-09-05 20:38:18.291 | INFO | Waiting input from player: X
+2022-09-05 20:38:18.331 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:18.331 | INFO | Board:
+X | X | ·
+· | O | ·
+· | · | ·
+2022-09-05 20:38:18.331 | INFO | Waiting input from player: O
+2022-09-05 20:38:18.337 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:18.338 | INFO | Board:
+X | X | O
+· | O | ·
+· | · | ·
+2022-09-05 20:38:18.338 | INFO | Waiting input from player: X
+2022-09-05 20:38:18.351 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:18.352 | INFO | Board:
+X | X | O
+· | O | ·
 X | · | ·
-· | · | ·
-2022-09-05 20:26:53.561 | INFO | Waiting input from player: O
-2022-09-05 20:26:53.570 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:53.571 | INFO | Board:
-O | X | ·
+2022-09-05 20:38:18.352 | INFO | Waiting input from player: O
+2022-09-05 20:38:18.366 | INFO | Player O sets token in pos: x: 1, y: 0
+2022-09-05 20:38:18.367 | INFO | Board:
+X | X | O
+O | O | ·
+X | · | ·
+2022-09-05 20:38:18.367 | INFO | Waiting input from player: X
+2022-09-05 20:38:18.384 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:18.385 | INFO | Board:
+X | X | O
+O | O | X
+X | · | ·
+2022-09-05 20:38:18.385 | INFO | Waiting input from player: O
+2022-09-05 20:38:18.400 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:18.401 | INFO | Board:
+X | X | O
+O | O | X
 X | O | ·
-· | · | ·
-2022-09-05 20:26:53.571 | INFO | Waiting input from player: X
-2022-09-05 20:26:53.580 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:53.581 | INFO | Board:
-O | X | ·
-X | O | ·
-· | · | X
-2022-09-05 20:26:53.582 | INFO | Waiting input from player: O
-2022-09-05 20:26:53.596 | INFO | Player O sets token in pos: x: 0, y: 2
-2022-09-05 20:26:53.597 | INFO | Board:
-O | X | O
-X | O | ·
-· | · | X
-2022-09-05 20:26:53.597 | INFO | Waiting input from player: X
-2022-09-05 20:26:53.613 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:53.614 | INFO | Board:
-O | X | O
-X | O | ·
-X | · | X
-2022-09-05 20:26:53.614 | INFO | Waiting input from player: O
-2022-09-05 20:26:53.630 | INFO | Player O sets token in pos: x: 2, y: 1
-2022-09-05 20:26:53.631 | INFO | Board:
-O | X | O
-X | O | ·
+2022-09-05 20:38:18.402 | INFO | Waiting input from player: X
+2022-09-05 20:38:18.416 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:18.418 | INFO | It's a draw
+2022-09-05 20:38:18.418 | INFO | Board:
+X | X | O
+O | O | X
 X | O | X
-2022-09-05 20:26:53.631 | INFO | Waiting input from player: X
-2022-09-05 20:26:53.646 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:53.647 | INFO | It's a draw
-2022-09-05 20:26:53.647 | INFO | Board:
-O | X | O
-X | O | X
-X | O | X
-2022-09-05 20:26:53.647 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:53.647557
+2022-09-05 20:38:18.418 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:18.418598
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -1522,77 +1522,77 @@ Tournament Winner     -->	         -
 -----------           -->	    ------
 Tournaments Winners   -->	   -------
 --------------------------------------------------------------
-2022-09-05 20:26:53.667 | INFO | Create board for game: 1 of tournament: 8
+2022-09-05 20:38:18.441 | INFO | Create board for game: 1 of tournament: 8
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:53.667 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.667 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.667 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.667 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.667 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.668 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.668 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.668 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.668 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:53.668 | INFO | Waiting input from player: X
-2022-09-05 20:26:53.668 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:53.668 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:53.669 | INFO | Board:
+2022-09-05 20:38:18.441 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.441 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.441 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.441 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.441 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.441 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.441 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.441 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.441 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.441 | INFO | Waiting input from player: X
+2022-09-05 20:38:18.442 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:18.442 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:18.442 | INFO | Board:
+X | · | ·
 · | · | ·
-· | · | X
 · | · | ·
-2022-09-05 20:26:53.669 | INFO | Waiting input from player: O
-2022-09-05 20:26:54.027 | INFO | Player O sets token in pos: x: 0, y: 2
-2022-09-05 20:26:54.028 | INFO | Board:
-· | · | O
-· | · | X
+2022-09-05 20:38:18.442 | INFO | Waiting input from player: O
+2022-09-05 20:38:18.784 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:18.785 | INFO | Board:
+X | · | ·
+· | O | ·
 · | · | ·
-2022-09-05 20:26:54.029 | INFO | Waiting input from player: X
-2022-09-05 20:26:54.077 | INFO | Player X sets token in pos: x: 0, y: 0
-2022-09-05 20:26:54.078 | INFO | Board:
-X | · | O
-· | · | X
+2022-09-05 20:38:18.785 | INFO | Waiting input from player: X
+2022-09-05 20:38:18.825 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:18.825 | INFO | Board:
+X | X | ·
+· | O | ·
 · | · | ·
-2022-09-05 20:26:54.078 | INFO | Waiting input from player: O
-2022-09-05 20:26:54.087 | INFO | Player O sets token in pos: x: 1, y: 0
-2022-09-05 20:26:54.088 | INFO | Board:
-X | · | O
-O | · | X
-· | · | ·
-2022-09-05 20:26:54.088 | INFO | Waiting input from player: X
-2022-09-05 20:26:54.098 | INFO | Player X sets token in pos: x: 0, y: 1
-2022-09-05 20:26:54.098 | INFO | Board:
+2022-09-05 20:38:18.825 | INFO | Waiting input from player: O
+2022-09-05 20:38:18.831 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:18.831 | INFO | Board:
 X | X | O
-O | · | X
+· | O | ·
 · | · | ·
-2022-09-05 20:26:54.099 | INFO | Waiting input from player: O
-2022-09-05 20:26:54.112 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:54.113 | INFO | Board:
+2022-09-05 20:38:18.831 | INFO | Waiting input from player: X
+2022-09-05 20:38:18.843 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:18.844 | INFO | Board:
 X | X | O
-O | O | X
-· | · | ·
-2022-09-05 20:26:54.113 | INFO | Waiting input from player: X
-2022-09-05 20:26:54.128 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:54.129 | INFO | Board:
+· | O | ·
+X | · | ·
+2022-09-05 20:38:18.844 | INFO | Waiting input from player: O
+2022-09-05 20:38:18.860 | INFO | Player O sets token in pos: x: 1, y: 0
+2022-09-05 20:38:18.861 | INFO | Board:
+X | X | O
+O | O | ·
+X | · | ·
+2022-09-05 20:38:18.861 | INFO | Waiting input from player: X
+2022-09-05 20:38:18.876 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:18.877 | INFO | Board:
 X | X | O
 O | O | X
 X | · | ·
-2022-09-05 20:26:54.130 | INFO | Waiting input from player: O
-2022-09-05 20:26:54.145 | INFO | Player O sets token in pos: x: 2, y: 1
-2022-09-05 20:26:54.147 | INFO | Board:
+2022-09-05 20:38:18.877 | INFO | Waiting input from player: O
+2022-09-05 20:38:18.894 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:18.897 | INFO | Board:
 X | X | O
 O | O | X
 X | O | ·
-2022-09-05 20:26:54.147 | INFO | Waiting input from player: X
-2022-09-05 20:26:54.161 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:54.162 | INFO | It's a draw
-2022-09-05 20:26:54.162 | INFO | Board:
+2022-09-05 20:38:18.898 | INFO | Waiting input from player: X
+2022-09-05 20:38:18.910 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:18.912 | INFO | It's a draw
+2022-09-05 20:38:18.912 | INFO | Board:
 X | X | O
 O | O | X
 X | O | X
-2022-09-05 20:26:54.163 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:54.163660
+2022-09-05 20:38:18.913 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:18.912726
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -1628,77 +1628,77 @@ Tournament Winner     -->
 -----------           -->	    ------
 Tournaments Winners   -->	   -------
 --------------------------------------------------------------
-2022-09-05 20:26:54.185 | INFO | Create board for game: 2 of tournament: 8
+2022-09-05 20:38:18.935 | INFO | Create board for game: 2 of tournament: 8
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:54.185 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.185 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.186 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.186 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.186 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.186 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.186 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.186 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.186 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.186 | INFO | Waiting input from player: X
-2022-09-05 20:26:54.186 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:54.186 | INFO | Player X sets token in pos: x: 1, y: 1
-2022-09-05 20:26:54.187 | INFO | Board:
-· | · | ·
+2022-09-05 20:38:18.935 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.935 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.935 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.935 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.935 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.935 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.935 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.935 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.936 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:18.936 | INFO | Waiting input from player: X
+2022-09-05 20:38:18.936 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:18.936 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:18.936 | INFO | Board:
 · | X | ·
 · | · | ·
-2022-09-05 20:26:54.187 | INFO | Waiting input from player: O
-2022-09-05 20:26:54.500 | INFO | Player O sets token in pos: x: 0, y: 0
-2022-09-05 20:26:54.501 | INFO | Board:
-O | · | ·
-· | X | ·
 · | · | ·
-2022-09-05 20:26:54.502 | INFO | Waiting input from player: X
-2022-09-05 20:26:54.540 | INFO | Player X sets token in pos: x: 0, y: 1
-2022-09-05 20:26:54.541 | INFO | Board:
+2022-09-05 20:38:18.936 | INFO | Waiting input from player: O
+2022-09-05 20:38:19.296 | INFO | Player O sets token in pos: x: 0, y: 0
+2022-09-05 20:38:19.297 | INFO | Board:
 O | X | ·
-· | X | ·
 · | · | ·
-2022-09-05 20:26:54.541 | INFO | Waiting input from player: O
-2022-09-05 20:26:54.548 | INFO | Player O sets token in pos: x: 2, y: 1
-2022-09-05 20:26:54.549 | INFO | Board:
+· | · | ·
+2022-09-05 20:38:19.297 | INFO | Waiting input from player: X
+2022-09-05 20:38:19.345 | INFO | Player X sets token in pos: x: 1, y: 0
+2022-09-05 20:38:19.346 | INFO | Board:
 O | X | ·
-· | X | ·
-· | O | ·
-2022-09-05 20:26:54.549 | INFO | Waiting input from player: X
-2022-09-05 20:26:54.561 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:54.562 | INFO | Board:
+X | · | ·
+· | · | ·
+2022-09-05 20:38:19.346 | INFO | Waiting input from player: O
+2022-09-05 20:38:19.355 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:19.356 | INFO | Board:
 O | X | ·
-X | X | ·
-· | O | ·
-2022-09-05 20:26:54.562 | INFO | Waiting input from player: O
-2022-09-05 20:26:54.575 | INFO | Player O sets token in pos: x: 1, y: 2
-2022-09-05 20:26:54.576 | INFO | Board:
+X | O | ·
+· | · | ·
+2022-09-05 20:38:19.356 | INFO | Waiting input from player: X
+2022-09-05 20:38:19.366 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:19.367 | INFO | Board:
 O | X | ·
-X | X | O
-· | O | ·
-2022-09-05 20:26:54.576 | INFO | Waiting input from player: X
-2022-09-05 20:26:54.592 | INFO | Player X sets token in pos: x: 0, y: 2
-2022-09-05 20:26:54.593 | INFO | Board:
-O | X | X
-X | X | O
-· | O | ·
-2022-09-05 20:26:54.593 | INFO | Waiting input from player: O
-2022-09-05 20:26:54.608 | INFO | Player O sets token in pos: x: 2, y: 0
-2022-09-05 20:26:54.610 | INFO | Board:
-O | X | X
-X | X | O
-O | O | ·
-2022-09-05 20:26:54.611 | INFO | Waiting input from player: X
-2022-09-05 20:26:54.624 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:54.625 | INFO | It's a draw
-2022-09-05 20:26:54.626 | INFO | Board:
-O | X | X
-X | X | O
-O | O | X
-2022-09-05 20:26:54.626 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:54.626344
+X | O | ·
+· | · | X
+2022-09-05 20:38:19.367 | INFO | Waiting input from player: O
+2022-09-05 20:38:19.381 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:19.382 | INFO | Board:
+O | X | O
+X | O | ·
+· | · | X
+2022-09-05 20:38:19.382 | INFO | Waiting input from player: X
+2022-09-05 20:38:19.396 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:19.397 | INFO | Board:
+O | X | O
+X | O | ·
+X | · | X
+2022-09-05 20:38:19.397 | INFO | Waiting input from player: O
+2022-09-05 20:38:19.412 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:19.414 | INFO | Board:
+O | X | O
+X | O | ·
+X | O | X
+2022-09-05 20:38:19.414 | INFO | Waiting input from player: X
+2022-09-05 20:38:19.430 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:19.432 | INFO | It's a draw
+2022-09-05 20:38:19.432 | INFO | Board:
+O | X | O
+X | O | X
+X | O | X
+2022-09-05 20:38:19.432 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:19.432957
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -1734,77 +1734,77 @@ Tournament Winner     -->	         -
 -----------           -->	    ------
 Tournaments Winners   -->	  --------
 --------------------------------------------------------------
-2022-09-05 20:26:54.648 | INFO | Create board for game: 1 of tournament: 9
+2022-09-05 20:38:19.453 | INFO | Create board for game: 1 of tournament: 9
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:54.649 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.649 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.649 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.649 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.649 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.649 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.650 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.650 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.650 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:54.650 | INFO | Waiting input from player: X
-2022-09-05 20:26:54.650 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:54.650 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:54.651 | INFO | Board:
+2022-09-05 20:38:19.453 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.453 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.453 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.453 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.453 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.453 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.453 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.453 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.453 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.453 | INFO | Waiting input from player: X
+2022-09-05 20:38:19.453 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:19.454 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:19.454 | INFO | Board:
 · | · | ·
 · | · | ·
-X | · | ·
-2022-09-05 20:26:54.651 | INFO | Waiting input from player: O
-2022-09-05 20:26:54.983 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:54.984 | INFO | Board:
+· | · | X
+2022-09-05 20:38:19.454 | INFO | Waiting input from player: O
+2022-09-05 20:38:19.792 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:19.793 | INFO | Board:
 · | · | ·
 · | O | ·
-X | · | ·
-2022-09-05 20:26:54.984 | INFO | Waiting input from player: X
-2022-09-05 20:26:55.025 | INFO | Player X sets token in pos: x: 0, y: 0
-2022-09-05 20:26:55.026 | INFO | Board:
+· | · | X
+2022-09-05 20:38:19.793 | INFO | Waiting input from player: X
+2022-09-05 20:38:19.833 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:19.834 | INFO | Board:
 X | · | ·
 · | O | ·
-X | · | ·
-2022-09-05 20:26:55.027 | INFO | Waiting input from player: O
-2022-09-05 20:26:55.033 | INFO | Player O sets token in pos: x: 1, y: 0
-2022-09-05 20:26:55.034 | INFO | Board:
-X | · | ·
-O | O | ·
-X | · | ·
-2022-09-05 20:26:55.034 | INFO | Waiting input from player: X
-2022-09-05 20:26:55.045 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:55.046 | INFO | Board:
-X | · | ·
-O | O | X
-X | · | ·
-2022-09-05 20:26:55.046 | INFO | Waiting input from player: O
-2022-09-05 20:26:55.061 | INFO | Player O sets token in pos: x: 0, y: 1
-2022-09-05 20:26:55.062 | INFO | Board:
+· | · | X
+2022-09-05 20:38:19.834 | INFO | Waiting input from player: O
+2022-09-05 20:38:19.840 | INFO | Player O sets token in pos: x: 0, y: 1
+2022-09-05 20:38:19.841 | INFO | Board:
 X | O | ·
-O | O | X
-X | · | ·
-2022-09-05 20:26:55.063 | INFO | Waiting input from player: X
-2022-09-05 20:26:55.077 | INFO | Player X sets token in pos: x: 2, y: 1
-2022-09-05 20:26:55.079 | INFO | Board:
+· | O | ·
+· | · | X
+2022-09-05 20:38:19.841 | INFO | Waiting input from player: X
+2022-09-05 20:38:19.852 | INFO | Player X sets token in pos: x: 2, y: 1
+2022-09-05 20:38:19.853 | INFO | Board:
 X | O | ·
-O | O | X
-X | X | ·
-2022-09-05 20:26:55.079 | INFO | Waiting input from player: O
-2022-09-05 20:26:55.093 | INFO | Player O sets token in pos: x: 2, y: 2
-2022-09-05 20:26:55.094 | INFO | Board:
+· | O | ·
+· | X | X
+2022-09-05 20:38:19.853 | INFO | Waiting input from player: O
+2022-09-05 20:38:19.867 | INFO | Player O sets token in pos: x: 2, y: 0
+2022-09-05 20:38:19.868 | INFO | Board:
 X | O | ·
-O | O | X
-X | X | O
-2022-09-05 20:26:55.095 | INFO | Waiting input from player: X
-2022-09-05 20:26:55.109 | INFO | Player X sets token in pos: x: 0, y: 2
-2022-09-05 20:26:55.110 | INFO | It's a draw
-2022-09-05 20:26:55.110 | INFO | Board:
+· | O | ·
+O | X | X
+2022-09-05 20:38:19.868 | INFO | Waiting input from player: X
+2022-09-05 20:38:19.883 | INFO | Player X sets token in pos: x: 0, y: 2
+2022-09-05 20:38:19.884 | INFO | Board:
 X | O | X
-O | O | X
-X | X | O
-2022-09-05 20:26:55.110 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:55.110687
+· | O | ·
+O | X | X
+2022-09-05 20:38:19.884 | INFO | Waiting input from player: O
+2022-09-05 20:38:19.899 | INFO | Player O sets token in pos: x: 1, y: 2
+2022-09-05 20:38:19.900 | INFO | Board:
+X | O | X
+· | O | O
+O | X | X
+2022-09-05 20:38:19.900 | INFO | Waiting input from player: X
+2022-09-05 20:38:19.915 | INFO | Player X sets token in pos: x: 1, y: 0
+2022-09-05 20:38:19.917 | INFO | It's a draw
+2022-09-05 20:38:19.917 | INFO | Board:
+X | O | X
+X | O | O
+O | X | X
+2022-09-05 20:38:19.918 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:19.917635
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -1840,77 +1840,77 @@ Tournament Winner     -->
 -----------           -->	    ------
 Tournaments Winners   -->	  --------
 --------------------------------------------------------------
-2022-09-05 20:26:55.130 | INFO | Create board for game: 2 of tournament: 9
+2022-09-05 20:38:19.939 | INFO | Create board for game: 2 of tournament: 9
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:55.131 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.131 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.132 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.132 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.132 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.132 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.132 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.132 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.132 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.132 | INFO | Waiting input from player: X
-2022-09-05 20:26:55.132 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:55.133 | INFO | Player X sets token in pos: x: 0, y: 1
-2022-09-05 20:26:55.133 | INFO | Board:
-· | X | ·
+2022-09-05 20:38:19.939 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.939 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.939 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.939 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.939 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.939 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.939 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.939 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.939 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:19.939 | INFO | Waiting input from player: X
+2022-09-05 20:38:19.939 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:19.939 | INFO | Player X sets token in pos: x: 1, y: 0
+2022-09-05 20:38:19.940 | INFO | Board:
 · | · | ·
+X | · | ·
 · | · | ·
-2022-09-05 20:26:55.133 | INFO | Waiting input from player: O
-2022-09-05 20:26:55.497 | INFO | Player O sets token in pos: x: 0, y: 0
-2022-09-05 20:26:55.498 | INFO | Board:
-O | X | ·
+2022-09-05 20:38:19.940 | INFO | Waiting input from player: O
+2022-09-05 20:38:20.300 | INFO | Player O sets token in pos: x: 0, y: 0
+2022-09-05 20:38:20.301 | INFO | Board:
+O | · | ·
+X | · | ·
 · | · | ·
-· | · | ·
-2022-09-05 20:26:55.499 | INFO | Waiting input from player: X
-2022-09-05 20:26:55.548 | INFO | Player X sets token in pos: x: 1, y: 0
-2022-09-05 20:26:55.549 | INFO | Board:
+2022-09-05 20:38:20.301 | INFO | Waiting input from player: X
+2022-09-05 20:38:20.349 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:20.350 | INFO | Board:
 O | X | ·
 X | · | ·
 · | · | ·
-2022-09-05 20:26:55.549 | INFO | Waiting input from player: O
-2022-09-05 20:26:55.558 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:55.559 | INFO | Board:
+2022-09-05 20:38:20.350 | INFO | Waiting input from player: O
+2022-09-05 20:38:20.359 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:20.359 | INFO | Board:
 O | X | ·
 X | O | ·
 · | · | ·
-2022-09-05 20:26:55.559 | INFO | Waiting input from player: X
-2022-09-05 20:26:55.568 | INFO | Player X sets token in pos: x: 2, y: 2
-2022-09-05 20:26:55.569 | INFO | Board:
+2022-09-05 20:38:20.359 | INFO | Waiting input from player: X
+2022-09-05 20:38:20.369 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:20.370 | INFO | Board:
 O | X | ·
 X | O | ·
 · | · | X
-2022-09-05 20:26:55.569 | INFO | Waiting input from player: O
-2022-09-05 20:26:55.584 | INFO | Player O sets token in pos: x: 0, y: 2
-2022-09-05 20:26:55.585 | INFO | Board:
+2022-09-05 20:38:20.370 | INFO | Waiting input from player: O
+2022-09-05 20:38:20.385 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:20.386 | INFO | Board:
 O | X | O
 X | O | ·
 · | · | X
-2022-09-05 20:26:55.585 | INFO | Waiting input from player: X
-2022-09-05 20:26:55.601 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:55.602 | INFO | Board:
+2022-09-05 20:38:20.386 | INFO | Waiting input from player: X
+2022-09-05 20:38:20.401 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:20.403 | INFO | Board:
 O | X | O
 X | O | ·
 X | · | X
-2022-09-05 20:26:55.603 | INFO | Waiting input from player: O
-2022-09-05 20:26:55.618 | INFO | Player O sets token in pos: x: 2, y: 1
-2022-09-05 20:26:55.620 | INFO | Board:
+2022-09-05 20:38:20.403 | INFO | Waiting input from player: O
+2022-09-05 20:38:20.419 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:20.420 | INFO | Board:
 O | X | O
 X | O | ·
 X | O | X
-2022-09-05 20:26:55.620 | INFO | Waiting input from player: X
-2022-09-05 20:26:55.633 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:55.634 | INFO | It's a draw
-2022-09-05 20:26:55.635 | INFO | Board:
+2022-09-05 20:38:20.420 | INFO | Waiting input from player: X
+2022-09-05 20:38:20.435 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:20.437 | INFO | It's a draw
+2022-09-05 20:38:20.437 | INFO | Board:
 O | X | O
 X | O | X
 X | O | X
-2022-09-05 20:26:55.635 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:55.635750
+2022-09-05 20:38:20.437 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:20.437406
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -1946,77 +1946,77 @@ Tournament Winner     -->	         -
 -----------           -->	    ------
 Tournaments Winners   -->	 ---------
 --------------------------------------------------------------
-2022-09-05 20:26:55.657 | INFO | Create board for game: 1 of tournament: 10
+2022-09-05 20:38:20.460 | INFO | Create board for game: 1 of tournament: 10
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:55.658 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.658 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.658 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.658 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.658 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.658 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.658 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.658 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.659 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:55.659 | INFO | Waiting input from player: X
-2022-09-05 20:26:55.659 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:55.659 | INFO | Player X sets token in pos: x: 0, y: 2
-2022-09-05 20:26:55.660 | INFO | Board:
+2022-09-05 20:38:20.460 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.460 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.460 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.460 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.460 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.460 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.460 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.460 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.460 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.460 | INFO | Waiting input from player: X
+2022-09-05 20:38:20.461 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:20.461 | INFO | Player X sets token in pos: x: 1, y: 0
+2022-09-05 20:38:20.461 | INFO | Board:
+· | · | ·
+X | · | ·
+· | · | ·
+2022-09-05 20:38:20.461 | INFO | Waiting input from player: O
+2022-09-05 20:38:20.821 | INFO | Player O sets token in pos: x: 0, y: 0
+2022-09-05 20:38:20.822 | INFO | Board:
+O | · | ·
+X | · | ·
+· | · | ·
+2022-09-05 20:38:20.822 | INFO | Waiting input from player: X
+2022-09-05 20:38:20.869 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:20.870 | INFO | Board:
+O | X | ·
+X | · | ·
+· | · | ·
+2022-09-05 20:38:20.870 | INFO | Waiting input from player: O
+2022-09-05 20:38:20.879 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:20.880 | INFO | Board:
+O | X | ·
+X | O | ·
+· | · | ·
+2022-09-05 20:38:20.880 | INFO | Waiting input from player: X
+2022-09-05 20:38:20.889 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:20.890 | INFO | Board:
+O | X | ·
+X | O | ·
 · | · | X
-· | · | ·
-· | · | ·
-2022-09-05 20:26:55.660 | INFO | Waiting input from player: O
-2022-09-05 20:26:55.991 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:55.992 | INFO | Board:
+2022-09-05 20:38:20.890 | INFO | Waiting input from player: O
+2022-09-05 20:38:20.904 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:20.906 | INFO | Board:
+O | X | O
+X | O | ·
 · | · | X
-· | O | ·
-· | · | ·
-2022-09-05 20:26:55.992 | INFO | Waiting input from player: X
-2022-09-05 20:26:56.033 | INFO | Player X sets token in pos: x: 0, y: 0
-2022-09-05 20:26:56.034 | INFO | Board:
+2022-09-05 20:38:20.906 | INFO | Waiting input from player: X
+2022-09-05 20:38:20.921 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:20.922 | INFO | Board:
+O | X | O
+X | O | ·
 X | · | X
-· | O | ·
-· | · | ·
-2022-09-05 20:26:56.034 | INFO | Waiting input from player: O
-2022-09-05 20:26:56.040 | INFO | Player O sets token in pos: x: 0, y: 1
-2022-09-05 20:26:56.041 | INFO | Board:
+2022-09-05 20:38:20.922 | INFO | Waiting input from player: O
+2022-09-05 20:38:20.938 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:20.940 | INFO | Board:
+O | X | O
+X | O | ·
 X | O | X
-· | O | ·
-· | · | ·
-2022-09-05 20:26:56.041 | INFO | Waiting input from player: X
-2022-09-05 20:26:56.053 | INFO | Player X sets token in pos: x: 2, y: 1
-2022-09-05 20:26:56.054 | INFO | Board:
+2022-09-05 20:38:20.940 | INFO | Waiting input from player: X
+2022-09-05 20:38:20.955 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:20.957 | INFO | It's a draw
+2022-09-05 20:38:20.957 | INFO | Board:
+O | X | O
 X | O | X
-· | O | ·
-· | X | ·
-2022-09-05 20:26:56.054 | INFO | Waiting input from player: O
-2022-09-05 20:26:56.070 | INFO | Player O sets token in pos: x: 1, y: 0
-2022-09-05 20:26:56.070 | INFO | Board:
 X | O | X
-O | O | ·
-· | X | ·
-2022-09-05 20:26:56.071 | INFO | Waiting input from player: X
-2022-09-05 20:26:56.086 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:56.087 | INFO | Board:
-X | O | X
-O | O | X
-· | X | ·
-2022-09-05 20:26:56.087 | INFO | Waiting input from player: O
-2022-09-05 20:26:56.103 | INFO | Player O sets token in pos: x: 2, y: 2
-2022-09-05 20:26:56.104 | INFO | Board:
-X | O | X
-O | O | X
-· | X | O
-2022-09-05 20:26:56.105 | INFO | Waiting input from player: X
-2022-09-05 20:26:56.119 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:56.120 | INFO | It's a draw
-2022-09-05 20:26:56.120 | INFO | Board:
-X | O | X
-O | O | X
-X | X | O
-2022-09-05 20:26:56.121 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:56.121207
+2022-09-05 20:38:20.957 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:20.957086
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -2052,77 +2052,77 @@ Tournament Winner     -->
 -----------           -->	    ------
 Tournaments Winners   -->	 ---------
 --------------------------------------------------------------
-2022-09-05 20:26:56.140 | INFO | Create board for game: 2 of tournament: 10
+2022-09-05 20:38:20.978 | INFO | Create board for game: 2 of tournament: 10
 · | · | ·
 · | · | ·
 · | · | ·
-2022-09-05 20:26:56.140 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:56.140 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:56.140 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:56.141 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:56.141 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:56.141 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:56.141 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:56.141 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:56.141 | INFO | Create actor of type: ActorType.CELL
-2022-09-05 20:26:56.141 | INFO | Waiting input from player: X
-2022-09-05 20:26:56.141 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-2022-09-05 20:26:56.141 | INFO | Player X sets token in pos: x: 2, y: 0
-2022-09-05 20:26:56.142 | INFO | Board:
-· | · | ·
-· | · | ·
+2022-09-05 20:38:20.978 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.978 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.978 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.978 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.978 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.978 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.978 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.978 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.978 | INFO | Create actor of type: ActorType.CELL
+2022-09-05 20:38:20.978 | INFO | Waiting input from player: X
+2022-09-05 20:38:20.978 | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+2022-09-05 20:38:20.978 | INFO | Player X sets token in pos: x: 0, y: 0
+2022-09-05 20:38:20.979 | INFO | Board:
 X | · | ·
-2022-09-05 20:26:56.142 | INFO | Waiting input from player: O
-2022-09-05 20:26:56.480 | INFO | Player O sets token in pos: x: 1, y: 1
-2022-09-05 20:26:56.481 | INFO | Board:
 · | · | ·
-· | O | ·
-X | · | ·
-2022-09-05 20:26:56.481 | INFO | Waiting input from player: X
-2022-09-05 20:26:56.522 | INFO | Player X sets token in pos: x: 0, y: 0
-2022-09-05 20:26:56.524 | INFO | Board:
+· | · | ·
+2022-09-05 20:38:20.979 | INFO | Waiting input from player: O
+2022-09-05 20:38:21.317 | INFO | Player O sets token in pos: x: 1, y: 1
+2022-09-05 20:38:21.318 | INFO | Board:
 X | · | ·
 · | O | ·
+· | · | ·
+2022-09-05 20:38:21.318 | INFO | Waiting input from player: X
+2022-09-05 20:38:21.358 | INFO | Player X sets token in pos: x: 0, y: 1
+2022-09-05 20:38:21.359 | INFO | Board:
+X | X | ·
+· | O | ·
+· | · | ·
+2022-09-05 20:38:21.359 | INFO | Waiting input from player: O
+2022-09-05 20:38:21.364 | INFO | Player O sets token in pos: x: 0, y: 2
+2022-09-05 20:38:21.365 | INFO | Board:
+X | X | O
+· | O | ·
+· | · | ·
+2022-09-05 20:38:21.365 | INFO | Waiting input from player: X
+2022-09-05 20:38:21.376 | INFO | Player X sets token in pos: x: 2, y: 0
+2022-09-05 20:38:21.377 | INFO | Board:
+X | X | O
+· | O | ·
 X | · | ·
-2022-09-05 20:26:56.524 | INFO | Waiting input from player: O
-2022-09-05 20:26:56.535 | INFO | Player O sets token in pos: x: 1, y: 0
-2022-09-05 20:26:56.536 | INFO | Board:
-X | · | ·
+2022-09-05 20:38:21.377 | INFO | Waiting input from player: O
+2022-09-05 20:38:21.392 | INFO | Player O sets token in pos: x: 1, y: 0
+2022-09-05 20:38:21.393 | INFO | Board:
+X | X | O
 O | O | ·
 X | · | ·
-2022-09-05 20:26:56.536 | INFO | Waiting input from player: X
-2022-09-05 20:26:56.542 | INFO | Player X sets token in pos: x: 1, y: 2
-2022-09-05 20:26:56.543 | INFO | Board:
-X | · | ·
-O | O | X
-X | · | ·
-2022-09-05 20:26:56.544 | INFO | Waiting input from player: O
-2022-09-05 20:26:56.558 | INFO | Player O sets token in pos: x: 0, y: 1
-2022-09-05 20:26:56.559 | INFO | Board:
-X | O | ·
-O | O | X
-X | · | ·
-2022-09-05 20:26:56.559 | INFO | Waiting input from player: X
-2022-09-05 20:26:56.575 | INFO | Player X sets token in pos: x: 2, y: 1
-2022-09-05 20:26:56.576 | INFO | Board:
-X | O | ·
-O | O | X
-X | X | ·
-2022-09-05 20:26:56.576 | INFO | Waiting input from player: O
-2022-09-05 20:26:56.591 | INFO | Player O sets token in pos: x: 2, y: 2
-2022-09-05 20:26:56.593 | INFO | Board:
-X | O | ·
-O | O | X
+2022-09-05 20:38:21.393 | INFO | Waiting input from player: X
+2022-09-05 20:38:21.409 | INFO | Player X sets token in pos: x: 1, y: 2
+2022-09-05 20:38:21.410 | INFO | Board:
 X | X | O
-2022-09-05 20:26:56.593 | INFO | Waiting input from player: X
-2022-09-05 20:26:56.608 | INFO | Player X sets token in pos: x: 0, y: 2
-2022-09-05 20:26:56.610 | INFO | It's a draw
-2022-09-05 20:26:56.610 | INFO | Board:
+O | O | X
+X | · | ·
+2022-09-05 20:38:21.410 | INFO | Waiting input from player: O
+2022-09-05 20:38:21.426 | INFO | Player O sets token in pos: x: 2, y: 1
+2022-09-05 20:38:21.427 | INFO | Board:
+X | X | O
+O | O | X
+X | O | ·
+2022-09-05 20:38:21.427 | INFO | Waiting input from player: X
+2022-09-05 20:38:21.445 | INFO | Player X sets token in pos: x: 2, y: 2
+2022-09-05 20:38:21.447 | INFO | It's a draw
+2022-09-05 20:38:21.447 | INFO | Board:
+X | X | O
+O | O | X
 X | O | X
-O | O | X
-X | X | O
-2022-09-05 20:26:56.610 | INFO | Current game stats:
-Time                  -->	2022-09-05 20:26:56.610442
+2022-09-05 20:38:21.448 | INFO | Current game stats:
+Time                  -->	2022-09-05 20:38:21.447245
 Full screen           -->	     False
 ------                -->	    ------
 Tournaments to play   -->	        10
@@ -2158,5 +2158,5 @@ Tournament Winner     -->	         -
 -----------           -->	    ------
 Tournaments Winners   -->	----------
 --------------------------------------------------------------
-2022-09-05 20:26:56.630 | INFO | Winner of this Tic Tac Toe campaign: It's a draw. Score: 0 to 0
-2022-09-05 20:26:56.631 | INFO | End app tictactoe
+2022-09-05 20:38:21.469 | INFO | Winner of this Tic Tac Toe campaign: It's a draw. Score: 0 to 0
+2022-09-05 20:38:21.469 | INFO | End app tictactoe
