@@ -202,9 +202,9 @@ class Game:
             elif Game.stats_gen['tournaments_winners_tokens']:
                 log.info(f"Winner of this Tic Tac Toe campaign: It's a draw. "
                          f"Score: {player1_tournament_victories} to {player2_tournament_victories}")
+                Game.wargame_training and log.info(LOG_WARGAME_END_MSG)
             else:
                 log.info(f"Winner of this Tic Tac Toe campaign: None. No tournaments played to the end.")
-            Game.wargame_training and log.info(LOG_WARGAME_END_MSG)
             log.info(LOG_END_APP_MSG)
         Game.is_exit_game = is_exit_game
 
