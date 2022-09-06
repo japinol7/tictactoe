@@ -12,6 +12,7 @@ from tictactoe.model.board import Board
 from tictactoe.model.cell import Cell
 from tictactoe.tools.utils.color import Color
 from tictactoe.config.constants import (
+    CELL_SPRITE_POSITION_MAP,
     FONT_DEFAULT_NAME,
     FONT_FIXED_DEFAULT_NAME,
     TOURNAMENTS_WARGAME, GAMES_TO_PLAY_WARGAME,
@@ -414,9 +415,11 @@ class Game:
                         self.turn_player.move_token(self.board, 0, 2)
                     if event.key == pg.K_F5:
                         self.show_fps = not self.show_fps
-                elif event.type == pg.MOUSEBUTTONDOWN:
-                    pass
-                self.mouse_pos = pg.mouse.get_pos()
+                elif not self.turn_player.is_computer_player and event.type == pg.MOUSEBUTTONDOWN:
+                    self.mouse_pos = pg.mouse.get_pos()
+                    for sprite in self.cell_sprites:
+                        if sprite.rect.collidepoint(self.mouse_pos):
+                            self.turn_player.move_token(self.board, *CELL_SPRITE_POSITION_MAP[sprite.name])
 
             if not self.turn_player.turn_played and self.turn_player.is_computer_player:
                 self.turn_player.update(self.board)

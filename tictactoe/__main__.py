@@ -1,6 +1,5 @@
 """Module __main__. Entry point."""
 __author__ = 'Joan A. Pinol  (japinol)'
-__version__ = '0.0.1'
 
 from argparse import ArgumentParser
 import gc

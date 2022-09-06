@@ -99,13 +99,13 @@ class Settings:
         cls.cell_height = 201.8
         cls.cells_pos_board = {
             (0, 0): (cls.board_base_x + 154, cls.board_base_y + 100),
-            (1, 0): (cls.board_base_x + 154 + 218, 145),
-            (2, 0): (cls.board_base_x + 154 + 436, 145),
-            (0, 1): (cls.board_base_x + 154, cls.board_base_y + 100 + 218.3),
+            (0, 1): (cls.board_base_x + 154 + 218, 145),
+            (0, 2): (cls.board_base_x + 154 + 436, 145),
+            (1, 0): (cls.board_base_x + 154, cls.board_base_y + 100 + 218.3),
             (1, 1): (cls.board_base_x + 154 + 218, cls.board_base_y + 100 + 218.3),
-            (2, 1): (cls.board_base_x + 154 + 436, cls.board_base_y + 100 + 218.3),
-            (0, 2): (cls.board_base_x + 154 + 0, cls.board_base_y + 100 + 438.2),
-            (1, 2): (cls.board_base_x + 154 + 218, cls.board_base_y + 100 + 438.2),
+            (1, 2): (cls.board_base_x + 154 + 436, cls.board_base_y + 100 + 218.3),
+            (2, 0): (cls.board_base_x + 154 + 0, cls.board_base_y + 100 + 438.2),
+            (2, 1): (cls.board_base_x + 154 + 218, cls.board_base_y + 100 + 438.2),
             (2, 2): (cls.board_base_x + 154 + 436, cls.board_base_y + 100 + 438.2),
         }
         cls.cell_size = CELL_DEFAULT_SIZE

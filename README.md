@@ -1,6 +1,6 @@
 ## Tic Tac Toe
     This version of the game is intended to be played in these three variations:
-       > Two players using the same keyboard.
+       > Two players using the same keyboard and mouse.
        > One player against the computer.
        > Two players controlled by the computer playing against each other.
     Note that: 
@@ -12,7 +12,7 @@
 
 	program: Tic Tac Toe.
     name as a package: tictactoe 
-	version: 0.0.1
+	version: 0.0.2
 	author: Joan A. Pinol
 	author_nickname: japinol
 	author_gitHub: japinol7
@@ -48,12 +48,13 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
 
 
 ## Keyboard keys
-       F1:    Show a help screen while playing the game
+       F1:    show a help screen while playing the game
        1-9:   set a token to the board at the corresponding position:
                 7 | 8 | 9
                 4 | 5 | 6
                 1 | 2 | 3
-       ESC: exit game
+    <mouse L> set a token to the board clicking on a square gray cell
+       ESC:   exit game
        ^m:    pause/resume music
        ^s:    sound effects on/off
        L_Alt + R_Alt + Enter: change full screen / windowed screen mode

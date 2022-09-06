@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='tictactoe',
     author='Joan A. Pinol  (japinol)',
-    version='0.0.1',
+    version='0.0.2',
     license='MIT',
     description="Tic Tac Toe",
     long_description="Tic Tac Toe",

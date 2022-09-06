@@ -25,8 +25,7 @@ class CellBase(ActorItem):
 class CellSprite(CellBase):
     """Represents a Sprite Cell."""
 
-    def __init__(self, x, y, game):
-        self.name = Cell.EMPTY.value
+    def __init__(self, x, y, game, name=None):
         self.file_mid_prefix = ''
         self.type = ActorType.CELL
-        super().__init__(x, y, game, name=self.name)
+        super().__init__(x, y, game, name=name)
