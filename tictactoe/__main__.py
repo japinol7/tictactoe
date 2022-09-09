@@ -17,7 +17,7 @@ from tictactoe.config.constants import (
 from tictactoe.game_entry_point import Game
 from tictactoe.validator.validator import InputValidator
 from tictactoe.tools.logger import logger
-from tictactoe.tools.logger.logger import log
+from tictactoe.tools.logger.logger import log, LOGGER_FORMAT, LOGGER_FORMAT_NO_DATE
 from tictactoe import screen
 
 
@@ -37,6 +37,10 @@ def main():
                         help=f"Tournaments to play. Must be between 1 and {TOURNAMENTS_MAX}")
     parser.add_argument('-l', '--multiplelogfiles', default=False, action='store_true',
                         help='A log file by app execution, instead of one unique log file')
+    parser.add_argument('-m', '--nostdoutlog', default=False, action='store_true',
+                        help='Logs will not be print to the console.')
+    parser.add_argument('-n', '--nologdatetime', default=False, action='store_true',
+                        help='Logs will not have date time.')
     parser.add_argument('-o', '--player1ai', default=False, action='store_true',
                         help='Player 1 will be controlled by the computer')
     parser.add_argument('-p', '--player2ai', default=False, action='store_true',
@@ -54,7 +58,9 @@ def main():
                         help='Show debug back traces information when something goes wrong')
     args = parser.parse_args()
 
-    logger.add_file_handler(args.multiplelogfiles)
+    logger_format = LOGGER_FORMAT_NO_DATE if args.nologdatetime else LOGGER_FORMAT
+    not args.nostdoutlog and logger.add_stdout_handler(logger_format)
+    logger.add_file_handler(args.multiplelogfiles, logger_format)
 
     tournaments = args.tournaments and int(args.tournaments) or 0
     games_to_play = args.gamestoplay and int(args.gamestoplay) or 0
@@ -75,7 +81,8 @@ def main():
         try:
             game = Game(is_debug=args.debug, is_player1_ai=args.player1ai, is_player2_ai=args.player2ai,
                         tournaments=tournaments, games_to_play=games_to_play,
-                        turn_max_secs=turn_max_secs, wargame_training=args.wargametraining, auto=auto)
+                        turn_max_secs=turn_max_secs, wargame_training=args.wargametraining,
+                        no_log_datetime=args.nologdatetime, auto=auto)
             Game.stats_gen.update({'games_played': Game.current_game})
             game.is_music_paused = is_music_paused
             screen_start_game = screen.StartGame(game)

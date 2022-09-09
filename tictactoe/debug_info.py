@@ -24,7 +24,7 @@ class DebugInfo:
 
     def print_debug_info(self):
         debug_dict = OrderedDict([
-            ('Time', str(datetime.now())),
+            ('Time', "No datetime" if self.game.no_log_datetime else str(datetime.now())),
             ('Full screen', self.game.is_full_screen_switch),
             ('------', '------'),
             ('Tournaments to play', self.game.stats_gen['tournaments_to_play']),

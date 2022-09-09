@@ -44,6 +44,7 @@ class Game:
     normal_screen_flags = None
     full_screen_flags = None
     wargame_training = False
+    no_log_datetime = False
     stats_gen = {
         'current_game': 0,
         'games_played': 0,
@@ -66,7 +67,7 @@ class Game:
 
     def __init__(self, is_debug=None, is_player1_ai=None, is_player2_ai=None,
                  tournaments=None, games_to_play=None, turn_max_secs=None,
-                 speed_pct=None, wargame_training=None, auto=None):
+                 speed_pct=None, wargame_training=None, no_log_datetime=None, auto=None):
         self.name = "Tic Tac Toe v 0.01"
         self.name_short = "Tic Tac Toe"
         self.name_long = "Tic Tac Toe"
@@ -120,6 +121,7 @@ class Game:
             log.info(LOG_START_APP_MSG)
             Game.wargame_training and log.info(LOG_WARGAME_START_MSG)
             # Calculate settings
+            Game.no_log_datetime = no_log_datetime
             Game.stats_gen['tournaments_to_play'] = tournaments
             Game.wargame_training = wargame_training
             pg_display_info = pg.display.Info()
