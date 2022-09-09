@@ -1,4 +1,5 @@
 No datetime | INFO | Start app tictactoe version: 0.0.2
+No datetime | INFO | App arguments: ['-t', '-a', '-o', '-p', '-n']
 No datetime | INFO | Create Player: 1 with Token: X. Class: ComputerPlayer
 No datetime | INFO | Create Player: 2 with Token: O. Class: ComputerPlayer
 No datetime | INFO | Create board for game: 1 of tournament: 1
@@ -53,59 +54,59 @@ Tournament Winner     -->
 -----------           -->	    ------
 Tournaments Winners   -->	          
 --------------------------------------------------------------
-No datetime | INFO | Player X sets token in pos: x: 1, y: 2
+No datetime | INFO | Player X sets token in pos: x: 1, y: 0
 No datetime | INFO | Board:
 · | · | ·
-· | · | X
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 2
-No datetime | INFO | Board:
-· | · | O
-· | · | X
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 0
-No datetime | INFO | Board:
-X | · | O
-· | · | X
+X | · | ·
 · | · | ·
 No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 0
+No datetime | INFO | Player O sets token in pos: x: 0, y: 0
 No datetime | INFO | Board:
-X | · | O
-O | · | X
+O | · | ·
+X | · | ·
 · | · | ·
 No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Player X sets token in pos: x: 0, y: 1
 No datetime | INFO | Board:
-X | X | O
-O | · | X
+O | X | ·
+X | · | ·
 · | · | ·
 No datetime | INFO | Waiting input from player: O
 No datetime | INFO | Player O sets token in pos: x: 1, y: 1
 No datetime | INFO | Board:
-X | X | O
-O | O | X
+O | X | ·
+X | O | ·
 · | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 2
+No datetime | INFO | Board:
+O | X | ·
+X | O | ·
+· | · | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 0, y: 2
+No datetime | INFO | Board:
+O | X | O
+X | O | ·
+· | · | X
 No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Player X sets token in pos: x: 2, y: 0
 No datetime | INFO | Board:
-X | X | O
-O | O | X
-X | · | ·
+O | X | O
+X | O | ·
+X | · | X
 No datetime | INFO | Waiting input from player: O
 No datetime | INFO | Player O sets token in pos: x: 2, y: 1
 No datetime | INFO | Board:
-X | X | O
-O | O | X
+O | X | O
 X | O | ·
+X | O | X
 No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 2
+No datetime | INFO | Player X sets token in pos: x: 1, y: 2
 No datetime | INFO | It's a draw
 No datetime | INFO | Board:
-X | X | O
-O | O | X
+O | X | O
+X | O | X
 X | O | X
 No datetime | INFO | Current game stats:
 Time                  -->	No datetime
@@ -159,60 +160,60 @@ No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-No datetime | INFO | Player X sets token in pos: x: 2, y: 0
+No datetime | INFO | Player X sets token in pos: x: 0, y: 1
 No datetime | INFO | Board:
+· | X | ·
 · | · | ·
 · | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 0, y: 0
+No datetime | INFO | Board:
+O | X | ·
+· | · | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 1, y: 0
+No datetime | INFO | Board:
+O | X | ·
 X | · | ·
+· | · | ·
 No datetime | INFO | Waiting input from player: O
 No datetime | INFO | Player O sets token in pos: x: 1, y: 1
 No datetime | INFO | Board:
+O | X | ·
+X | O | ·
 · | · | ·
-· | O | ·
-X | · | ·
 No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 0
+No datetime | INFO | Player X sets token in pos: x: 2, y: 2
 No datetime | INFO | Board:
-X | · | ·
-· | O | ·
-X | · | ·
+O | X | ·
+X | O | ·
+· | · | X
 No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 0
+No datetime | INFO | Player O sets token in pos: x: 0, y: 2
 No datetime | INFO | Board:
-X | · | ·
-O | O | ·
-X | · | ·
+O | X | O
+X | O | ·
+· | · | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 0
+No datetime | INFO | Board:
+O | X | O
+X | O | ·
+X | · | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 2, y: 1
+No datetime | INFO | Board:
+O | X | O
+X | O | ·
+X | O | X
 No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Player X sets token in pos: x: 1, y: 2
-No datetime | INFO | Board:
-X | · | ·
-O | O | X
-X | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 1
-No datetime | INFO | Board:
-X | O | ·
-O | O | X
-X | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 1
-No datetime | INFO | Board:
-X | O | ·
-O | O | X
-X | X | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 2, y: 2
-No datetime | INFO | Board:
-X | O | ·
-O | O | X
-X | X | O
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 2
 No datetime | INFO | It's a draw
 No datetime | INFO | Board:
+O | X | O
 X | O | X
-O | O | X
-X | X | O
+X | O | X
 No datetime | INFO | Current game stats:
 Time                  -->	No datetime
 Full screen           -->	     False
@@ -251,6 +252,112 @@ Tournament Winner     -->	         -
 Tournaments Winners   -->	         -
 --------------------------------------------------------------
 No datetime | INFO | Create board for game: 1 of tournament: 2
+· | · | ·
+· | · | ·
+· | · | ·
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+No datetime | INFO | Player X sets token in pos: x: 0, y: 0
+No datetime | INFO | Board:
+X | · | ·
+· | · | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 1
+No datetime | INFO | Board:
+X | · | ·
+· | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 1
+No datetime | INFO | Board:
+X | X | ·
+· | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 0, y: 2
+No datetime | INFO | Board:
+X | X | O
+· | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 0
+No datetime | INFO | Board:
+X | X | O
+· | O | ·
+X | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 0
+No datetime | INFO | Board:
+X | X | O
+O | O | ·
+X | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 1, y: 2
+No datetime | INFO | Board:
+X | X | O
+O | O | X
+X | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 2, y: 1
+No datetime | INFO | Board:
+X | X | O
+O | O | X
+X | O | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 2
+No datetime | INFO | It's a draw
+No datetime | INFO | Board:
+X | X | O
+O | O | X
+X | O | X
+No datetime | INFO | Current game stats:
+Time                  -->	No datetime
+Full screen           -->	     False
+------                -->	    ------
+Tournaments to play   -->	        10
+Games for tournament  -->	         2
+Turn max time in secs -->	        15
+-------               -->	    ------
+Current Tournament    -->	         2
+Current Game          -->	         1
+--------              -->	------------
+Player 1 Game stats for current tournament-->	          
+	* Token              -->	         X
+	* Computer Controlled-->	      True
+----                  -->	    ------
+	* Total Draws        -->	         3
+	* Total Games Played -->	         3
+	* Victories          -->	         0
+	* Defeats            -->	         0
+	* Draws              -->	         1
+	* Tournament Victories-->	         0
+---------             -->	------------
+Player 2 Game stats for current tournament-->	          
+	+ Token              -->	         O
+	+ Computer Controlled-->	      True
+---                   -->	    ------
+	+ Total Draws        -->	         3
+	+ Total Games Played -->	         3
+	+ Victories          -->	         0
+	+ Defeats            -->	         0
+	+ Draws              -->	         1
+	+ Tournament Victories-->	         0
+----------            -->	------------
+Tournament Winner     -->	          
+-----------           -->	    ------
+Tournaments Winners   -->	         -
+--------------------------------------------------------------
+No datetime | INFO | Create board for game: 2 of tournament: 2
 · | · | ·
 · | · | ·
 · | · | ·
@@ -328,35 +435,35 @@ Games for tournament  -->	         2
 Turn max time in secs -->	        15
 -------               -->	    ------
 Current Tournament    -->	         2
-Current Game          -->	         1
+Current Game          -->	         2
 --------              -->	------------
 Player 1 Game stats for current tournament-->	          
 	* Token              -->	         X
 	* Computer Controlled-->	      True
 ----                  -->	    ------
-	* Total Draws        -->	         3
-	* Total Games Played -->	         3
+	* Total Draws        -->	         4
+	* Total Games Played -->	         4
 	* Victories          -->	         0
 	* Defeats            -->	         0
-	* Draws              -->	         1
+	* Draws              -->	         2
 	* Tournament Victories-->	         0
 ---------             -->	------------
 Player 2 Game stats for current tournament-->	          
 	+ Token              -->	         O
 	+ Computer Controlled-->	      True
 ---                   -->	    ------
-	+ Total Draws        -->	         3
-	+ Total Games Played -->	         3
+	+ Total Draws        -->	         4
+	+ Total Games Played -->	         4
 	+ Victories          -->	         0
 	+ Defeats            -->	         0
-	+ Draws              -->	         1
+	+ Draws              -->	         2
 	+ Tournament Victories-->	         0
 ----------            -->	------------
-Tournament Winner     -->	          
+Tournament Winner     -->	         -
 -----------           -->	    ------
-Tournaments Winners   -->	         -
+Tournaments Winners   -->	        --
 --------------------------------------------------------------
-No datetime | INFO | Create board for game: 2 of tournament: 2
+No datetime | INFO | Create board for game: 1 of tournament: 3
 · | · | ·
 · | · | ·
 · | · | ·
@@ -425,112 +532,6 @@ No datetime | INFO | Board:
 X | O | X
 X | O | O
 O | X | X
-No datetime | INFO | Current game stats:
-Time                  -->	No datetime
-Full screen           -->	     False
-------                -->	    ------
-Tournaments to play   -->	        10
-Games for tournament  -->	         2
-Turn max time in secs -->	        15
--------               -->	    ------
-Current Tournament    -->	         2
-Current Game          -->	         2
---------              -->	------------
-Player 1 Game stats for current tournament-->	          
-	* Token              -->	         X
-	* Computer Controlled-->	      True
-----                  -->	    ------
-	* Total Draws        -->	         4
-	* Total Games Played -->	         4
-	* Victories          -->	         0
-	* Defeats            -->	         0
-	* Draws              -->	         2
-	* Tournament Victories-->	         0
----------             -->	------------
-Player 2 Game stats for current tournament-->	          
-	+ Token              -->	         O
-	+ Computer Controlled-->	      True
----                   -->	    ------
-	+ Total Draws        -->	         4
-	+ Total Games Played -->	         4
-	+ Victories          -->	         0
-	+ Defeats            -->	         0
-	+ Draws              -->	         2
-	+ Tournament Victories-->	         0
-----------            -->	------------
-Tournament Winner     -->	         -
------------           -->	    ------
-Tournaments Winners   -->	        --
---------------------------------------------------------------
-No datetime | INFO | Create board for game: 1 of tournament: 3
-· | · | ·
-· | · | ·
-· | · | ·
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-No datetime | INFO | Player X sets token in pos: x: 0, y: 1
-No datetime | INFO | Board:
-· | X | ·
-· | · | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 0
-No datetime | INFO | Board:
-O | X | ·
-· | · | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 1, y: 0
-No datetime | INFO | Board:
-O | X | ·
-X | · | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 1
-No datetime | INFO | Board:
-O | X | ·
-X | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 2
-No datetime | INFO | Board:
-O | X | ·
-X | O | ·
-· | · | X
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 2
-No datetime | INFO | Board:
-O | X | O
-X | O | ·
-· | · | X
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 0
-No datetime | INFO | Board:
-O | X | O
-X | O | ·
-X | · | X
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 2, y: 1
-No datetime | INFO | Board:
-O | X | O
-X | O | ·
-X | O | X
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 1, y: 2
-No datetime | INFO | It's a draw
-No datetime | INFO | Board:
-O | X | O
-X | O | X
-X | O | X
 No datetime | INFO | Current game stats:
 Time                  -->	No datetime
 Full screen           -->	     False
@@ -689,6 +690,642 @@ No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+No datetime | INFO | Player X sets token in pos: x: 0, y: 2
+No datetime | INFO | Board:
+· | · | X
+· | · | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 1
+No datetime | INFO | Board:
+· | · | X
+· | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 0
+No datetime | INFO | Board:
+X | · | X
+· | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 0, y: 1
+No datetime | INFO | Board:
+X | O | X
+· | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 1
+No datetime | INFO | Board:
+X | O | X
+· | O | ·
+· | X | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 0
+No datetime | INFO | Board:
+X | O | X
+O | O | ·
+· | X | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 1, y: 2
+No datetime | INFO | Board:
+X | O | X
+O | O | X
+· | X | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 2, y: 2
+No datetime | INFO | Board:
+X | O | X
+O | O | X
+· | X | O
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 0
+No datetime | INFO | It's a draw
+No datetime | INFO | Board:
+X | O | X
+O | O | X
+X | X | O
+No datetime | INFO | Current game stats:
+Time                  -->	No datetime
+Full screen           -->	     False
+------                -->	    ------
+Tournaments to play   -->	        10
+Games for tournament  -->	         2
+Turn max time in secs -->	        15
+-------               -->	    ------
+Current Tournament    -->	         4
+Current Game          -->	         1
+--------              -->	------------
+Player 1 Game stats for current tournament-->	          
+	* Token              -->	         X
+	* Computer Controlled-->	      True
+----                  -->	    ------
+	* Total Draws        -->	         7
+	* Total Games Played -->	         7
+	* Victories          -->	         0
+	* Defeats            -->	         0
+	* Draws              -->	         1
+	* Tournament Victories-->	         0
+---------             -->	------------
+Player 2 Game stats for current tournament-->	          
+	+ Token              -->	         O
+	+ Computer Controlled-->	      True
+---                   -->	    ------
+	+ Total Draws        -->	         7
+	+ Total Games Played -->	         7
+	+ Victories          -->	         0
+	+ Defeats            -->	         0
+	+ Draws              -->	         1
+	+ Tournament Victories-->	         0
+----------            -->	------------
+Tournament Winner     -->	          
+-----------           -->	    ------
+Tournaments Winners   -->	       ---
+--------------------------------------------------------------
+No datetime | INFO | Create board for game: 2 of tournament: 4
+· | · | ·
+· | · | ·
+· | · | ·
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+No datetime | INFO | Player X sets token in pos: x: 0, y: 2
+No datetime | INFO | Board:
+· | · | X
+· | · | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 1
+No datetime | INFO | Board:
+· | · | X
+· | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 0
+No datetime | INFO | Board:
+X | · | X
+· | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 0, y: 1
+No datetime | INFO | Board:
+X | O | X
+· | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 1
+No datetime | INFO | Board:
+X | O | X
+· | O | ·
+· | X | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 0
+No datetime | INFO | Board:
+X | O | X
+O | O | ·
+· | X | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 1, y: 2
+No datetime | INFO | Board:
+X | O | X
+O | O | X
+· | X | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 2, y: 2
+No datetime | INFO | Board:
+X | O | X
+O | O | X
+· | X | O
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 0
+No datetime | INFO | It's a draw
+No datetime | INFO | Board:
+X | O | X
+O | O | X
+X | X | O
+No datetime | INFO | Current game stats:
+Time                  -->	No datetime
+Full screen           -->	     False
+------                -->	    ------
+Tournaments to play   -->	        10
+Games for tournament  -->	         2
+Turn max time in secs -->	        15
+-------               -->	    ------
+Current Tournament    -->	         4
+Current Game          -->	         2
+--------              -->	------------
+Player 1 Game stats for current tournament-->	          
+	* Token              -->	         X
+	* Computer Controlled-->	      True
+----                  -->	    ------
+	* Total Draws        -->	         8
+	* Total Games Played -->	         8
+	* Victories          -->	         0
+	* Defeats            -->	         0
+	* Draws              -->	         2
+	* Tournament Victories-->	         0
+---------             -->	------------
+Player 2 Game stats for current tournament-->	          
+	+ Token              -->	         O
+	+ Computer Controlled-->	      True
+---                   -->	    ------
+	+ Total Draws        -->	         8
+	+ Total Games Played -->	         8
+	+ Victories          -->	         0
+	+ Defeats            -->	         0
+	+ Draws              -->	         2
+	+ Tournament Victories-->	         0
+----------            -->	------------
+Tournament Winner     -->	         -
+-----------           -->	    ------
+Tournaments Winners   -->	      ----
+--------------------------------------------------------------
+No datetime | INFO | Create board for game: 1 of tournament: 5
+· | · | ·
+· | · | ·
+· | · | ·
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+No datetime | INFO | Player X sets token in pos: x: 1, y: 0
+No datetime | INFO | Board:
+· | · | ·
+X | · | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 0, y: 0
+No datetime | INFO | Board:
+O | · | ·
+X | · | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 1
+No datetime | INFO | Board:
+O | X | ·
+X | · | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 1
+No datetime | INFO | Board:
+O | X | ·
+X | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 2
+No datetime | INFO | Board:
+O | X | ·
+X | O | ·
+· | · | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 0, y: 2
+No datetime | INFO | Board:
+O | X | O
+X | O | ·
+· | · | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 0
+No datetime | INFO | Board:
+O | X | O
+X | O | ·
+X | · | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 2, y: 1
+No datetime | INFO | Board:
+O | X | O
+X | O | ·
+X | O | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 1, y: 2
+No datetime | INFO | It's a draw
+No datetime | INFO | Board:
+O | X | O
+X | O | X
+X | O | X
+No datetime | INFO | Current game stats:
+Time                  -->	No datetime
+Full screen           -->	     False
+------                -->	    ------
+Tournaments to play   -->	        10
+Games for tournament  -->	         2
+Turn max time in secs -->	        15
+-------               -->	    ------
+Current Tournament    -->	         5
+Current Game          -->	         1
+--------              -->	------------
+Player 1 Game stats for current tournament-->	          
+	* Token              -->	         X
+	* Computer Controlled-->	      True
+----                  -->	    ------
+	* Total Draws        -->	         9
+	* Total Games Played -->	         9
+	* Victories          -->	         0
+	* Defeats            -->	         0
+	* Draws              -->	         1
+	* Tournament Victories-->	         0
+---------             -->	------------
+Player 2 Game stats for current tournament-->	          
+	+ Token              -->	         O
+	+ Computer Controlled-->	      True
+---                   -->	    ------
+	+ Total Draws        -->	         9
+	+ Total Games Played -->	         9
+	+ Victories          -->	         0
+	+ Defeats            -->	         0
+	+ Draws              -->	         1
+	+ Tournament Victories-->	         0
+----------            -->	------------
+Tournament Winner     -->	          
+-----------           -->	    ------
+Tournaments Winners   -->	      ----
+--------------------------------------------------------------
+No datetime | INFO | Create board for game: 2 of tournament: 5
+· | · | ·
+· | · | ·
+· | · | ·
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+No datetime | INFO | Player X sets token in pos: x: 0, y: 2
+No datetime | INFO | Board:
+· | · | X
+· | · | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 1
+No datetime | INFO | Board:
+· | · | X
+· | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 0
+No datetime | INFO | Board:
+X | · | X
+· | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 0, y: 1
+No datetime | INFO | Board:
+X | O | X
+· | O | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 1
+No datetime | INFO | Board:
+X | O | X
+· | O | ·
+· | X | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 0
+No datetime | INFO | Board:
+X | O | X
+O | O | ·
+· | X | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 1, y: 2
+No datetime | INFO | Board:
+X | O | X
+O | O | X
+· | X | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 2, y: 2
+No datetime | INFO | Board:
+X | O | X
+O | O | X
+· | X | O
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 0
+No datetime | INFO | It's a draw
+No datetime | INFO | Board:
+X | O | X
+O | O | X
+X | X | O
+No datetime | INFO | Current game stats:
+Time                  -->	No datetime
+Full screen           -->	     False
+------                -->	    ------
+Tournaments to play   -->	        10
+Games for tournament  -->	         2
+Turn max time in secs -->	        15
+-------               -->	    ------
+Current Tournament    -->	         5
+Current Game          -->	         2
+--------              -->	------------
+Player 1 Game stats for current tournament-->	          
+	* Token              -->	         X
+	* Computer Controlled-->	      True
+----                  -->	    ------
+	* Total Draws        -->	        10
+	* Total Games Played -->	        10
+	* Victories          -->	         0
+	* Defeats            -->	         0
+	* Draws              -->	         2
+	* Tournament Victories-->	         0
+---------             -->	------------
+Player 2 Game stats for current tournament-->	          
+	+ Token              -->	         O
+	+ Computer Controlled-->	      True
+---                   -->	    ------
+	+ Total Draws        -->	        10
+	+ Total Games Played -->	        10
+	+ Victories          -->	         0
+	+ Defeats            -->	         0
+	+ Draws              -->	         2
+	+ Tournament Victories-->	         0
+----------            -->	------------
+Tournament Winner     -->	         -
+-----------           -->	    ------
+Tournaments Winners   -->	     -----
+--------------------------------------------------------------
+No datetime | INFO | Create board for game: 1 of tournament: 6
+· | · | ·
+· | · | ·
+· | · | ·
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+No datetime | INFO | Player X sets token in pos: x: 2, y: 2
+No datetime | INFO | Board:
+· | · | ·
+· | · | ·
+· | · | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 1
+No datetime | INFO | Board:
+· | · | ·
+· | O | ·
+· | · | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 0
+No datetime | INFO | Board:
+X | · | ·
+· | O | ·
+· | · | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 0, y: 1
+No datetime | INFO | Board:
+X | O | ·
+· | O | ·
+· | · | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 1
+No datetime | INFO | Board:
+X | O | ·
+· | O | ·
+· | X | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 2, y: 0
+No datetime | INFO | Board:
+X | O | ·
+· | O | ·
+O | X | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 2
+No datetime | INFO | Board:
+X | O | X
+· | O | ·
+O | X | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 2
+No datetime | INFO | Board:
+X | O | X
+· | O | O
+O | X | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 1, y: 0
+No datetime | INFO | It's a draw
+No datetime | INFO | Board:
+X | O | X
+X | O | O
+O | X | X
+No datetime | INFO | Current game stats:
+Time                  -->	No datetime
+Full screen           -->	     False
+------                -->	    ------
+Tournaments to play   -->	        10
+Games for tournament  -->	         2
+Turn max time in secs -->	        15
+-------               -->	    ------
+Current Tournament    -->	         6
+Current Game          -->	         1
+--------              -->	------------
+Player 1 Game stats for current tournament-->	          
+	* Token              -->	         X
+	* Computer Controlled-->	      True
+----                  -->	    ------
+	* Total Draws        -->	        11
+	* Total Games Played -->	        11
+	* Victories          -->	         0
+	* Defeats            -->	         0
+	* Draws              -->	         1
+	* Tournament Victories-->	         0
+---------             -->	------------
+Player 2 Game stats for current tournament-->	          
+	+ Token              -->	         O
+	+ Computer Controlled-->	      True
+---                   -->	    ------
+	+ Total Draws        -->	        11
+	+ Total Games Played -->	        11
+	+ Victories          -->	         0
+	+ Defeats            -->	         0
+	+ Draws              -->	         1
+	+ Tournament Victories-->	         0
+----------            -->	------------
+Tournament Winner     -->	          
+-----------           -->	    ------
+Tournaments Winners   -->	     -----
+--------------------------------------------------------------
+No datetime | INFO | Create board for game: 2 of tournament: 6
+· | · | ·
+· | · | ·
+· | · | ·
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+No datetime | INFO | Player X sets token in pos: x: 2, y: 2
+No datetime | INFO | Board:
+· | · | ·
+· | · | ·
+· | · | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 1
+No datetime | INFO | Board:
+· | · | ·
+· | O | ·
+· | · | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 0
+No datetime | INFO | Board:
+X | · | ·
+· | O | ·
+· | · | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 0, y: 1
+No datetime | INFO | Board:
+X | O | ·
+· | O | ·
+· | · | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 1
+No datetime | INFO | Board:
+X | O | ·
+· | O | ·
+· | X | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 2, y: 0
+No datetime | INFO | Board:
+X | O | ·
+· | O | ·
+O | X | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 2
+No datetime | INFO | Board:
+X | O | X
+· | O | ·
+O | X | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 2
+No datetime | INFO | Board:
+X | O | X
+· | O | O
+O | X | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 1, y: 0
+No datetime | INFO | It's a draw
+No datetime | INFO | Board:
+X | O | X
+X | O | O
+O | X | X
+No datetime | INFO | Current game stats:
+Time                  -->	No datetime
+Full screen           -->	     False
+------                -->	    ------
+Tournaments to play   -->	        10
+Games for tournament  -->	         2
+Turn max time in secs -->	        15
+-------               -->	    ------
+Current Tournament    -->	         6
+Current Game          -->	         2
+--------              -->	------------
+Player 1 Game stats for current tournament-->	          
+	* Token              -->	         X
+	* Computer Controlled-->	      True
+----                  -->	    ------
+	* Total Draws        -->	        12
+	* Total Games Played -->	        12
+	* Victories          -->	         0
+	* Defeats            -->	         0
+	* Draws              -->	         2
+	* Tournament Victories-->	         0
+---------             -->	------------
+Player 2 Game stats for current tournament-->	          
+	+ Token              -->	         O
+	+ Computer Controlled-->	      True
+---                   -->	    ------
+	+ Total Draws        -->	        12
+	+ Total Games Played -->	        12
+	+ Victories          -->	         0
+	+ Defeats            -->	         0
+	+ Draws              -->	         2
+	+ Tournament Victories-->	         0
+----------            -->	------------
+Tournament Winner     -->	         -
+-----------           -->	    ------
+Tournaments Winners   -->	    ------
+--------------------------------------------------------------
+No datetime | INFO | Create board for game: 1 of tournament: 7
+· | · | ·
+· | · | ·
+· | · | ·
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Create actor of type: ActorType.CELL
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
 No datetime | INFO | Player X sets token in pos: x: 2, y: 0
 No datetime | INFO | Board:
 · | · | ·
@@ -751,15 +1388,15 @@ Tournaments to play   -->	        10
 Games for tournament  -->	         2
 Turn max time in secs -->	        15
 -------               -->	    ------
-Current Tournament    -->	         4
+Current Tournament    -->	         7
 Current Game          -->	         1
 --------              -->	------------
 Player 1 Game stats for current tournament-->	          
 	* Token              -->	         X
 	* Computer Controlled-->	      True
 ----                  -->	    ------
-	* Total Draws        -->	         7
-	* Total Games Played -->	         7
+	* Total Draws        -->	        13
+	* Total Games Played -->	        13
 	* Victories          -->	         0
 	* Defeats            -->	         0
 	* Draws              -->	         1
@@ -769,8 +1406,8 @@ Player 2 Game stats for current tournament-->
 	+ Token              -->	         O
 	+ Computer Controlled-->	      True
 ---                   -->	    ------
-	+ Total Draws        -->	         7
-	+ Total Games Played -->	         7
+	+ Total Draws        -->	        13
+	+ Total Games Played -->	        13
 	+ Victories          -->	         0
 	+ Defeats            -->	         0
 	+ Draws              -->	         1
@@ -778,9 +1415,9 @@ Player 2 Game stats for current tournament-->
 ----------            -->	------------
 Tournament Winner     -->	          
 -----------           -->	    ------
-Tournaments Winners   -->	       ---
+Tournaments Winners   -->	    ------
 --------------------------------------------------------------
-No datetime | INFO | Create board for game: 2 of tournament: 4
+No datetime | INFO | Create board for game: 2 of tournament: 7
 · | · | ·
 · | · | ·
 · | · | ·
@@ -795,60 +1432,60 @@ No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-No datetime | INFO | Player X sets token in pos: x: 0, y: 0
+No datetime | INFO | Player X sets token in pos: x: 2, y: 2
 No datetime | INFO | Board:
-X | · | ·
 · | · | ·
 · | · | ·
+· | · | X
 No datetime | INFO | Waiting input from player: O
 No datetime | INFO | Player O sets token in pos: x: 1, y: 1
 No datetime | INFO | Board:
-X | · | ·
-· | O | ·
 · | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 1
-No datetime | INFO | Board:
-X | X | ·
 · | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 2
-No datetime | INFO | Board:
-X | X | O
-· | O | ·
-· | · | ·
+· | · | X
 No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 0
+No datetime | INFO | Player X sets token in pos: x: 0, y: 0
 No datetime | INFO | Board:
-X | X | O
+X | · | ·
 · | O | ·
-X | · | ·
+· | · | X
 No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 0
+No datetime | INFO | Player O sets token in pos: x: 0, y: 1
 No datetime | INFO | Board:
-X | X | O
-O | O | ·
-X | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 1, y: 2
-No datetime | INFO | Board:
-X | X | O
-O | O | X
-X | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 2, y: 1
-No datetime | INFO | Board:
-X | X | O
-O | O | X
 X | O | ·
+· | O | ·
+· | · | X
 No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 2
+No datetime | INFO | Player X sets token in pos: x: 2, y: 1
+No datetime | INFO | Board:
+X | O | ·
+· | O | ·
+· | X | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 2, y: 0
+No datetime | INFO | Board:
+X | O | ·
+· | O | ·
+O | X | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 2
+No datetime | INFO | Board:
+X | O | X
+· | O | ·
+O | X | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 2
+No datetime | INFO | Board:
+X | O | X
+· | O | O
+O | X | X
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 1, y: 0
 No datetime | INFO | It's a draw
 No datetime | INFO | Board:
-X | X | O
-O | O | X
 X | O | X
+X | O | O
+O | X | X
 No datetime | INFO | Current game stats:
 Time                  -->	No datetime
 Full screen           -->	     False
@@ -857,15 +1494,15 @@ Tournaments to play   -->	        10
 Games for tournament  -->	         2
 Turn max time in secs -->	        15
 -------               -->	    ------
-Current Tournament    -->	         4
+Current Tournament    -->	         7
 Current Game          -->	         2
 --------              -->	------------
 Player 1 Game stats for current tournament-->	          
 	* Token              -->	         X
 	* Computer Controlled-->	      True
 ----                  -->	    ------
-	* Total Draws        -->	         8
-	* Total Games Played -->	         8
+	* Total Draws        -->	        14
+	* Total Games Played -->	        14
 	* Victories          -->	         0
 	* Defeats            -->	         0
 	* Draws              -->	         2
@@ -875,8 +1512,8 @@ Player 2 Game stats for current tournament-->
 	+ Token              -->	         O
 	+ Computer Controlled-->	      True
 ---                   -->	    ------
-	+ Total Draws        -->	         8
-	+ Total Games Played -->	         8
+	+ Total Draws        -->	        14
+	+ Total Games Played -->	        14
 	+ Victories          -->	         0
 	+ Defeats            -->	         0
 	+ Draws              -->	         2
@@ -884,115 +1521,9 @@ Player 2 Game stats for current tournament-->
 ----------            -->	------------
 Tournament Winner     -->	         -
 -----------           -->	    ------
-Tournaments Winners   -->	      ----
+Tournaments Winners   -->	   -------
 --------------------------------------------------------------
-No datetime | INFO | Create board for game: 1 of tournament: 5
-· | · | ·
-· | · | ·
-· | · | ·
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-No datetime | INFO | Player X sets token in pos: x: 0, y: 0
-No datetime | INFO | Board:
-X | · | ·
-· | · | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 1
-No datetime | INFO | Board:
-X | · | ·
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 1
-No datetime | INFO | Board:
-X | X | ·
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 2
-No datetime | INFO | Board:
-X | X | O
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 0
-No datetime | INFO | Board:
-X | X | O
-· | O | ·
-X | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 0
-No datetime | INFO | Board:
-X | X | O
-O | O | ·
-X | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 1, y: 2
-No datetime | INFO | Board:
-X | X | O
-O | O | X
-X | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 2, y: 1
-No datetime | INFO | Board:
-X | X | O
-O | O | X
-X | O | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 2
-No datetime | INFO | It's a draw
-No datetime | INFO | Board:
-X | X | O
-O | O | X
-X | O | X
-No datetime | INFO | Current game stats:
-Time                  -->	No datetime
-Full screen           -->	     False
-------                -->	    ------
-Tournaments to play   -->	        10
-Games for tournament  -->	         2
-Turn max time in secs -->	        15
--------               -->	    ------
-Current Tournament    -->	         5
-Current Game          -->	         1
---------              -->	------------
-Player 1 Game stats for current tournament-->	          
-	* Token              -->	         X
-	* Computer Controlled-->	      True
-----                  -->	    ------
-	* Total Draws        -->	         9
-	* Total Games Played -->	         9
-	* Victories          -->	         0
-	* Defeats            -->	         0
-	* Draws              -->	         1
-	* Tournament Victories-->	         0
----------             -->	------------
-Player 2 Game stats for current tournament-->	          
-	+ Token              -->	         O
-	+ Computer Controlled-->	      True
----                   -->	    ------
-	+ Total Draws        -->	         9
-	+ Total Games Played -->	         9
-	+ Victories          -->	         0
-	+ Defeats            -->	         0
-	+ Draws              -->	         1
-	+ Tournament Victories-->	         0
-----------            -->	------------
-Tournament Winner     -->	          
------------           -->	    ------
-Tournaments Winners   -->	      ----
---------------------------------------------------------------
-No datetime | INFO | Create board for game: 2 of tournament: 5
+No datetime | INFO | Create board for game: 1 of tournament: 8
 · | · | ·
 · | · | ·
 · | · | ·
@@ -1069,536 +1600,6 @@ Tournaments to play   -->	        10
 Games for tournament  -->	         2
 Turn max time in secs -->	        15
 -------               -->	    ------
-Current Tournament    -->	         5
-Current Game          -->	         2
---------              -->	------------
-Player 1 Game stats for current tournament-->	          
-	* Token              -->	         X
-	* Computer Controlled-->	      True
-----                  -->	    ------
-	* Total Draws        -->	        10
-	* Total Games Played -->	        10
-	* Victories          -->	         0
-	* Defeats            -->	         0
-	* Draws              -->	         2
-	* Tournament Victories-->	         0
----------             -->	------------
-Player 2 Game stats for current tournament-->	          
-	+ Token              -->	         O
-	+ Computer Controlled-->	      True
----                   -->	    ------
-	+ Total Draws        -->	        10
-	+ Total Games Played -->	        10
-	+ Victories          -->	         0
-	+ Defeats            -->	         0
-	+ Draws              -->	         2
-	+ Tournament Victories-->	         0
-----------            -->	------------
-Tournament Winner     -->	         -
------------           -->	    ------
-Tournaments Winners   -->	     -----
---------------------------------------------------------------
-No datetime | INFO | Create board for game: 1 of tournament: 6
-· | · | ·
-· | · | ·
-· | · | ·
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-No datetime | INFO | Player X sets token in pos: x: 2, y: 0
-No datetime | INFO | Board:
-· | · | ·
-· | · | ·
-X | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 1
-No datetime | INFO | Board:
-· | · | ·
-· | O | ·
-X | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 0
-No datetime | INFO | Board:
-X | · | ·
-· | O | ·
-X | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 0
-No datetime | INFO | Board:
-X | · | ·
-O | O | ·
-X | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 1, y: 2
-No datetime | INFO | Board:
-X | · | ·
-O | O | X
-X | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 1
-No datetime | INFO | Board:
-X | O | ·
-O | O | X
-X | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 1
-No datetime | INFO | Board:
-X | O | ·
-O | O | X
-X | X | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 2, y: 2
-No datetime | INFO | Board:
-X | O | ·
-O | O | X
-X | X | O
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 2
-No datetime | INFO | It's a draw
-No datetime | INFO | Board:
-X | O | X
-O | O | X
-X | X | O
-No datetime | INFO | Current game stats:
-Time                  -->	No datetime
-Full screen           -->	     False
-------                -->	    ------
-Tournaments to play   -->	        10
-Games for tournament  -->	         2
-Turn max time in secs -->	        15
--------               -->	    ------
-Current Tournament    -->	         6
-Current Game          -->	         1
---------              -->	------------
-Player 1 Game stats for current tournament-->	          
-	* Token              -->	         X
-	* Computer Controlled-->	      True
-----                  -->	    ------
-	* Total Draws        -->	        11
-	* Total Games Played -->	        11
-	* Victories          -->	         0
-	* Defeats            -->	         0
-	* Draws              -->	         1
-	* Tournament Victories-->	         0
----------             -->	------------
-Player 2 Game stats for current tournament-->	          
-	+ Token              -->	         O
-	+ Computer Controlled-->	      True
----                   -->	    ------
-	+ Total Draws        -->	        11
-	+ Total Games Played -->	        11
-	+ Victories          -->	         0
-	+ Defeats            -->	         0
-	+ Draws              -->	         1
-	+ Tournament Victories-->	         0
-----------            -->	------------
-Tournament Winner     -->	          
------------           -->	    ------
-Tournaments Winners   -->	     -----
---------------------------------------------------------------
-No datetime | INFO | Create board for game: 2 of tournament: 6
-· | · | ·
-· | · | ·
-· | · | ·
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-No datetime | INFO | Player X sets token in pos: x: 0, y: 2
-No datetime | INFO | Board:
-· | · | X
-· | · | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 1
-No datetime | INFO | Board:
-· | · | X
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 0
-No datetime | INFO | Board:
-X | · | X
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 1
-No datetime | INFO | Board:
-X | O | X
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 1
-No datetime | INFO | Board:
-X | O | X
-· | O | ·
-· | X | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 0
-No datetime | INFO | Board:
-X | O | X
-O | O | ·
-· | X | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 1, y: 2
-No datetime | INFO | Board:
-X | O | X
-O | O | X
-· | X | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 2, y: 2
-No datetime | INFO | Board:
-X | O | X
-O | O | X
-· | X | O
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 0
-No datetime | INFO | It's a draw
-No datetime | INFO | Board:
-X | O | X
-O | O | X
-X | X | O
-No datetime | INFO | Current game stats:
-Time                  -->	No datetime
-Full screen           -->	     False
-------                -->	    ------
-Tournaments to play   -->	        10
-Games for tournament  -->	         2
-Turn max time in secs -->	        15
--------               -->	    ------
-Current Tournament    -->	         6
-Current Game          -->	         2
---------              -->	------------
-Player 1 Game stats for current tournament-->	          
-	* Token              -->	         X
-	* Computer Controlled-->	      True
-----                  -->	    ------
-	* Total Draws        -->	        12
-	* Total Games Played -->	        12
-	* Victories          -->	         0
-	* Defeats            -->	         0
-	* Draws              -->	         2
-	* Tournament Victories-->	         0
----------             -->	------------
-Player 2 Game stats for current tournament-->	          
-	+ Token              -->	         O
-	+ Computer Controlled-->	      True
----                   -->	    ------
-	+ Total Draws        -->	        12
-	+ Total Games Played -->	        12
-	+ Victories          -->	         0
-	+ Defeats            -->	         0
-	+ Draws              -->	         2
-	+ Tournament Victories-->	         0
-----------            -->	------------
-Tournament Winner     -->	         -
------------           -->	    ------
-Tournaments Winners   -->	    ------
---------------------------------------------------------------
-No datetime | INFO | Create board for game: 1 of tournament: 7
-· | · | ·
-· | · | ·
-· | · | ·
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-No datetime | INFO | Player X sets token in pos: x: 0, y: 2
-No datetime | INFO | Board:
-· | · | X
-· | · | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 1
-No datetime | INFO | Board:
-· | · | X
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 0
-No datetime | INFO | Board:
-X | · | X
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 1
-No datetime | INFO | Board:
-X | O | X
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 1
-No datetime | INFO | Board:
-X | O | X
-· | O | ·
-· | X | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 0
-No datetime | INFO | Board:
-X | O | X
-O | O | ·
-· | X | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 1, y: 2
-No datetime | INFO | Board:
-X | O | X
-O | O | X
-· | X | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 2, y: 2
-No datetime | INFO | Board:
-X | O | X
-O | O | X
-· | X | O
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 0
-No datetime | INFO | It's a draw
-No datetime | INFO | Board:
-X | O | X
-O | O | X
-X | X | O
-No datetime | INFO | Current game stats:
-Time                  -->	No datetime
-Full screen           -->	     False
-------                -->	    ------
-Tournaments to play   -->	        10
-Games for tournament  -->	         2
-Turn max time in secs -->	        15
--------               -->	    ------
-Current Tournament    -->	         7
-Current Game          -->	         1
---------              -->	------------
-Player 1 Game stats for current tournament-->	          
-	* Token              -->	         X
-	* Computer Controlled-->	      True
-----                  -->	    ------
-	* Total Draws        -->	        13
-	* Total Games Played -->	        13
-	* Victories          -->	         0
-	* Defeats            -->	         0
-	* Draws              -->	         1
-	* Tournament Victories-->	         0
----------             -->	------------
-Player 2 Game stats for current tournament-->	          
-	+ Token              -->	         O
-	+ Computer Controlled-->	      True
----                   -->	    ------
-	+ Total Draws        -->	        13
-	+ Total Games Played -->	        13
-	+ Victories          -->	         0
-	+ Defeats            -->	         0
-	+ Draws              -->	         1
-	+ Tournament Victories-->	         0
-----------            -->	------------
-Tournament Winner     -->	          
------------           -->	    ------
-Tournaments Winners   -->	    ------
---------------------------------------------------------------
-No datetime | INFO | Create board for game: 2 of tournament: 7
-· | · | ·
-· | · | ·
-· | · | ·
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-No datetime | INFO | Player X sets token in pos: x: 1, y: 2
-No datetime | INFO | Board:
-· | · | ·
-· | · | X
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 2
-No datetime | INFO | Board:
-· | · | O
-· | · | X
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 0
-No datetime | INFO | Board:
-X | · | O
-· | · | X
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 0
-No datetime | INFO | Board:
-X | · | O
-O | · | X
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 1
-No datetime | INFO | Board:
-X | X | O
-O | · | X
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 1
-No datetime | INFO | Board:
-X | X | O
-O | O | X
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 0
-No datetime | INFO | Board:
-X | X | O
-O | O | X
-X | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 2, y: 1
-No datetime | INFO | Board:
-X | X | O
-O | O | X
-X | O | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 2
-No datetime | INFO | It's a draw
-No datetime | INFO | Board:
-X | X | O
-O | O | X
-X | O | X
-No datetime | INFO | Current game stats:
-Time                  -->	No datetime
-Full screen           -->	     False
-------                -->	    ------
-Tournaments to play   -->	        10
-Games for tournament  -->	         2
-Turn max time in secs -->	        15
--------               -->	    ------
-Current Tournament    -->	         7
-Current Game          -->	         2
---------              -->	------------
-Player 1 Game stats for current tournament-->	          
-	* Token              -->	         X
-	* Computer Controlled-->	      True
-----                  -->	    ------
-	* Total Draws        -->	        14
-	* Total Games Played -->	        14
-	* Victories          -->	         0
-	* Defeats            -->	         0
-	* Draws              -->	         2
-	* Tournament Victories-->	         0
----------             -->	------------
-Player 2 Game stats for current tournament-->	          
-	+ Token              -->	         O
-	+ Computer Controlled-->	      True
----                   -->	    ------
-	+ Total Draws        -->	        14
-	+ Total Games Played -->	        14
-	+ Victories          -->	         0
-	+ Defeats            -->	         0
-	+ Draws              -->	         2
-	+ Tournament Victories-->	         0
-----------            -->	------------
-Tournament Winner     -->	         -
------------           -->	    ------
-Tournaments Winners   -->	   -------
---------------------------------------------------------------
-No datetime | INFO | Create board for game: 1 of tournament: 8
-· | · | ·
-· | · | ·
-· | · | ·
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Create actor of type: ActorType.CELL
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-No datetime | INFO | Player X sets token in pos: x: 2, y: 2
-No datetime | INFO | Board:
-· | · | ·
-· | · | ·
-· | · | X
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 1
-No datetime | INFO | Board:
-· | · | ·
-· | O | ·
-· | · | X
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 0
-No datetime | INFO | Board:
-X | · | ·
-· | O | ·
-· | · | X
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 1
-No datetime | INFO | Board:
-X | O | ·
-· | O | ·
-· | · | X
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 1
-No datetime | INFO | Board:
-X | O | ·
-· | O | ·
-· | X | X
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 2, y: 0
-No datetime | INFO | Board:
-X | O | ·
-· | O | ·
-O | X | X
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 2
-No datetime | INFO | Board:
-X | O | X
-· | O | ·
-O | X | X
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 2
-No datetime | INFO | Board:
-X | O | X
-· | O | O
-O | X | X
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 1, y: 0
-No datetime | INFO | It's a draw
-No datetime | INFO | Board:
-X | O | X
-X | O | O
-O | X | X
-No datetime | INFO | Current game stats:
-Time                  -->	No datetime
-Full screen           -->	     False
-------                -->	    ------
-Tournaments to play   -->	        10
-Games for tournament  -->	         2
-Turn max time in secs -->	        15
--------               -->	    ------
 Current Tournament    -->	         8
 Current Game          -->	         1
 --------              -->	------------
@@ -1643,60 +1644,60 @@ No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
+No datetime | INFO | Player X sets token in pos: x: 1, y: 1
+No datetime | INFO | Board:
+· | · | ·
+· | X | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 0, y: 0
+No datetime | INFO | Board:
+O | · | ·
+· | X | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 1
+No datetime | INFO | Board:
+O | X | ·
+· | X | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 2, y: 1
+No datetime | INFO | Board:
+O | X | ·
+· | X | ·
+· | O | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 1, y: 0
+No datetime | INFO | Board:
+O | X | ·
+X | X | ·
+· | O | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 2
+No datetime | INFO | Board:
+O | X | ·
+X | X | O
+· | O | ·
+No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Player X sets token in pos: x: 0, y: 2
 No datetime | INFO | Board:
-· | · | X
-· | · | ·
-· | · | ·
+O | X | X
+X | X | O
+· | O | ·
 No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 1
+No datetime | INFO | Player O sets token in pos: x: 2, y: 0
 No datetime | INFO | Board:
-· | · | X
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 0
-No datetime | INFO | Board:
-X | · | X
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 1
-No datetime | INFO | Board:
-X | O | X
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 1
-No datetime | INFO | Board:
-X | O | X
-· | O | ·
-· | X | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 0
-No datetime | INFO | Board:
-X | O | X
+O | X | X
+X | X | O
 O | O | ·
-· | X | ·
 No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 1, y: 2
-No datetime | INFO | Board:
-X | O | X
-O | O | X
-· | X | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 2, y: 2
-No datetime | INFO | Board:
-X | O | X
-O | O | X
-· | X | O
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 0
+No datetime | INFO | Player X sets token in pos: x: 2, y: 2
 No datetime | INFO | It's a draw
 No datetime | INFO | Board:
-X | O | X
-O | O | X
+O | X | X
 X | X | O
+O | O | X
 No datetime | INFO | Current game stats:
 Time                  -->	No datetime
 Full screen           -->	     False
@@ -1749,60 +1750,60 @@ No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-No datetime | INFO | Player X sets token in pos: x: 2, y: 2
+No datetime | INFO | Player X sets token in pos: x: 0, y: 1
 No datetime | INFO | Board:
+· | X | ·
 · | · | ·
 · | · | ·
-· | · | X
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 0, y: 0
+No datetime | INFO | Board:
+O | X | ·
+· | · | ·
+· | · | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 1, y: 0
+No datetime | INFO | Board:
+O | X | ·
+X | · | ·
+· | · | ·
 No datetime | INFO | Waiting input from player: O
 No datetime | INFO | Player O sets token in pos: x: 1, y: 1
 No datetime | INFO | Board:
+O | X | ·
+X | O | ·
 · | · | ·
-· | O | ·
-· | · | X
 No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 0
+No datetime | INFO | Player X sets token in pos: x: 2, y: 2
 No datetime | INFO | Board:
-X | · | ·
-· | O | ·
+O | X | ·
+X | O | ·
 · | · | X
 No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 1
+No datetime | INFO | Player O sets token in pos: x: 0, y: 2
 No datetime | INFO | Board:
+O | X | O
 X | O | ·
-· | O | ·
 · | · | X
 No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 1
+No datetime | INFO | Player X sets token in pos: x: 2, y: 0
 No datetime | INFO | Board:
+O | X | O
 X | O | ·
-· | O | ·
-· | X | X
+X | · | X
 No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 2, y: 0
+No datetime | INFO | Player O sets token in pos: x: 2, y: 1
 No datetime | INFO | Board:
+O | X | O
 X | O | ·
-· | O | ·
-O | X | X
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 2
-No datetime | INFO | Board:
 X | O | X
-· | O | ·
-O | X | X
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 2
-No datetime | INFO | Board:
-X | O | X
-· | O | O
-O | X | X
 No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 1, y: 0
+No datetime | INFO | Player X sets token in pos: x: 1, y: 2
 No datetime | INFO | It's a draw
 No datetime | INFO | Board:
+O | X | O
 X | O | X
-X | O | O
-O | X | X
+X | O | X
 No datetime | INFO | Current game stats:
 Time                  -->	No datetime
 Full screen           -->	     False
@@ -1961,60 +1962,60 @@ No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-No datetime | INFO | Player X sets token in pos: x: 0, y: 0
+No datetime | INFO | Player X sets token in pos: x: 2, y: 0
 No datetime | INFO | Board:
+· | · | ·
+· | · | ·
 X | · | ·
-· | · | ·
-· | · | ·
 No datetime | INFO | Waiting input from player: O
 No datetime | INFO | Player O sets token in pos: x: 1, y: 1
 No datetime | INFO | Board:
+· | · | ·
+· | O | ·
 X | · | ·
-· | O | ·
-· | · | ·
 No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 0, y: 1
+No datetime | INFO | Player X sets token in pos: x: 0, y: 0
 No datetime | INFO | Board:
-X | X | ·
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 2
-No datetime | INFO | Board:
-X | X | O
-· | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 0
-No datetime | INFO | Board:
-X | X | O
+X | · | ·
 · | O | ·
 X | · | ·
 No datetime | INFO | Waiting input from player: O
 No datetime | INFO | Player O sets token in pos: x: 1, y: 0
 No datetime | INFO | Board:
-X | X | O
+X | · | ·
 O | O | ·
 X | · | ·
 No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Player X sets token in pos: x: 1, y: 2
 No datetime | INFO | Board:
-X | X | O
+X | · | ·
 O | O | X
 X | · | ·
 No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 2, y: 1
+No datetime | INFO | Player O sets token in pos: x: 0, y: 1
 No datetime | INFO | Board:
-X | X | O
-O | O | X
 X | O | ·
+O | O | X
+X | · | ·
 No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 2
+No datetime | INFO | Player X sets token in pos: x: 2, y: 1
+No datetime | INFO | Board:
+X | O | ·
+O | O | X
+X | X | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 2, y: 2
+No datetime | INFO | Board:
+X | O | ·
+O | O | X
+X | X | O
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 2
 No datetime | INFO | It's a draw
 No datetime | INFO | Board:
-X | X | O
-O | O | X
 X | O | X
+O | O | X
+X | X | O
 No datetime | INFO | Current game stats:
 Time                  -->	No datetime
 Full screen           -->	     False
@@ -2067,60 +2068,60 @@ No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Create actor of type: ActorType.CELL
 No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Create actor of type: ActorType.CLOCK_TIMER_A
-No datetime | INFO | Player X sets token in pos: x: 1, y: 0
+No datetime | INFO | Player X sets token in pos: x: 1, y: 1
 No datetime | INFO | Board:
 · | · | ·
-X | · | ·
+· | X | ·
 · | · | ·
 No datetime | INFO | Waiting input from player: O
 No datetime | INFO | Player O sets token in pos: x: 0, y: 0
 No datetime | INFO | Board:
 O | · | ·
-X | · | ·
+· | X | ·
 · | · | ·
 No datetime | INFO | Waiting input from player: X
 No datetime | INFO | Player X sets token in pos: x: 0, y: 1
 No datetime | INFO | Board:
 O | X | ·
-X | · | ·
+· | X | ·
 · | · | ·
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 1, y: 1
-No datetime | INFO | Board:
-O | X | ·
-X | O | ·
-· | · | ·
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 2
-No datetime | INFO | Board:
-O | X | ·
-X | O | ·
-· | · | X
-No datetime | INFO | Waiting input from player: O
-No datetime | INFO | Player O sets token in pos: x: 0, y: 2
-No datetime | INFO | Board:
-O | X | O
-X | O | ·
-· | · | X
-No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 2, y: 0
-No datetime | INFO | Board:
-O | X | O
-X | O | ·
-X | · | X
 No datetime | INFO | Waiting input from player: O
 No datetime | INFO | Player O sets token in pos: x: 2, y: 1
 No datetime | INFO | Board:
-O | X | O
-X | O | ·
-X | O | X
+O | X | ·
+· | X | ·
+· | O | ·
 No datetime | INFO | Waiting input from player: X
-No datetime | INFO | Player X sets token in pos: x: 1, y: 2
+No datetime | INFO | Player X sets token in pos: x: 1, y: 0
+No datetime | INFO | Board:
+O | X | ·
+X | X | ·
+· | O | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 1, y: 2
+No datetime | INFO | Board:
+O | X | ·
+X | X | O
+· | O | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 0, y: 2
+No datetime | INFO | Board:
+O | X | X
+X | X | O
+· | O | ·
+No datetime | INFO | Waiting input from player: O
+No datetime | INFO | Player O sets token in pos: x: 2, y: 0
+No datetime | INFO | Board:
+O | X | X
+X | X | O
+O | O | ·
+No datetime | INFO | Waiting input from player: X
+No datetime | INFO | Player X sets token in pos: x: 2, y: 2
 No datetime | INFO | It's a draw
 No datetime | INFO | Board:
-O | X | O
-X | O | X
-X | O | X
+O | X | X
+X | X | O
+O | O | X
 No datetime | INFO | Current game stats:
 Time                  -->	No datetime
 Full screen           -->	     False

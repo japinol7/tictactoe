@@ -17,8 +17,6 @@ from tictactoe.config.constants import (
     FONT_FIXED_DEFAULT_NAME,
     TOURNAMENTS_WARGAME, GAMES_TO_PLAY_WARGAME,
     LOG_WARGAME_START_MSG, LOG_WARGAME_END_MSG,
-    LOG_START_APP_MSG,
-    LOG_END_APP_MSG,
     )
 from tictactoe.debug_info import DebugInfo
 from tictactoe.help_info import HelpInfo
@@ -118,7 +116,6 @@ class Game:
             Game.is_first_game = False
 
         if Game.is_first_game:
-            log.info(LOG_START_APP_MSG)
             Game.wargame_training and log.info(LOG_WARGAME_START_MSG)
             # Calculate settings
             Game.no_log_datetime = no_log_datetime
@@ -208,7 +205,6 @@ class Game:
                 Game.wargame_training and log.info(LOG_WARGAME_END_MSG)
             else:
                 log.info(f"Winner of this Tic Tac Toe campaign: None. No tournaments played to the end.")
-            log.info(LOG_END_APP_MSG)
         Game.is_exit_game = is_exit_game
 
     def clock_in_game_trigger_method(self):

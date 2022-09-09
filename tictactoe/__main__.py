@@ -4,6 +4,7 @@ __author__ = 'Joan A. Pinol  (japinol)'
 from argparse import ArgumentParser
 import gc
 import traceback
+import sys
 
 import pygame as pg
 
@@ -13,6 +14,7 @@ from tictactoe.config.constants import (
     TOURNAMENTS_WARGAME, GAMES_TO_PLAY_WARGAME,
     TURN_MAX_TIME_SECS, TURN_MAX_TIME_SECS_MAX,
     TURN_MAX_TIME_SECS_MIN,
+    LOG_START_APP_MSG, LOG_END_APP_MSG,
     )
 from tictactoe.game_entry_point import Game
 from tictactoe.validator.validator import InputValidator
@@ -27,7 +29,7 @@ def main():
     parser = ArgumentParser(description="Tic Tac Toe",
                             prog="tictactoe",
                             usage="%(prog)s usage: tictactoe [-h] [-a] [-g GAMESTOPLAY] [-u TOURNAMENTS] "
-                                  "[-l] [-o] [-p] [-s TURNMAXSECS] [-w] [-d] [-t]")
+                                  "[-l] [-m] [-n] [-o] [-p] [-s TURNMAXSECS] [-w] [-d] [-t]")
     parser.add_argument('-a', '--auto', default=False, action='store_true',
                         help='Auto mode. It does not stop between games or tournaments. '
                              'Only when it needs a user input')
@@ -37,10 +39,10 @@ def main():
                         help=f"Tournaments to play. Must be between 1 and {TOURNAMENTS_MAX}")
     parser.add_argument('-l', '--multiplelogfiles', default=False, action='store_true',
                         help='A log file by app execution, instead of one unique log file')
-    parser.add_argument('-m', '--nostdoutlog', default=False, action='store_true',
-                        help='Logs will not be print to the console.')
+    parser.add_argument('-m', '--stdoutlog', default=False, action='store_true',
+                        help='Print logs to the console along with writing them to the log file')
     parser.add_argument('-n', '--nologdatetime', default=False, action='store_true',
-                        help='Logs will not have date time.')
+                        help='Logs will not print a datetime')
     parser.add_argument('-o', '--player1ai', default=False, action='store_true',
                         help='Player 1 will be controlled by the computer')
     parser.add_argument('-p', '--player2ai', default=False, action='store_true',
@@ -59,7 +61,7 @@ def main():
     args = parser.parse_args()
 
     logger_format = LOGGER_FORMAT_NO_DATE if args.nologdatetime else LOGGER_FORMAT
-    not args.nostdoutlog and logger.add_stdout_handler(logger_format)
+    args.stdoutlog and logger.add_stdout_handler(logger_format)
     logger.add_file_handler(args.multiplelogfiles, logger_format)
 
     tournaments = args.tournaments and int(args.tournaments) or 0
@@ -76,6 +78,9 @@ def main():
     pg.init()
     pg.mouse.set_visible(True)
     is_music_paused = False
+    log.info(LOG_START_APP_MSG)
+    not args.stdoutlog and print(LOG_START_APP_MSG)
+    log.info(f"App arguments: {sys.argv[1:]}")
     # Multiple games loop
     while not Game.is_exit_game:
         try:
@@ -108,6 +113,8 @@ def main():
                 traceback.print_tb(e.__traceback__)
             log.critical(f'Error: {e}')
             break
+    log.info(LOG_END_APP_MSG)
+    not args.stdoutlog and print(LOG_END_APP_MSG)
     pg.quit()
 
 

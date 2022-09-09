@@ -73,8 +73,8 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
 
 ## Usage
 
-	tictactoe  usage: tictactoe [-h] [-a] [-g GAMESTOPLAY] [-u TOURNAMENTS] 
-                                [-l] [-o] [-p] [-s TURNMAXSECS] [-w] [-d] [-t]
+	tictactoe  usage: tictactoe [-h] [-a] [-g GAMESTOPLAY] [-u TOURNAMENTS] [-l]  
+                                [-m] [-n] [-o] [-p] [-s TURNMAXSECS] [-w] [-d] [-t]
 	
 	optional arguments:
 	  -h, --help            show this help message and exit.
@@ -87,6 +87,10 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
 	                        Tournaments to play.  Must be between 1 and 30.
 	  -l, 			--multiplelogfiles
 	                        A log file by app execution, instead of one unique log file.
+	  -m, 			--stdoutlog
+	                        Print logs to the console along with writing them to the log file.
+	  -n, 			--nologdatetime
+	                        Logs will not print a datetime.
 	  -o, 			--player1ai
 	                        Player 1 will be controlled by the computer.
 	  -p, 			--player2ai
@@ -112,16 +116,20 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
 	player2ai           False
 	turnmaxsecs         15
 	multiplelogfiles    False
+	stdoutlog           False
+	nologdatetime       False
     debug               False
 	debugtraces         False
 
 
 **Examples of usage**
 
-    > Modality two players using the same keyboard:
+    > Modality two players using the same keyboard and mouse:
        $ python -m tictactoe
-    > One player against the computer.
+    > One player against the computer. Play 4 tournaments.
        $ python -m tictactoe --player2ai --tournaments 4
+    > One player against the computer ommitting datetime in the log file.
+       $ python -m tictactoe --player2ai --nologdatetime
     > Two players controlled by the computer playing against each other without waiting between games.
        $ python -m tictactoe --player1ai --player2ai --auto
 
