@@ -43,6 +43,7 @@ class Game:
     full_screen_flags = None
     wargame_training = False
     no_log_datetime = False
+    stdout_log = False
     stats_gen = {
         'current_game': 0,
         'games_played': 0,
@@ -63,9 +64,9 @@ class Game:
         'players': [],
         })
 
-    def __init__(self, is_debug=None, is_player1_ai=None, is_player2_ai=None,
-                 tournaments=None, games_to_play=None, turn_max_secs=None,
-                 speed_pct=None, wargame_training=None, no_log_datetime=None, auto=None):
+    def __init__(self, is_debug=None, is_player1_ai=None, is_player2_ai=None, tournaments=None,
+                 games_to_play=None, turn_max_secs=None, speed_pct=None, wargame_training=None,
+                 auto=None, no_log_datetime=None, stdout_log=None):
         self.name = "Tic Tac Toe v 0.01"
         self.name_short = "Tic Tac Toe"
         self.name_long = "Tic Tac Toe"
@@ -116,11 +117,14 @@ class Game:
             Game.is_first_game = False
 
         if Game.is_first_game:
-            Game.wargame_training and log.info(LOG_WARGAME_START_MSG)
-            # Calculate settings
             Game.no_log_datetime = no_log_datetime
+            Game.stdout_log = stdout_log
             Game.stats_gen['tournaments_to_play'] = tournaments
             Game.wargame_training = wargame_training
+            if Game.wargame_training:
+                Game.wargame_training and log.info(LOG_WARGAME_START_MSG)
+                not Game.stdout_log and print(LOG_WARGAME_START_MSG)
+            # Calculate settings
             pg_display_info = pg.display.Info()
             Settings.display_start_width = pg_display_info.current_w
             Settings.display_start_height = pg_display_info.current_h
@@ -193,18 +197,24 @@ class Game:
 
     @staticmethod
     def set_is_exit_game(is_exit_game):
+        log_msg = None
+        print_log_wargame_end_to_console = False
         if is_exit_game:
             campaign_winner, player1_tournament_victories, player2_tournament_victories = Game.campaign_winner()
             if campaign_winner:
-                log.info(f"Winner of this Tic Tac Toe campaign: "
-                         f"Player {campaign_winner.name} with token {campaign_winner.token}. "
-                         f"Score: {player1_tournament_victories} to {player2_tournament_victories}")
+                log_msg = "Winner of this Tic Tac Toe campaign: "\
+                          f"Player {campaign_winner.name} with token {campaign_winner.token}. "\
+                          f"Score: {player1_tournament_victories} to {player2_tournament_victories}"
             elif Game.stats_gen['tournaments_winners_tokens']:
-                log.info(f"Winner of this Tic Tac Toe campaign: It's a draw. "
-                         f"Score: {player1_tournament_victories} to {player2_tournament_victories}")
-                Game.wargame_training and log.info(LOG_WARGAME_END_MSG)
+                log_msg = f"Winner of this Tic Tac Toe campaign: It's a draw. "\
+                          f"Score: {player1_tournament_victories} to {player2_tournament_victories}"
+                if Game.wargame_training:
+                    print_log_wargame_end_to_console = True
             else:
-                log.info(f"Winner of this Tic Tac Toe campaign: None. No tournaments played to the end.")
+                log_msg = f"Winner of this Tic Tac Toe campaign: None. No tournaments played to the end."
+        log.info(log_msg)
+        not Game.stdout_log and print(log_msg)
+        print_log_wargame_end_to_console and print(LOG_WARGAME_END_MSG)
         Game.is_exit_game = is_exit_game
 
     def clock_in_game_trigger_method(self):

@@ -1,8 +1,8 @@
 ## Tic Tac Toe
     This version of the game is intended to be played in these three variations:
-       > Two players using the same keyboard and mouse.
-       > One player against the computer.
+       > One player against the computer. 
        > Two players controlled by the computer playing against each other.
+       > Two players using the same keyboard and mouse.
     Note that: 
        > A player controlled by the computer will never lose.
        > If both players are controlled by the computer, the games will always end in a draw.
@@ -93,14 +93,14 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
 	                        Logs will not print a datetime.
 	  -o, 			--player1ai
 	                        Player 1 will be controlled by the computer.
-	  -p, 			--player2ai
-	                        Player 2 will be controlled by the computer.
+	  -p, 			--player2human
+	                        Player 2 will be controlled by a human player.
 	  -s, 			--turnmaxsecs TURNMAXSECS
 	                        Turn max seconds before the player who holds the turn 
 	                        loses the current game. Must be between 5 and 900.
 	  -w, 			--wargametraining
 	                        War game training speculating on playing Tic Tac Toc. It activates the following flags: 
-	                        player1ai, player2ai, auto, tournaments 1, gamestoplay 500.
+	                        player1ai, auto, tournaments 1, gamestoplay 500.
 	  -d, 			--debug
 	                        Debug actions when pressing the right key, information and traces.
 	  -t, 			--debugtraces
@@ -113,7 +113,7 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
 	gamestoplay         2
 	tournaments         10
 	player1ai           False
-	player2ai           False
+	player2human        False
 	turnmaxsecs         15
 	multiplelogfiles    False
 	stdoutlog           False
@@ -124,14 +124,16 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
 
 **Examples of usage**
 
-    > Modality two players using the same keyboard and mouse:
+    > Modality One player against the computer:
        $ python -m tictactoe
-    > One player against the computer. Play 4 tournaments.
-       $ python -m tictactoe --player2ai --tournaments 4
+    > Modality Two players using the same keyboard and mouse:
+       $ python -m tictactoe --player2human
+    > One player against the computer in auto mode. It will play 1 tournament of 4 games.
+       $ python -m tictactoe --tournaments 1 --games 4 --auto
     > One player against the computer ommitting datetime in the log file.
-       $ python -m tictactoe --player2ai --nologdatetime
+       $ python -m tictactoe --nologdatetime
     > Two players controlled by the computer playing against each other without waiting between games.
-       $ python -m tictactoe --player1ai --player2ai --auto
+       $ python -m tictactoe --player1ai --auto
 
 
 **To make Tic Tac Toe work**

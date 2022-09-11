@@ -45,14 +45,14 @@ def main():
                         help='Logs will not print a datetime')
     parser.add_argument('-o', '--player1ai', default=False, action='store_true',
                         help='Player 1 will be controlled by the computer')
-    parser.add_argument('-p', '--player2ai', default=False, action='store_true',
-                        help='Player 2 will be controlled by the computer')
+    parser.add_argument('-p', '--player2human', default=False, action='store_true',
+                        help='Player 2 will be controlled by a human player')
     parser.add_argument('-s', '--turnmaxsecs', default=TURN_MAX_TIME_SECS,
                         help=f"Turn max seconds before the player who holds the turn loses the current game. "
                              f"Must be between {TURN_MAX_TIME_SECS_MIN} and {TURN_MAX_TIME_SECS_MAX}")
     parser.add_argument('-w', '--wargametraining', default=False, action='store_true',
                         help='War game training speculating on playing Tic Tac Toc. '
-                             'It activates the following flags: player1ai, player2ai, '
+                             'It activates the following flags: player1ai, '
                              f'auto, tournaments {TOURNAMENTS_WARGAME}, gamestoplay {GAMES_TO_PLAY_WARGAME}')
     parser.add_argument('-d', '--debug', default=None, action='store_true',
                         help='Debug actions when pressing the right key, information and traces')
@@ -84,10 +84,10 @@ def main():
     # Multiple games loop
     while not Game.is_exit_game:
         try:
-            game = Game(is_debug=args.debug, is_player1_ai=args.player1ai, is_player2_ai=args.player2ai,
+            game = Game(is_debug=args.debug, is_player1_ai=args.player1ai, is_player2_ai=not args.player2human,
                         tournaments=tournaments, games_to_play=games_to_play,
                         turn_max_secs=turn_max_secs, wargame_training=args.wargametraining,
-                        no_log_datetime=args.nologdatetime, auto=auto)
+                        auto=auto, no_log_datetime=args.nologdatetime, stdout_log=args.stdoutlog)
             Game.stats_gen.update({'games_played': Game.current_game})
             game.is_music_paused = is_music_paused
             screen_start_game = screen.StartGame(game)
