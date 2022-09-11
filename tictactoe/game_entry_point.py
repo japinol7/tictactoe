@@ -78,6 +78,7 @@ class Game:
             games_to_play = GAMES_TO_PLAY_WARGAME
         self.is_player1_ai = is_player1_ai
         self.is_player2_ai = is_player2_ai
+        self.are_players_ai = all([is_player1_ai, is_player2_ai])
         self.auto = auto
         self.board = None
         self.stats = {}

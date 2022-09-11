@@ -2,9 +2,8 @@
 __author__ = 'Joan A. Pinol  (japinol)'
 
 from tictactoe.config.constants import BITMAPS_FOLDER
-from tictactoe.model.actors.actor import ActorItem, ActorType, Actor
+from tictactoe.model.actors.actor import ActorItem, ActorType
 from tictactoe.model.actor_type import ActorCategoryType
-from tictactoe.model.cell import Cell
 
 
 class CellBase(ActorItem):
@@ -14,7 +13,7 @@ class CellBase(ActorItem):
     def __init__(self, x, y, game, name=None):
         self.file_folder = BITMAPS_FOLDER
         self.file_name_key = 'im_piece'
-        self.images_sprite_no = 3
+        self.images_sprite_no = 4
         self.category_type = ActorCategoryType.CELL
         super().__init__(x, y, game, name=name)
 
@@ -25,7 +24,9 @@ class CellBase(ActorItem):
 class CellSprite(CellBase):
     """Represents a Sprite Cell."""
 
-    def __init__(self, x, y, game, name=None):
+    def __init__(self, x, y, game, name=None, transparent=False):
         self.file_mid_prefix = ''
         self.type = ActorType.CELL
         super().__init__(x, y, game, name=name)
+        if transparent:
+            self.frame_index = 3

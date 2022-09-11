@@ -77,19 +77,19 @@ class Board:
     def init_graphic_board(self, game):
         self.sprite_cells_grid = [
             [
-                CellSprite(*Settings.cells_pos_board[0, 0], game, name=7),
-                CellSprite(*Settings.cells_pos_board[0, 1], game, name=8),
-                CellSprite(*Settings.cells_pos_board[0, 2], game, name=9),
+                CellSprite(*Settings.cells_pos_board[0, 0], game, name=7, transparent=game.are_players_ai),
+                CellSprite(*Settings.cells_pos_board[0, 1], game, name=8, transparent=game.are_players_ai),
+                CellSprite(*Settings.cells_pos_board[0, 2], game, name=9, transparent=game.are_players_ai),
              ],
             [
-                CellSprite(*Settings.cells_pos_board[1, 0], game, name=4),
-                CellSprite(*Settings.cells_pos_board[1, 1], game, name=5),
-                CellSprite(*Settings.cells_pos_board[1, 2], game, name=6),
+                CellSprite(*Settings.cells_pos_board[1, 0], game, name=4, transparent=game.are_players_ai),
+                CellSprite(*Settings.cells_pos_board[1, 1], game, name=5, transparent=game.are_players_ai),
+                CellSprite(*Settings.cells_pos_board[1, 2], game, name=6, transparent=game.are_players_ai),
             ],
             [
-                CellSprite(*Settings.cells_pos_board[2, 0], game, name=1),
-                CellSprite(*Settings.cells_pos_board[2, 1], game, name=2),
-                CellSprite(*Settings.cells_pos_board[2, 2], game, name=3),
+                CellSprite(*Settings.cells_pos_board[2, 0], game, name=1, transparent=game.are_players_ai),
+                CellSprite(*Settings.cells_pos_board[2, 1], game, name=2, transparent=game.are_players_ai),
+                CellSprite(*Settings.cells_pos_board[2, 2], game, name=3, transparent=game.are_players_ai),
             ],
         ]
 
