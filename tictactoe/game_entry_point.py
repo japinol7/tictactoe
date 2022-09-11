@@ -177,7 +177,7 @@ class Game:
         self.turn_player = Game.stats_gen['turn_player']
         if self.board:
             self.board.current_turn_token = self.turn_player.token.value
-        self.turn_player_opponent = Game.stats_gen['turn_player']
+        self.turn_player_opponent = Game.stats_gen['turn_player_opponent']
         self.score_bars = ScoreBar(self, Game.screen)
         # Initialize screens
         self.screen_exit_current_game = screen.ExitCurrentGame(self)
@@ -402,7 +402,9 @@ class Game:
                         if pg.key.get_mods() & pg.KMOD_LALT and pg.key.get_mods() & pg.KMOD_RALT:
                             self.is_paused = True
                             self.is_full_screen_switch = True
-                elif not self.turn_player.is_computer_player and event.type == pg.KEYUP:
+                elif not self.turn_player.is_computer_player \
+                        and (self.turn_player_opponent.is_computer_player or self.turn_player.token == 'X') \
+                        and event.type == pg.KEYUP:
                     if event.key in (pg.K_KP1, pg.K_1):
                         self.turn_player.move_token(self.board, 2, 0)
                     if event.key in (pg.K_KP2, pg.K_2):
@@ -423,7 +425,9 @@ class Game:
                         self.turn_player.move_token(self.board, 0, 2)
                     if event.key == pg.K_F5:
                         self.show_fps = not self.show_fps
-                elif not self.turn_player.is_computer_player and event.type == pg.MOUSEBUTTONDOWN:
+                elif not self.turn_player.is_computer_player \
+                        and (self.turn_player_opponent.is_computer_player or self.turn_player.token == 'O') \
+                        and event.type == pg.MOUSEBUTTONDOWN:
                     self.mouse_pos = pg.mouse.get_pos()
                     for sprite in self.cell_sprites:
                         if sprite.rect.collidepoint(self.mouse_pos):
