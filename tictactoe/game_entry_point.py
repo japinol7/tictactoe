@@ -106,7 +106,6 @@ class Game:
         self.help_info = None
         self.debug_info = None
         self.current_song = 0
-        self.writen_info_game_over_to_file = False
         self.screen_exit_current_game = None
         self.screen_game_over = None
         self.screen_pause = None
@@ -229,9 +228,6 @@ class Game:
 
     def write_game_over_info_to_file(self):
         self.debug_info.print_debug_info()
-        # TODO: scores
-        # Scores.write_scores_to_file(self)
-        self.writen_info_game_over_to_file = True
 
     @staticmethod
     def draw_grid():
