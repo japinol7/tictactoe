@@ -3,6 +3,7 @@
        > One player against the computer. 
        > Two players controlled by the computer playing against each other.
        > Two players using the same keyboard and mouse.
+       > Player1 plays with the keyboard, Player2 plays with the mouse.
     Note that: 
        > A player controlled by the computer will never lose.
        > If both players are controlled by the computer, the games will always end in a draw.
@@ -126,14 +127,14 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
 
     > Modality One player against the computer:
        $ python -m tictactoe
-    > Modality Two players using the same keyboard and mouse:
-       $ python -m tictactoe --player2human
     > One player against the computer in auto mode. It will play 1 tournament of 4 games.
        $ python -m tictactoe --tournaments 1 --games 4 --auto
     > One player against the computer ommitting datetime in the log file.
        $ python -m tictactoe --nologdatetime
     > Two players controlled by the computer playing against each other without waiting between games.
        $ python -m tictactoe --player1ai --auto
+    > Modality Two players using the same keyboard and mouse:
+       $ python -m tictactoe --player2human
 
 
 **To make Tic Tac Toe work**

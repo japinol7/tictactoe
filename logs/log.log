@@ -1,5 +1,5 @@
 No datetime | INFO | Start app tictactoe version: 0.0.2
-No datetime | INFO | App arguments: ['-t', '-a', '-o', '-p', '-n']
+No datetime | INFO | App arguments: -t -a -o -p -n
 No datetime | INFO | Create Player: 1 with Token: X. Class: ComputerPlayer
 No datetime | INFO | Create Player: 2 with Token: O. Class: ComputerPlayer
 No datetime | INFO | Create board for game: 1 of tournament: 1

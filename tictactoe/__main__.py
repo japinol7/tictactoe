@@ -80,7 +80,7 @@ def main():
     is_music_paused = False
     log.info(LOG_START_APP_MSG)
     not args.stdoutlog and print(LOG_START_APP_MSG)
-    log.info(f"App arguments: {sys.argv[1:]}")
+    log.info(f"App arguments: {' '.join(sys.argv[1:])}")
     # Multiple games loop
     while not Game.is_exit_game:
         try:
