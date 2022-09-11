@@ -111,7 +111,8 @@ def main():
         except Exception as e:
             if args.debugtraces or args.debug:
                 traceback.print_tb(e.__traceback__)
-            log.critical(f'Error: {e}')
+            log.critical(f'ERROR. Abort execution: {e}')
+            not args.stdoutlog and print(f'CRITICAL ERROR. Abort execution: {e}')
             break
     log.info(LOG_END_APP_MSG)
     not args.stdoutlog and print(LOG_END_APP_MSG)
