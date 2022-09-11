@@ -131,9 +131,11 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
        $ python -m tictactoe --tournaments 1 --games 4 --auto
     > One player against the computer ommitting datetime in the log file.
        $ python -m tictactoe --nologdatetime
+    > One player against the computer, with the computer starting the game an the humar player playint the O tokens.
+       $ python -m tictactoe --player1ai --player2human
     > Two players controlled by the computer playing against each other without waiting between games.
        $ python -m tictactoe --player1ai --auto
-    > Modality Two players using the same keyboard and mouse:
+    > Modality Two human players. Player1 plays with the keyboard, Player2 plays with the mouse.
        $ python -m tictactoe --player2human
 
 
