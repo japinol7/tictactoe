@@ -214,8 +214,9 @@ class Game:
                 log_msg = f"Winner of this Tic Tac Toe campaign: None. No tournaments played to the end."
         log.info(log_msg)
         not Game.stdout_log and print(log_msg)
-        log.info(LOG_WARGAME_END_MSG)
-        print_log_wargame_end_to_console and print(LOG_WARGAME_END_MSG)
+        if print_log_wargame_end_to_console:
+            log.info(LOG_WARGAME_END_MSG)
+            print(LOG_WARGAME_END_MSG)
         Game.is_exit_game = is_exit_game
 
     def clock_in_game_trigger_method(self):
