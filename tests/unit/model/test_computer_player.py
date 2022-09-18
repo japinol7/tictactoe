@@ -18,7 +18,7 @@ def create_players_and_board(cell_sprite):
     (((1, 1), (0, 2), (1, 0), (2, 2)), ((0, 0), (2, 0), (1, 2), (0, 1))),
     (((0, 0), (2, 0), (1, 2), (0, 1)), ((1, 1), (0, 2), (1, 0), (2, 2))), ])
 def test_computer_player_move__one_cell_left(cell_sprite_mock, player1_moves, player2_moves):
-    """Gets the correct move when there is only one cell left to move to."""
+    """Tests getting the correct move when there is only one cell left to move to."""
     player1, player2, board = create_players_and_board(cell_sprite_mock)
     for player1_move, player2_move in zip(player1_moves, player2_moves):
         board.set_token(player1, *player1_move)
@@ -35,7 +35,7 @@ def test_computer_player_move__one_cell_left(cell_sprite_mock, player1_moves, pl
     (((1, 0), (2, 0), (0, 1)), ((0, 2), (2, 2))), ],
     ids=lambda x: f"{x}")
 def test_computer_player_move__win(cell_sprite_mock, player1_moves, player2_moves):
-    """Gets the correct move to win after the opponent player makes a mistake."""
+    """Tests getting the correct move to win after the opponent player makes a mistake."""
     player1, player2, board = create_players_and_board(cell_sprite_mock)
     for player1_move, player2_move in zip(player1_moves[:2], player2_moves):
         board.set_token(player1, *player1_move)
@@ -49,7 +49,7 @@ def test_computer_player_move__win(cell_sprite_mock, player1_moves, player2_move
 
 
 def test_computer_player_move__win_2_moves(cell_sprite_mock):
-    """Gets the best move to have two winning next moves."""
+    """Tests getting the best move to have two winning next moves."""
     player1, player2, board = create_players_and_board(cell_sprite_mock)
 
     player1_moves = ((2, 1), (0, 0))
@@ -65,7 +65,7 @@ def test_computer_player_move__win_2_moves(cell_sprite_mock):
 
 
 def test_computer_player_move__block(cell_sprite_mock):
-    """Gets the correct move to block the opponent player from winning."""
+    """Tests getting the correct move to block the opponent player from winning. Case one."""
     player1, player2, board = create_players_and_board(cell_sprite_mock)
 
     player1_moves = ((1, 1), (2, 1))
@@ -82,7 +82,7 @@ def test_computer_player_move__block(cell_sprite_mock):
 
 
 def test_computer_player_move__block_2(cell_sprite_mock):
-    """Gets the correct move to block the opponent player from winning. Case two."""
+    """Tests getting the correct move to block the opponent player from winning. Case two."""
     player1, player2, board = create_players_and_board(cell_sprite_mock)
 
     player1_moves = ((1, 1), (0, 0))
