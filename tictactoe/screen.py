@@ -8,16 +8,7 @@ from tictactoe.config.settings import Settings
 from tictactoe.tools.screen import screen
 
 
-class Screen(screen.Screen):
-
-    def __init__(self, game):
-        super().__init__(game)
-
-
 class ExitCurrentGame(screen.ExitCurrentGame):
-
-    def __init__(self, game):
-        super().__init__(game)
 
     def _draw(self):
         super()._draw()
@@ -44,9 +35,6 @@ class GameOver(screen.GameOver):
 
 
 class Pause(screen.Pause):
-
-    def __init__(self, game):
-        super().__init__(game)
 
     def _draw(self):
         super()._draw()
