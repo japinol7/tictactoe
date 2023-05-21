@@ -21,6 +21,7 @@
 	requirements: pygame
 	Python requires: 3.9 or greater.
 	Python versions tested: 
+        > 3.10.10 64bits under Windows 11
         > 3.9.12 64bits under Windows 11
 
 
