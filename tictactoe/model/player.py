@@ -33,7 +33,7 @@ class PlayerBase(ABC):
 
     def move_token(self, board, x, y):
         board.set_token(self, x, y)
-        log.info(f"Player {self.token} sets token in pos: x: {x}, y: {y}")
+        log.info(f"Player {self.token.value} sets token in pos: x: {x}, y: {y}")
 
     @staticmethod
     def move_token_sim(board, x, y, player_token):

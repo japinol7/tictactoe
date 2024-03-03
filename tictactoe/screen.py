@@ -25,8 +25,8 @@ class GameOver(screen.GameOver):
             self.game.screen.blit(*Resource.txt_surfaces['it_is_a_draw'])
             self.game.screen.blit(*Resource.txt_surfaces['it_is_a_draw_2'])
         elif self.game.is_over:
-            self.game.screen.blit(*Resource.txt_surfaces[f"token_{self.game.winner.token}_wins"])
-            self.game.screen.blit(*Resource.txt_surfaces[f"token_{self.game.winner.token}_wins_2"])
+            self.game.screen.blit(*Resource.txt_surfaces[f"token_{self.game.winner.token.value}_wins"])
+            self.game.screen.blit(*Resource.txt_surfaces[f"token_{self.game.winner.token.value}_wins_2"])
 
         self.game.screen.blit(*Resource.txt_surfaces['press_intro_to_continue'])
         self.game.screen.blit(*Resource.txt_surfaces['press_intro_to_continue_2'])

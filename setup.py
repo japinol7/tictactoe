@@ -9,8 +9,8 @@ setup(
     long_description="Tic Tac Toe",
     url='https://github.com/japinol7/tictactoe',
     packages=['tictactoe'],
-    python_requires='>=3.9',
-    install_requires=['pygame'],
+    python_requires='>=3.11',
+    install_requires=['pygame-ce'],
     entry_points={
         'console_scripts': [
             'tictactoe=tictactoe.__main__:main',

@@ -43,6 +43,10 @@ class ScoreBar:
         libg_jp.draw_text_rendered(text=f'{player.__dict__[stats_name]}',
                                    x=x, y=y, screen=self.screen, color=color)
 
+    def render_player_token_attribute_if_necessary(self, x, y, player, stats_name, color=Color.BLUE_VIOLET):
+        libg_jp.draw_text_rendered(text=f'{player.__dict__[stats_name].value}',
+                                   x=x, y=y, screen=self.screen, color=color)
+
     def draw_general_stats(self):
         # Draw score titles
         self.screen.blit(*Resource.txt_surfaces['sb_games_to_play'])
@@ -67,7 +71,7 @@ class ScoreBar:
         self.screen.blit(*Resource.txt_surfaces['sb_tournaments_winners'])
 
         # Draw score stats and render them if needed
-        libg_jp.draw_text_rendered(text=f"{self.game_cls.stats_gen['turn_player'].token}",
+        libg_jp.draw_text_rendered(text=f"{self.game_cls.stats_gen['turn_player'].token.value}",
                                    x=820, y=16, screen=self.screen, color=Color.BLUE_VIOLET)
         libg_jp.draw_text_rendered(text=f"{version.get_version()}",
                                    x=1194, y=16, screen=self.screen, color=Color.BLACK_SAFE,
@@ -88,8 +92,9 @@ class ScoreBar:
         self.render_stats_gen_if_necessary(Settings.score_pos_x, Settings.score_pos_label[1] + y, 'games_played')
 
         y += Settings.text_y_distance * 3.5
-        self.render_player_attributes_if_necessary(Settings.score_pos_x - 1.6, Settings.score_pos_label[1] + y,
-                                                   self.player1, 'token', color=Color.BLACK_SAFE)
+        self.render_player_token_attribute_if_necessary(
+            Settings.score_pos_x - 1.6, Settings.score_pos_label[1] + y,
+            self.player1, 'token', color=Color.BLACK_SAFE)
         y += Settings.text_y_distance
         self.render_player_stats_if_necessary(Settings.score_pos_x, Settings.score_pos_label[1] + y,
                                               self.player1, 'victories')
@@ -104,8 +109,9 @@ class ScoreBar:
                                               self.player1, 'games_started')
 
         y += Settings.text_y_distance * 3.5
-        self.render_player_attributes_if_necessary(Settings.score_pos_x - 1.6, Settings.score_pos_label[1] + y,
-                                                   self.player2, 'token', color=Color.BLACK_SAFE)
+        self.render_player_token_attribute_if_necessary(
+            Settings.score_pos_x - 1.6, Settings.score_pos_label[1] + y,
+            self.player2, 'token', color=Color.BLACK_SAFE)
         y += Settings.text_y_distance
         self.render_player_stats_if_necessary(Settings.score_pos_x, Settings.score_pos_label[1] + y,
                                               self.player2, 'victories')

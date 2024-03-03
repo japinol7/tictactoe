@@ -41,6 +41,7 @@ class Settings:
     fps_paused = None
     speed_pct = None
     has_selector_no_light = False
+    is_full_screen_feature_activated = False
     is_full_screen = False
     im_screen_help = None
     im_bg_start_game = None

@@ -124,6 +124,7 @@ class Game:
             if Game.wargame_training:
                 Game.wargame_training and log.info(LOG_WARGAME_START_MSG)
                 not Game.stdout_log and print(LOG_WARGAME_START_MSG)
+
             # Calculate settings
             pg_display_info = pg.display.Info()
             Settings.display_start_width = pg_display_info.current_w
@@ -132,15 +133,14 @@ class Game:
                                         turn_max_secs=turn_max_secs, speed_pct=speed_pct)
             Game.stats_gen.update({'turn_max_time_secs': Settings.turn_max_time_secs})
             Game.stats_gen.update({'games_to_play': Settings.games_to_play})
+
             # Set screen to the settings configuration
             Game.size = [Settings.screen_width, Settings.screen_height]
             Game.full_screen_flags = pg.FULLSCREEN | pg.DOUBLEBUF | pg.HWSURFACE | pg.SCALED
             Game.normal_screen_flags = pg.DOUBLEBUF | pg.HWSURFACE
-            if Settings.is_full_screen:
-                Game.screen_flags = Game.full_screen_flags
-            else:
-                Game.screen_flags = Game.normal_screen_flags
+            Game.screen_flags = Game.full_screen_flags if Settings.is_full_screen else Game.normal_screen_flags
             Game.screen = pg.display.set_mode(Game.size, Game.screen_flags)
+
             # Load and render resources
             Resource.load_and_render_background_images()
             Resource.load_and_render_scorebar_images_and_txt()
@@ -203,7 +203,7 @@ class Game:
             campaign_winner, player1_tournament_victories, player2_tournament_victories = Game.campaign_winner()
             if campaign_winner:
                 log_msg = "Winner of this Tic Tac Toe campaign: "\
-                          f"Player {campaign_winner.name} with token {campaign_winner.token}. "\
+                          f"Player {campaign_winner.name} with token {campaign_winner.token.value}. "\
                           f"Score: {player1_tournament_victories} to {player2_tournament_victories}"
             elif Game.stats_gen['tournaments_winners_tokens']:
                 log_msg = f"Winner of this Tic Tac Toe campaign: It's a draw. "\
@@ -225,7 +225,7 @@ class Game:
         self.update_status_if_game_over()
         Game.stats_gen['turn_player'].stats['defeats'] += 1
         Game.stats_gen['turn_player_opponent'].stats['victories'] += 1
-        log.info(f"Time out for player: {self.turn_player.token}")
+        log.info(f"Time out for player: {self.turn_player.token.value}")
         self.write_game_over_info_to_file()
 
     def write_game_over_info_to_file(self):
@@ -250,7 +250,7 @@ class Game:
             self.cell_sprites.add(sprites)
         self.active_sprites.add(self.cell_sprites)
 
-        log.info(f"Waiting input from player: {self.turn_player.token}")
+        log.info(f"Waiting input from player: {self.turn_player.token.value}")
 
         self.clock_in_game = ClockTimerA(990, Settings.board_base_y - 35, self, Settings.turn_max_time_secs,
                                          trigger_method=self.clock_in_game_trigger_method)
@@ -311,7 +311,7 @@ class Game:
             self.turn_player_opponent.stats['defeats'] += 1
             self.winner = self.turn_player
             Game.is_over = True
-            log.info(f"Player {self.turn_player.token} wins")
+            log.info(f"Player {self.turn_player.token.value} wins")
         elif self.board.empty_cells <= 0:
             is_game_over = True
             self.turn_player.stats['draws'] += 1
@@ -399,10 +399,11 @@ class Game:
                             self.is_help_screen = not self.is_help_screen
                     elif event.key in (pg.K_KP_ENTER, pg.K_RETURN) and not self.auto:
                         if pg.key.get_mods() & pg.KMOD_LALT and pg.key.get_mods() & pg.KMOD_RALT:
-                            self.is_paused = True
-                            self.is_full_screen_switch = True
+                            if Settings.is_full_screen_feature_activated:
+                                self.is_paused = True
+                                self.is_full_screen_switch = True
                 elif not self.turn_player.is_computer_player \
-                        and (self.turn_player_opponent.is_computer_player or self.turn_player.token == 'X') \
+                        and (self.turn_player_opponent.is_computer_player or self.turn_player.token.value == 'X') \
                         and event.type == pg.KEYUP:
                     if event.key in (pg.K_KP1, pg.K_1):
                         self.turn_player.move_token(self.board, 2, 0)
@@ -425,7 +426,7 @@ class Game:
                     if event.key == pg.K_F5:
                         self.show_fps = not self.show_fps
                 elif not self.turn_player.is_computer_player \
-                        and (self.turn_player_opponent.is_computer_player or self.turn_player.token == 'O') \
+                        and (self.turn_player_opponent.is_computer_player or self.turn_player.token.value == 'O') \
                         and event.type == pg.MOUSEBUTTONDOWN:
                     self.mouse_pos = pg.mouse.get_pos()
                     for sprite in self.cell_sprites:
@@ -443,7 +444,7 @@ class Game:
                 self.change_turn_player()
                 log.info(f'Board:\n{self.board}')
                 if not self.is_over:
-                    log.info(f"Waiting input from player: {self.turn_player.token}")
+                    log.info(f"Waiting input from player: {self.turn_player.token.value}")
                 else:
                     self.write_game_over_info_to_file()
 

@@ -19,10 +19,7 @@
 	author_gitHub: japinol7
 	author_twitter: @japinol
 	requirements: pygame
-	Python requires: 3.9 or greater.
-	Python versions tested: 
-        > 3.10.10 64bits under Windows 11
-        > 3.9.12 64bits under Windows 11
+	Python requires: 3.11 or greater.
 
 
 ## Rules and user guide
@@ -59,7 +56,6 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
        ESC:   exit game
        ^m:    pause/resume music
        ^s:    sound effects on/off
-       L_Alt + R_Alt + Enter: change full screen / windowed screen mode
        ^h:    shows this help to the console
 
     > Additional keys for debug mode:

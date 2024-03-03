@@ -39,9 +39,10 @@ class Screen:
             if event.type == pg.KEYDOWN:
                 if event.key in (pg.K_KP_ENTER, pg.K_RETURN):
                     if pg.key.get_mods() & pg.KMOD_ALT:
-                        self._full_screen_switch_hook()
-                        libg_jp.full_screen_switch(self.game)
-                        self._draw()
+                        if Settings.is_full_screen_feature_activated:
+                            self._full_screen_switch_hook()
+                            libg_jp.full_screen_switch(self.game)
+                            self._draw()
                     else:
                         self.done = True
                 elif event.key == pg.K_m:
