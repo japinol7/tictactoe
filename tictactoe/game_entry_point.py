@@ -66,7 +66,8 @@ class Game:
 
     def __init__(self, is_debug=None, is_player1_ai=None, is_player2_ai=None, tournaments=None,
                  games_to_play=None, turn_max_secs=None, speed_pct=None, wargame_training=None,
-                 auto=None, no_log_datetime=None, stdout_log=None):
+                 auto=None, no_log_datetime=None, is_full_screen=None,
+                 stdout_log=None, is_no_display_scaled=None):
         self.name = "Tic Tac Toe v 0.01"
         self.name_short = "Tic Tac Toe"
         self.name_long = "Tic Tac Toe"
@@ -130,14 +131,15 @@ class Game:
             Settings.display_start_width = pg_display_info.current_w
             Settings.display_start_height = pg_display_info.current_h
             Settings.calculate_settings(tournaments=tournaments, games_to_play=games_to_play,
-                                        turn_max_secs=turn_max_secs, speed_pct=speed_pct)
+                                        turn_max_secs=turn_max_secs, speed_pct=speed_pct,
+                                        full_screen=is_full_screen)
             Game.stats_gen.update({'turn_max_time_secs': Settings.turn_max_time_secs})
             Game.stats_gen.update({'games_to_play': Settings.games_to_play})
 
             # Set screen to the settings configuration
             Game.size = [Settings.screen_width, Settings.screen_height]
-            Game.full_screen_flags = pg.FULLSCREEN | pg.DOUBLEBUF | pg.HWSURFACE | pg.SCALED
-            Game.normal_screen_flags = pg.DOUBLEBUF | pg.HWSURFACE
+            Game.full_screen_flags = pg.FULLSCREEN if is_no_display_scaled else pg.FULLSCREEN | pg.SCALED
+            Game.normal_screen_flags = pg.SHOWN if is_no_display_scaled else pg.SHOWN | pg.SCALED
             Game.screen_flags = Game.full_screen_flags if Settings.is_full_screen else Game.normal_screen_flags
             Game.screen = pg.display.set_mode(Game.size, Game.screen_flags)
 

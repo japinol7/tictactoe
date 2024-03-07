@@ -71,8 +71,8 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
 
 ## Usage
 
-	tictactoe  usage: tictactoe [-h] [-a] [-g GAMESTOPLAY] [-u TOURNAMENTS] [-l]  
-                                [-m] [-n] [-o] [-p] [-s TURNMAXSECS] [-w] [-d] [-t]
+	tictactoe  usage: tictactoe [-h] [-a] [-g GAMESTOPLAY] [-u TOURNAMENTS] [-f] 
+                                [-l] [-m] [-n] [-o] [-p] [-s TURNMAXSECS] [-w] [-uu] [-d] [-t]
 	
 	optional arguments:
 	  -h, --help            show this help message and exit.
@@ -83,6 +83,8 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
 	                        Games to play on each tournament. Must be between 2 and 5000.
 	  -u, 			--tournaments TOURNAMENTS
 	                        Tournaments to play.  Must be between 1 and 30.
+	  -f, 			--fullscreen
+	                        Full screen display activated when starting the game
 	  -l, 			--multiplelogfiles
 	                        A log file by app execution, instead of one unique log file.
 	  -m, 			--stdoutlog
@@ -113,9 +115,11 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
 	player1ai           False
 	player2human        False
 	turnmaxsecs         15
+	fullscreen          False
 	multiplelogfiles    False
 	stdoutlog           False
 	nologdatetime       False
+	nodisplayscaled     False
     debug               False
 	debugtraces         False
 

@@ -41,7 +41,7 @@ class Settings:
     fps_paused = None
     speed_pct = None
     has_selector_no_light = False
-    is_full_screen_feature_activated = False
+    is_full_screen_feature_activated = True
     is_full_screen = False
     im_screen_help = None
     im_bg_start_game = None
@@ -153,7 +153,7 @@ class Settings:
         cls.screen_width_adjusted = int(cls.screen_height * cls.screen_aspect_ratio)
         cls.screen_height_adjusted = cls.screen_height
         # Set full screen or windowed screen
-        cls.is_full_screen = True if full_screen else False
+        cls.is_full_screen = True if cls.is_full_screen_feature_activated and full_screen else False
         # Set fps
         if speed_pct and speed_pct.isdigit():
             cls.speed_pct = speed_pct

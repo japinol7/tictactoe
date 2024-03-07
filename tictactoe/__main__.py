@@ -29,7 +29,7 @@ def main():
     parser = ArgumentParser(description="Tic Tac Toe",
                             prog="tictactoe",
                             usage="%(prog)s usage: tictactoe [-h] [-a] [-g GAMESTOPLAY] [-u TOURNAMENTS] "
-                                  "[-l] [-m] [-n] [-o] [-p] [-s TURNMAXSECS] [-w] [-d] [-t]")
+                                  "[-f] [-l] [-m] [-n] [-o] [-p] [-s TURNMAXSECS] [-w] [-uu] [-d] [-t]")
     parser.add_argument('-a', '--auto', default=False, action='store_true',
                         help='Auto mode. It does not stop between games or tournaments. '
                              'Only when it needs a user input')
@@ -37,6 +37,8 @@ def main():
                         help=f"Games to play on each tournament. Must be between 2 and {GAMES_TO_PLAY_MAX}")
     parser.add_argument('-u', '--tournaments', default=TOURNAMENTS_TO_PLAY,
                         help=f"Tournaments to play. Must be between 1 and {TOURNAMENTS_MAX}")
+    parser.add_argument('-f', '--fullscreen', default=False, action='store_true',
+                        help='Full screen display activated when starting the game')
     parser.add_argument('-l', '--multiplelogfiles', default=False, action='store_true',
                         help='A log file by app execution, instead of one unique log file')
     parser.add_argument('-m', '--stdoutlog', default=False, action='store_true',
@@ -54,6 +56,11 @@ def main():
                         help='War game training speculating on playing Tic Tac Toc. '
                              'It activates the following flags: player1ai, '
                              f'auto, tournaments {TOURNAMENTS_WARGAME}, gamestoplay {GAMES_TO_PLAY_WARGAME}')
+    parser.add_argument('-uu', '--nodisplayscaled', default=False, action='store_true',
+                        help='Remove the scaling of the game screen. '
+                             'Resolution depends on desktop size and scale graphics. '
+                             'Note that Pygame scaled is considered an experimental API '
+                             'and is subject to change.')
     parser.add_argument('-d', '--debug', default=None, action='store_true',
                         help='Debug actions when pressing the right key, information and traces')
     parser.add_argument('-t', '--debugtraces', default=None, action='store_true',
@@ -87,7 +94,8 @@ def main():
             game = Game(is_debug=args.debug, is_player1_ai=args.player1ai, is_player2_ai=not args.player2human,
                         tournaments=tournaments, games_to_play=games_to_play,
                         turn_max_secs=turn_max_secs, wargame_training=args.wargametraining,
-                        auto=auto, no_log_datetime=args.nologdatetime, stdout_log=args.stdoutlog)
+                        auto=auto, no_log_datetime=args.nologdatetime, is_full_screen=args.fullscreen,
+                        stdout_log=args.stdoutlog, is_no_display_scaled=args.nodisplayscaled)
             Game.stats_gen.update({'games_played': Game.current_game})
             game.is_music_paused = is_music_paused
             screen_start_game = screen.StartGame(game)
