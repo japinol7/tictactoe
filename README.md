@@ -101,6 +101,11 @@ Computer Controlled Players use a simple version of the Minimax decision rule al
 	  -w, 			--wargametraining
 	                        War game training speculating on playing Tic Tac Toc. It activates the following flags: 
 	                        player1ai, auto, tournaments 1, gamestoplay 500.
+	  -uu, 			--nodisplayscaled
+	                        Deactivate the scaling of the game screen. 
+	                        Resolution depends on desktop size and scale graphics. 
+	                        Note that Pygame scaled is considered an experimental API 
+	                        and is subject to change.
 	  -d, 			--debug
 	                        Debug actions when pressing the right key, information and traces.
 	  -t, 			--debugtraces
