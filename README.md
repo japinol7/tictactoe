@@ -13,13 +13,13 @@
 
 	program: Tic Tac Toe.
     name as a package: tictactoe 
-	version: 0.0.4
+	version: 0.0.5
 	author: Joan A. Pinol
 	author_nickname: japinol
 	author_gitHub: japinol7
 	author_twitter: @japinol
 	requirements: pygame
-	Python requires: 3.12 or greater.
+	Python requires: 3.13 or greater.
 
 
 ## Rules and user guide
